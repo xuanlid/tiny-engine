@@ -25,7 +25,7 @@ function genDependenciesPlugin(options = {}) {
     description: 'transform schema to globalState',
     /**
      * 转换 globalState
-     * @param {tinyEngineDslVue.IAppSchema} schema
+     * @param {import('@opentiny/tiny-engine-dsl-vue').IAppSchema} schema
      * @returns
      */
     run(schema) {
@@ -44,8 +44,8 @@ function genDependenciesPlugin(options = {}) {
           .map((item) => {
             let [key, value] = item
 
-            if (value === '') {
-              value = "''"
+            if (typeof value === 'string') {
+              value = `'${value}'`
             }
 
             if (value && typeof value === 'object') {
@@ -57,19 +57,19 @@ function genDependenciesPlugin(options = {}) {
           .join(',')} })`
 
         const getterExpression = Object.entries(getters)
-          .filter((item) => item.value?.type === 'JSFunction')
+          .filter((item) => item[1]?.type === 'JSFunction')
           .map(([key, value]) => `${key}: ${value.value}`)
           .join(',')
 
         const actionExpressions = Object.entries(actions)
-          .filter((item) => item.value?.type === 'JSFunction')
+          .filter((item) => item[1]?.type === 'JSFunction')
           .map(([key, value]) => `${key}: ${value.value}`)
           .join(',')
 
         const storeFiles = `
          ${importStatement}
          export const ${id} = defineStore({
-           id: ${id},
+           id: '${id}',
            state: ${stateExpression},
            getters: { ${getterExpression} },
            actions: { ${actionExpressions} }
