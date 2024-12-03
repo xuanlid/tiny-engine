@@ -1,10 +1,4 @@
 <template>
-  <div v-if="blockStyle === BlockStyles.Mini" class="header">
-    <div class="col-checkbox"></div>
-    <div class="col-name">区块名称</div>
-    <div class="col-time">创建时间</div>
-    <div class="col-created-by">创建人</div>
-  </div>
   <ul
     v-if="state.data.length || showAddButton"
     :class="[
@@ -43,13 +37,6 @@
         <div class="item-text">
           <div class="item-name">{{ item.name_cn || item.label || item.content?.fileName }}</div>
           <div v-if="blockStyle === BlockStyles.List" class="item-description">{{ item.description }}</div>
-        </div>
-
-        <div v-if="blockStyle === BlockStyles.Mini" class="cell cell-time">
-          <span>{{ format(item.created_at, 'yyyy/MM/dd hh:mm:ss') }}</span>
-        </div>
-        <div v-if="blockStyle === BlockStyles.Mini" class="cell cell-created-by">
-          <span>{{ users.find((user) => user.id === item.createdBy)?.name || item.id }}</span>
         </div>
 
         <div v-if="item.isShowProgress" class="progress-bar">
@@ -507,7 +494,7 @@ export default {
         margin-left: 8px;
       }
       .item-text {
-        width: calc(35% - 62px);
+        width: 50%;
       }
       .publish-flag {
         position: static;
@@ -526,6 +513,9 @@ export default {
             color: var(--ti-lowcode-component-block-list-setting-btn-hover-color);
           }
         }
+      }
+      &:hover {
+        background-color: var(--te-common-bg-container);
       }
     }
     &:nth-child(even) {

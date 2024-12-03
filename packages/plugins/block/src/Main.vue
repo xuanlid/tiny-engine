@@ -488,9 +488,20 @@ export default {
   right: 0;
   padding: 10px 16px;
   background-color: var(--ti-lowcode-component-search-bg);
+  box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.16);
   color: var(--ti-lowcode-component-block-list-item-color);
   display: flex;
   justify-content: space-between;
+  :deep(.tiny-dropdown) {
+    color: var(--te-common-text-primary);
+    .tiny-dropdown__trigger:not(.tiny-dropdown__caret-button):not(.is-disabled):hover {
+      color: var(--te-common-text-primary);
+    }
+    .tiny-dropdown__suffix-inner {
+      color: var(--te-common-icon-secondary);
+      height: 10px;
+    }
+  }
   .footer-layout {
     font-size: 12px;
     color: var(--ti-lowcode-component-block-list-item-color);
