@@ -217,7 +217,7 @@
 }
 
 // 6、search组件
-.tiny-search.tiny-search {
+.tiny-search.tiny-search.tiny-search {
   .tiny-search__line {
     height: 24px;
     border-radius: var(--te-base-border-radius-1);
@@ -711,13 +711,16 @@
     font-size: var(--te-base-font-size-base);
   }
 }
-.tiny-form--label-left.label-align .tiny-form-item.is-required .tiny-form-item__label {
+.tiny-form--label-left.label-align .tiny-form-item.is-required .tiny-form-item__label.tiny-form-item__label {
   padding-left: 0;
 }
-.tiny-form--label-left.label-align .tiny-form-item.is-required ~ .tiny-form-item .tiny-form-item__label {
+.tiny-form--label-left.label-align
+  .tiny-form-item.is-required
+  ~ .tiny-form-item
+  .tiny-form-item__label.tiny-form-item__label {
   padding-left: 0;
 }
-.tiny-form-item__label {
+.tiny-form-item__label.tiny-form-item__label {
   padding-right: 16px;
 }
 
