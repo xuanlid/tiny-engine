@@ -10,7 +10,7 @@
     <tiny-form
       ref="deployBlockRef"
       label-position="left"
-      label-width="100px"
+      label-width="90px"
       label-align
       :model="formState"
       :rules="formRules"
@@ -24,7 +24,7 @@
       <tiny-form-item label="保存设置" prop="needToSave" class="form-item-save">
         <tiny-checkbox v-model="formState.needToSave">发布成功后保存最新数据</tiny-checkbox>
       </tiny-form-item>
-      <tiny-form-item label="schema比对">
+      <tiny-form-item label="schema比对" class="schema-compare">
         <tiny-button class="compare-button" type="text" @click="changeCompare"> 查看本次发布的改动点 </tiny-button>
         <tiny-popover
           placement="top"
@@ -252,6 +252,11 @@ export default {
 .form-item-save {
   :deep(.tiny-form-item__content) {
     line-height: 0;
+  }
+}
+.schema-compare {
+  :deep(.tiny-button) {
+    padding-left: 0;
   }
 }
 .compare-button {

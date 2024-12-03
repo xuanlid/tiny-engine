@@ -13,7 +13,7 @@
         :model="formData"
         :rules="rules"
         ref="formRef"
-        label-width="120px"
+        label-width="108px"
         :label-align="true"
         label-position="left"
         validate-type="text"

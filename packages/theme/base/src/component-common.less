@@ -114,7 +114,7 @@
     border-bottom-style: none;
 
     .tiny-collapse-item__word-overflow {
-      margin: var(--te-common-vertical-item-spacing-normal) 0px;
+      margin: var(--te-common-vertical-item-spacing-normal) 0px var(--te-common-vertical-form-label-spacing);
       width: 100%;
       line-height: var(--te-base-line-height-4);
     }
@@ -224,8 +224,11 @@
     border: 1px solid var(--te-common-border-default);
     font-size: var(--te-base-font-size-base);
   }
+  .focus {
+    border-color: var(--te-common-border-active);
+  }
   .tiny-search__input {
-    padding: 0 8px 0 12px;
+    padding: 0 8px 0 4px;
   }
   .tiny-search__input-btn {
     a {
@@ -237,15 +240,36 @@
     font-size: var(--te-base-font-size-2);
     color: var(--te-common-text-weaken);
   }
+  .tiny-search__prefix {
+    color: var(--te-common-icon-disabled);
+    svg {
+      margin-left: var(--te-common-vertical-form-label-spacing);
+    }
+  }
+  input::-webkit-input-placeholder {
+    color: var(--te-common-text-weaken);
+    font-size: 12px;
+  }
 }
 
 // 7、dialog组件
 .tiny-dialog-box.tiny-dialog-box {
   padding: 20px;
   .tiny-dialog-box__header {
+    height: auto;
     font-size: var(--te-base-font-size-1);
     color: var(--te-common-text-primary);
     padding: 0;
+    .tiny-dialog-box__close {
+      font-size: var(--ti-common-font-size-2);
+      color: var(--te-common-text-weaken);
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      &:hover {
+        color: var(--te-common-icon-primary);
+      }
+    }
   }
   .tiny-dialog-box__body {
     color: var(--te-common-text-secondary);
@@ -365,6 +389,9 @@
     font-size: var(--te-base-font-size-1);
     color: var(--te-common-text-primary);
     font-weight: var(--te-base-font-weight-4);
+    .tiny-modal__title {
+      font-weight: var(--te-base-font-weight-bold);
+    }
   }
   .tiny-modal__close-btn,
   .tiny-modal__zoom-btn {
@@ -374,16 +401,27 @@
     right: 0;
     color: var(--te-common-text-weaken);
   }
+  .tiny-modal__close-btn {
+    top: -4px;
+    right: -4px;
+    &:hover {
+      color: var(--te-common-icon-primary);
+    }
+  }
   .tiny-modal__body {
     margin-top: 12px;
     font-size: var(--te-base-font-size-base);
     color: var(--te-common-text-secondary);
+    padding: 0;
   }
   .tiny-modal__footer {
     padding: 0;
     margin-top: 16px;
     display: flex;
     flex-direction: row-reverse;
+    .tiny-button {
+      min-width: 48px;
+    }
   }
 }
 
@@ -660,8 +698,11 @@
     padding-left: 0;
     padding-right: 16px;
   }
-  .tiny-form-item.is-text.is-required.is-no-asterisk.tiny-form-item--default {
+  .tiny-form-item.is-text.is-no-asterisk.tiny-form-item--default {
     margin-bottom: 12px;
+    &:last-of-type {
+      margin-bottom: 0px;
+    }
   }
   .tiny-form-item__error--block {
     padding-top: 4px;
@@ -669,6 +710,15 @@
   .tiny-form-item__error {
     font-size: var(--te-base-font-size-base);
   }
+}
+.tiny-form--label-left.label-align .tiny-form-item.is-required .tiny-form-item__label {
+  padding-left: 0;
+}
+.tiny-form--label-left.label-align .tiny-form-item.is-required ~ .tiny-form-item .tiny-form-item__label {
+  padding-left: 0;
+}
+.tiny-form-item__label {
+  padding-right: 16px;
 }
 
 // 19、表格
