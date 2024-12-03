@@ -201,6 +201,9 @@ export default {
     :deep(.tiny-tabs__nav.is-show-active-bar) .tiny-tabs__item {
       margin-right: 0;
     }
+    :deep(.tiny-tabs.tiny-tabs .tiny-tabs__header .tiny-tabs__nav-wrap-not-separator::after) {
+      background-color: transparent;
+    }
   }
 }
 
