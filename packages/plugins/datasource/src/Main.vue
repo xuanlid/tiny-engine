@@ -16,7 +16,10 @@
       ></svg-button>
     </template>
     <template #content>
-      <tiny-button class="add-data-source" @click="openDataSourceFormPanel()"> 添加数据源 </tiny-button>
+      <tiny-button class="add-data-source" @click="openDataSourceFormPanel()">
+        <svg-icon name="add" class="add-data-source-icon"></svg-icon>
+        <span class="add-data-source-text">添加数据源</span>
+      </tiny-button>
       <data-source-list @edit="openDataSourceFormPanel"></data-source-list>
     </template>
   </plugin-panel>
@@ -155,11 +158,21 @@ export default {
 }
 .add-data-source {
   margin: 0 12px 12px 12px;
+  height: 24px;
   color: var(--ti-lowcode-data-source-color);
 
   &:hover {
     color: var(--ti-lowcode-meta-codeEditor-hover-color);
-    border-color: var(--ti-lowcode-meta-codeEditor-border-hover-color);
+    border-color: var(--te-common-border-hover);
+  }
+  .add-data-source-icon {
+    font-size: 16px;
+    color: var(--te-common-icon-secondary);
+    margin-right: 4px;
+    vertical-align: sub;
+  }
+  .add-data-source-text {
+    display: inline-block;
   }
 }
 :deep(.help-box) {
