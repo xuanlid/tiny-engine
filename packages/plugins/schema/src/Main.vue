@@ -156,7 +156,7 @@ export default {
     align-items: center;
     border-bottom: 1px solid var(--ti-lowcode-base-split-color-1);
     margin-bottom: 12px;
-    padding: 0 12px 10px;
+    padding: 0 12px 12px;
   }
   .title {
     color: var(--ti-lowcode-plugin-panel-title-color);
