@@ -53,20 +53,16 @@
         <div v-if="isBlockManage" class="block-detail">
           <div class="setting-menu" @mouseover.stop="handleSettingMouseOver" @mouseleave="handleBlockItemLeave">
             <ul class="list">
-              <tiny-tooltip content="编辑" placement="top">
-                <li class="list-item" @mousedown.stop.left="editBlock({ event: $event, item, index })">
-                  <svg-button class="list-item-svg" name="to-edit"> </svg-button>
-                </li>
-              </tiny-tooltip>
-              <tiny-tooltip content="设置" placement="top">
-                <li
-                  class="list-item"
-                  @mouseover.stop="iconSettingMove"
-                  @mousedown.stop.prevent="iconClick({ event: $event, item, index })"
-                >
-                  <svg-button class="list-item-svg" name="text-source-setting"> </svg-button>
-                </li>
-              </tiny-tooltip>
+              <li class="list-item" @mousedown.stop.left="editBlock({ event: $event, item, index })">
+                <svg-button class="list-item-svg" name="to-edit"> </svg-button>
+              </li>
+              <li
+                class="list-item"
+                @mouseover.stop="iconSettingMove"
+                @mousedown.stop.prevent="iconClick({ event: $event, item, index })"
+              >
+                <svg-button class="list-item-svg" name="text-source-setting"> </svg-button>
+              </li>
             </ul>
           </div>
         </div>
