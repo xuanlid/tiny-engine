@@ -146,7 +146,8 @@ export default {
     color: var(--ti-lowcode-materials-component-list-color);
 
     .component-item {
-      padding: 0 0 var(--te-common-vertical-form-label-spacing);
+      padding: var(--te-common-vertical-form-label-spacing) 0 var(--te-common-vertical-form-label-spacing);
+      margin-bottom: var(--te-common-vertical-form-label-spacing);
       text-align: center;
       user-select: none;
       cursor: move;
