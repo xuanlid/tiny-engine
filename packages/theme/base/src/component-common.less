@@ -229,6 +229,7 @@
   }
   .tiny-search__input {
     padding: 0 8px 0 4px;
+    color: var(--te-common-text-primary);
   }
   .tiny-search__input-btn {
     a {
@@ -725,7 +726,7 @@
 }
 
 // 19、表格
-.tiny-grid__wrapper.tiny-grid__wrapper {
+.tiny-grid__wrapper.tiny-grid__wrapper.tiny-grid__wrapper {
   .tiny-grid {
     font-size: var(--te-base-font-size-base);
     background-color: var(--te-common-bg-default);
@@ -740,6 +741,9 @@
             &.col__center {
               text-align: left;
             }
+            .tiny-grid-required-icon {
+              align-self: center;
+            }
           }
           .tiny-grid-cell {
             border-color: var(--te-common-text-secondary);
@@ -747,7 +751,7 @@
             font-size: var(--te-base-font-size-base);
             .icon-half-select,
             .icon-checked-sur {
-              color: var(--te-common-text-primary);
+              color: var(--te-common-color-info);
             }
           }
           .tiny-grid-resizable.is__line {
@@ -775,7 +779,7 @@
           .tiny-grid-footer__column {
             height: 30px;
             text-align: left;
-            border-bottom: 0;
+            border-bottom-color: var(--te-common-border-divider);
             &:hover {
               background-color: var(--te-common-bg-container);
             }
@@ -788,6 +792,13 @@
           }
         }
       }
+    }
+    .tiny-grid-checkbox {
+      color: var(--te-common-border-prompt);
+      border-radius: 4px;
+    }
+    .row__selected .tiny-grid-checkbox {
+      color: var(--te-common-color-info);
     }
   }
 }
