@@ -10,7 +10,7 @@
     <tiny-form
       ref="deployBlockRef"
       label-position="left"
-      label-width="90px"
+      label-width="84px"
       label-align
       :model="formState"
       :rules="formRules"
