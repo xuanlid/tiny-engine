@@ -18,7 +18,9 @@
         </tiny-input>
       </div>
       <div class="btn-box">
-        <tiny-button @click="openEditor($event, {})"><icon-plus class="btn-icon"></icon-plus>添加词条</tiny-button>
+        <tiny-button @click="openEditor($event, {})">
+          <svg-icon name="add" class="btn-icon"></svg-icon>添加词条
+        </tiny-button>
         <tiny-button class="middle-btn" @click="batchDelete" :disabled="!selectedRowLength"
           ><svg-icon class="btn-icon" name="delete"></svg-icon>删除</tiny-button
         >
@@ -124,7 +126,7 @@
 import { computed, ref, watchEffect, reactive, onMounted, nextTick, resolveComponent } from 'vue'
 import useClipboard from 'vue-clipboard3'
 import { Grid, GridColumn, Input, Popover, Button, FileUpload, Loading, Tooltip, Select } from '@opentiny/vue'
-import { iconLoadingShadow, iconPlus, iconUpload } from '@opentiny/vue-icon'
+import { iconLoadingShadow, iconUpload } from '@opentiny/vue-icon'
 import { PluginPanel, SearchEmpty } from '@opentiny/tiny-engine-common'
 import { useTranslate, useModal, useHelp, getMetaApi, META_SERVICE } from '@opentiny/tiny-engine-meta-register'
 import { getMergeMeta } from '@opentiny/tiny-engine-meta-register'
@@ -143,7 +145,6 @@ export default {
     TinySelect: Select,
     TinyFileUpload: FileUpload,
     SearchEmpty,
-    IconPlus: iconPlus(),
     IconUpload: iconUpload()
   },
   setup() {
@@ -468,6 +469,14 @@ export default {
   .tiny-select {
     width: 210px;
   }
+  :deep(.tiny-input) {
+    .tiny-input__prefix {
+      line-height: 1;
+    }
+    &.tiny-input-prefix .tiny-input__inner {
+      padding: 0 8px 0 26px;
+    }
+  }
 }
 
 .btn-box {
@@ -478,21 +487,23 @@ export default {
   display: flex;
   align-items: center;
   .btn-icon {
-    margin-right: 6px;
-    color: var(--ti-lowcode-i18n-icon-color);
+    font-size: 16px;
+    color: var(--te-common-icon-secondary);
+    margin-right: 4px;
   }
   .middle-btn {
     margin-left: 0;
   }
-  :deep(.tiny-file-upload) {
-    margin-right: 8px;
+  :deep(.tiny-button.is-disabled) {
+    background-color: var(--te-common-bg-disabled);
+    color: var(--te-common-text-disabled);
   }
   :deep(.tiny-button--default) {
     height: 24px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    border: 1px solid var(--ti-lowcode-i18n-button-border-color);
+    border: 1px solid var(--te-common-border-prompt);
     border-radius: 4px;
   }
   span {
@@ -510,7 +521,7 @@ export default {
   }
   .download-btn {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     display: inline-block;
     font-size: 12px;
     text-align: left;
@@ -521,6 +532,9 @@ export default {
     }
     .tiny-button.tiny-button--text {
       color: var(--ti-lowcode-base-text-color);
+    }
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
@@ -574,6 +588,7 @@ export default {
     display: flex;
     justify-content: space-between;
     :deep(.icon) {
+      color: var(--te-common-icon-secondary);
       svg {
         font-size: 16px;
       }
