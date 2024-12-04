@@ -576,7 +576,7 @@ export default {
     margin-top: 22px;
   }
 }
-.tiny-dropdown-menu {
+.tiny-dropdown-menu.tiny-dropdown-menu {
   padding: var(--te-common-vertical-form-label-spacing) 0;
 }
 </style>
