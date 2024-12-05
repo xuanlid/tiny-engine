@@ -34,7 +34,7 @@
           content="区块本地schema和线上新版本schema进行比对"
         >
           <template #reference>
-            <icon-help-circle></icon-help-circle>
+            <svg-icon name="plugin-icon-plugin-help"></svg-icon>
           </template>
         </tiny-popover>
       </tiny-form-item>
@@ -71,7 +71,6 @@
 
 <script>
 import { reactive, ref, watch } from 'vue'
-import { iconHelpCircle } from '@opentiny/vue-icon'
 import {
   Checkbox as TinyCheckbox,
   Input as TinyInput,
@@ -88,7 +87,6 @@ import VueMonaco from './VueMonaco.vue'
 export default {
   components: {
     TinyCheckbox,
-    IconHelpCircle: iconHelpCircle(),
     TinyButton,
     TinyDialogBox,
     TinyForm,
@@ -257,9 +255,11 @@ export default {
 .schema-compare {
   :deep(.tiny-button) {
     padding-left: 0;
+    padding-right: 4px;
   }
 }
 .compare-button {
+  font-size: 12px;
   padding-left: 0;
   padding-right: 8px;
   line-height: 28px;

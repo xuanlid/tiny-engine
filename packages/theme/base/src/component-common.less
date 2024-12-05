@@ -414,6 +414,10 @@
     font-size: var(--te-base-font-size-base);
     color: var(--te-common-text-secondary);
     padding: 0;
+    .tiny-modal__text {
+      font-size: var(--te-base-font-size-base);
+      color: var(--te-common-text-secondary);
+    }
   }
   .tiny-modal__footer {
     padding: 0;
@@ -863,5 +867,24 @@
     &:not(&__caret-button):hover {
       color: var(--te-common-text-weaken);
     }
+  }
+}
+
+// 24、textarea框
+.tiny-textarea.tiny-textarea {
+  .tiny-textarea__inner {
+    border-radius: var(--te-base-border-radius-1);
+    border-color: var(--te-common-border-default);
+    color: var(--te-common-text-primary);
+    &:hover {
+      border-color: var(--te-common-border-active);
+    }
+    &:focus {
+      border-color: var(--te-common-border-active);
+    }
+  }
+  &.is-disabled .tiny-textarea__inner {
+    background: var(--te-common-bg-disabled);
+    color: var(--te-common-text-disabled);
   }
 }

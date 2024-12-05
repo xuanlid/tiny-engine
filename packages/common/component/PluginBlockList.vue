@@ -48,7 +48,8 @@
           ></tiny-progress>
         </div>
 
-        <div v-if="isBlockManage && !item.is_published" class="publish-flag">未发布</div>
+        <!-- <div v-if="isBlockManage && !item.is_published" class="publish-flag">未发布</div> -->
+        <div class="publish-flag">未发布</div>
 
         <div v-if="isBlockManage" class="block-detail">
           <div class="setting-menu" @mouseover.stop="handleSettingMouseOver" @mouseleave="handleBlockItemLeave">
@@ -468,16 +469,17 @@ export default {
 
     .publish-flag {
       position: absolute;
-      left: 2px;
-      top: 2px;
+      left: 4px;
+      top: 4px;
       text-align: center;
       display: block;
-      color: var(--ti-lowcode-common-secondary-text-color);
+      color: var(--te-common-text-primary);
       font-size: 12px;
-      background-color: var(--ti-lowcode-component-block-list-item-tag-bg);
+      background-color: var(--te-common-bg-prompt);
       padding: 2px;
-      border-radius: 4px 0 4px 0;
+      border-radius: 4px;
       transform: scale(0.9);
+      min-width: 40px;
     }
 
     &.block-item-small-list {
