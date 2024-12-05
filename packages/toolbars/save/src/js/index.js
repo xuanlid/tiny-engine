@@ -131,7 +131,7 @@ export const openCommon = async () => {
 
   if ([PAGE_STATUS.Release, PAGE_STATUS.Empty, PAGE_STATUS.Guest, PAGE_STATUS.Lock].includes(curPageState)) {
     useNotify({
-      type: 'error',
+      // type: 'error',
       title: '保存失败',
       message: ERR_MSG[curPageState]
     })
