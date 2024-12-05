@@ -48,8 +48,7 @@
           ></tiny-progress>
         </div>
 
-        <!-- <div v-if="isBlockManage && !item.is_published" class="publish-flag">未发布</div> -->
-        <div class="publish-flag">未发布</div>
+        <div v-if="isBlockManage && !item.is_published" class="publish-flag">未发布</div>
 
         <div v-if="isBlockManage" class="block-detail">
           <div class="setting-menu" @mouseover.stop="handleSettingMouseOver" @mouseleave="handleBlockItemLeave">
