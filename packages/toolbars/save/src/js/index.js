@@ -133,7 +133,6 @@ export const openCommon = async () => {
     useNotify({
       type: 'error',
       title: '保存失败',
-      showIcon: false,
       message: ERR_MSG[curPageState]
     })
 

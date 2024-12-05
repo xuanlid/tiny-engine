@@ -7,8 +7,7 @@
 
 <script lang="jsx">
 import { ref, watch } from 'vue'
-import { Modal } from '@opentiny/vue'
-import { useCanvas, useLayout } from '@opentiny/tiny-engine-meta-register'
+import { useCanvas, useLayout, useModal } from '@opentiny/tiny-engine-meta-register'
 import { constants } from '@opentiny/tiny-engine-utils'
 import { ToolbarBase } from '@opentiny/tiny-engine-common'
 
@@ -26,6 +25,7 @@ export default {
   setup() {
     const { pageState, clearCanvas } = useCanvas()
     const isLock = ref(pageState.isLock)
+    const { confirm } = useModal()
 
     watch(
       () => pageState.isLock,
@@ -39,7 +39,7 @@ export default {
       }
 
       if (!isLock.value) {
-        Modal.confirm({
+        confirm({
           title: '提示',
           message: () => {
             return [
