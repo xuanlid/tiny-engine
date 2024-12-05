@@ -256,6 +256,7 @@ export default {
   :deep(.tiny-button) {
     padding-left: 0;
     padding-right: 4px;
+    font-size: 12px;
   }
 }
 .compare-button {
