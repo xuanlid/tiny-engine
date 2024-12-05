@@ -500,6 +500,9 @@ export default {
   :deep(.tiny-button.is-disabled) {
     background-color: var(--te-common-bg-disabled);
     color: var(--te-common-text-disabled);
+    .btn-icon {
+      color: var(--te-common-icon-disabled);
+    }
   }
   :deep(.tiny-button--default) {
     height: 24px;
@@ -548,6 +551,12 @@ export default {
   padding: 12px;
   border-top: 1px solid var(--ti-lowcode-i18n-border-color);
   overflow-y: scroll;
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--te-common-border-default);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: var(--te-common-border-hover);
+  }
 
   .operation-column {
     display: flex;
