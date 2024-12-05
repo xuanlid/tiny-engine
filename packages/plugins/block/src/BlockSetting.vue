@@ -186,7 +186,6 @@ export default {
 
     const deleteBlock = () => {
       const title = '删除区块'
-      const status = 'custom'
       const message = '您确认删除该区块吗?'
 
       confirm({ title, status, message, exec: removeBlock })
@@ -209,7 +208,6 @@ export default {
           }
         }
         const title = '保存区块'
-        const status = 'custom'
         const message = '您确认修改并保存该区块吗?'
 
         confirm({
