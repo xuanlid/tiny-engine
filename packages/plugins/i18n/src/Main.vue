@@ -282,7 +282,6 @@ export default {
       confirm({
         title: '批量删除',
         message: `您确定删除 ${i18nData.length} 条数据吗？`,
-        status: 'warning',
         exec: () => {
           const keys = i18nData.map(({ key }) => key)
           useTranslate().removeI18n(keys)

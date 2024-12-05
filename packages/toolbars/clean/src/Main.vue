@@ -6,7 +6,7 @@
 </template>
 
 <script lang="jsx">
-import { ref, watch, getCurrentInstance } from 'vue'
+import { ref, watch } from 'vue'
 import { Modal } from '@opentiny/vue'
 import { useCanvas, useLayout } from '@opentiny/tiny-engine-meta-register'
 import { constants } from '@opentiny/tiny-engine-utils'
@@ -24,8 +24,6 @@ export default {
     }
   },
   setup() {
-    const app = getCurrentInstance()
-    const SvgIcon = app.appContext.components.SvgIcon
     const { pageState, clearCanvas } = useCanvas()
     const isLock = ref(pageState.isLock)
 
@@ -48,7 +46,6 @@ export default {
               <div class="modal-content">
                 {
                   <div class="wrap">
-                    <SvgIcon name="warning"></SvgIcon>
                     <span>{`您确定要清除屏幕吗？`}</span>
                   </div>
                 }

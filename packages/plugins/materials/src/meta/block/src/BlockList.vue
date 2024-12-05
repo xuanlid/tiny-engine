@@ -166,7 +166,7 @@ export default {
       const groupId = id || selectedGroup.value.groupId
       const groupName = name || selectedGroup.value.groupName
 
-      const title = `删除区块${label}`
+      const title = `移除区块${label}`
       const messageRender = {
         render: () => (
           <span>
@@ -189,7 +189,7 @@ export default {
             })
           })
           .catch((error) => {
-            message({ message: `删除区块失败: ${error.message || error}`, status: 'error' })
+            message({ message: `移除区块失败: ${error.message || error}`, status: 'error' })
           })
       }
       confirm({ title, message: messageRender, exec })
