@@ -496,13 +496,6 @@ export default {
   .middle-btn {
     margin-left: 0;
   }
-  // :deep(.tiny-button--default) {
-  //   height: 24px;
-  //   line-height: 24px;
-  //   display: flex;
-  //   align-items: center;
-  //   border-radius: 4px;
-  // }
   span {
     padding-left: 12px;
   }
