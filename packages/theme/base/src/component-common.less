@@ -302,14 +302,18 @@
   padding: 0 12px;
   height: 24px;
   line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   // 默认按钮
   &.tiny-button--default {
-    border: 1px solid var(--te-common-border-secondary);
+    border: 1px solid var(--te-common-border-default);
     color: var(--te-common-text-primary);
     background-color: var(--te-common-bg-default);
     margin-right: 8px;
     &:hover {
-      border: 1px solid var(--te-common-border-hover);
+      color: var(--te-common-text-primary);
+      border-color: var(--te-common-border-hover);
     }
   }
   // 确认按钮
@@ -338,9 +342,22 @@
       text-decoration: none;
     }
   }
+  &.is-disabled {
+    background-color: var(--te-common-bg-disabled);
+    color: var(--te-common-text-disabled);
+    .btn-icon {
+      color: var(--te-common-icon-disabled);
+    }
+  }
   // 图标按钮
   &:not(.is-circle) .tiny-svg.is-text {
     margin-right: 4px;
+  }
+  .svg-icon,
+  .tiny-svg {
+    margin-right: 4px;
+    color: var(--te-common-icon-secondary);
+    font-size: 16px;
   }
 }
 

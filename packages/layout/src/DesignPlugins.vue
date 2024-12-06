@@ -306,6 +306,13 @@ export default {
       svg {
         font-size: 18px;
       }
+      .public-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+      }
     }
   }
 }

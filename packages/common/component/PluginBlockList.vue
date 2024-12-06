@@ -10,7 +10,7 @@
     @mouseleave="state.hover = false"
   >
     <li v-if="showAddButton" class="block-item block-plus" @click="$emit('add')">
-      <span class="block-plus-icon"><icon-plus></icon-plus></span>
+      <span class="block-plus-icon"><svg-icon name="add"></svg-icon></span>
       <div class="item-text">添加区块</div>
     </li>
     <li
@@ -121,7 +121,6 @@
 <script>
 import { computed, watch, inject, reactive } from 'vue'
 import { format } from '@opentiny/vue-renderless/common/date'
-import { iconPlus } from '@opentiny/vue-icon'
 import { Progress, Tooltip } from '@opentiny/vue'
 import PluginBlockItemImg from './PluginBlockItemImg.vue'
 import SearchEmpty from './SearchEmpty.vue'
@@ -139,7 +138,6 @@ const defaultImg =
 export default {
   components: {
     TinyProgress: Progress,
-    IconPlus: iconPlus(),
     TinyTooltip: Tooltip,
     PluginBlockItemImg,
     SvgButton,
@@ -475,8 +473,8 @@ export default {
       color: var(--te-common-text-primary);
       font-size: 12px;
       background-color: var(--te-common-bg-prompt);
-      padding: 2px;
-      border-radius: 4px;
+      padding: 2px 4px;
+      border-radius: 2px;
       transform: scale(0.9);
       min-width: 40px;
     }
@@ -571,7 +569,7 @@ export default {
       .item-text {
         font-size: 12px;
       }
-      .tiny-svg {
+      .svg-icon {
         font-size: 24px;
         color: var(--ti-lowcode-component-svg-button-color);
       }

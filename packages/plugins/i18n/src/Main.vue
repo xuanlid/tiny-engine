@@ -496,21 +496,13 @@ export default {
   .middle-btn {
     margin-left: 0;
   }
-  :deep(.tiny-button.is-disabled) {
-    background-color: var(--te-common-bg-disabled);
-    color: var(--te-common-text-disabled);
-    .btn-icon {
-      color: var(--te-common-icon-disabled);
-    }
-  }
-  :deep(.tiny-button--default) {
-    height: 24px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    border: 1px solid var(--te-common-border-prompt);
-    border-radius: 4px;
-  }
+  // :deep(.tiny-button--default) {
+  //   height: 24px;
+  //   line-height: 24px;
+  //   display: flex;
+  //   align-items: center;
+  //   border-radius: 4px;
+  // }
   span {
     padding-left: 12px;
   }

@@ -317,35 +317,14 @@ export default {
       }
     }
     .add-custom-event-button {
-      padding: 0 16px;
-      font-size: 12px;
       margin-right: 0;
-      border-color: var(--te-common-border-default);
-      .custom-event-button-text {
-        display: inline-block;
-      }
-      .custom-event-button-icon {
-        display: inline-block;
-        vertical-align: sub;
-        color: var(--te-common-icon-secondary);
-        font-size: 16px;
-        margin-right: 4px;
-      }
-      &:hover {
-        border-color: var(--te-common-border-hover);
-      }
     }
     .bind-event-btn {
       padding: 0 16px;
-      font-size: 12px;
       width: 100%;
-      border-color: var(--te-common-border-default);
       .bind-event-btn-icon {
+        margin-right: 0;
         margin-left: 4px;
-        color: var(--te-common-icon-secondary);
-      }
-      &:hover {
-        border-color: var(--te-common-border-hover);
       }
     }
   }
