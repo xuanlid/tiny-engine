@@ -476,7 +476,7 @@ export default {
       padding: 2px 4px;
       border-radius: 2px;
       transform: scale(0.9);
-      min-width: 40px;
+      min-width: 45px;
     }
 
     &.block-item-small-list {
