@@ -303,7 +303,7 @@
 }
 
 // 8、button按钮
-.tiny-button.tiny-button {
+.tiny-button.tiny-button.tiny-button {
   font-size: var(--te-base-font-size-base);
   border-radius: var(--te-base-border-radius-1);
   padding: 0 12px;
@@ -318,7 +318,7 @@
     color: var(--te-common-text-primary);
     background-color: var(--te-common-bg-default);
     margin-right: 8px;
-    &:hover {
+    &:not(.is-disabled):hover {
       color: var(--te-common-text-primary);
       border-color: var(--te-common-border-hover);
     }
@@ -829,6 +829,9 @@
             .tiny-grid-cell {
               padding: 0;
             }
+          }
+          .col__treenode {
+            border-bottom: 0;
           }
           .tiny-grid-tree-wrapper .tiny-grid-tree__node-btn {
             fill: var(--te-common-icon-secondary);
