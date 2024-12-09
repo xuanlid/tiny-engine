@@ -489,7 +489,7 @@ export default {
   right: 0;
   padding: 10px 16px;
   background-color: var(--ti-lowcode-component-search-bg);
-  box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 -2px 12px 0 var(--te-base-box-shadow-rgba-2);
   color: var(--ti-lowcode-component-block-list-item-color);
   display: flex;
   justify-content: space-between;

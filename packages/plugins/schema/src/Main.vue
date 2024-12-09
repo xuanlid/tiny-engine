@@ -154,7 +154,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--ti-lowcode-base-split-color-1);
+    border-bottom: 1px solid var(--te-common-border-divider);
     margin-bottom: 12px;
     padding: 0 12px 12px;
   }

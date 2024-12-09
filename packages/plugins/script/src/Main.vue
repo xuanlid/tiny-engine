@@ -113,7 +113,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid var(--ti-lowcode-plugin-js-head-border-bottom-color);
+    border-bottom: 1px solid var(--te-common-border-divider);
     padding: 12px 0;
 
     .head-left {

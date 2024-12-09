@@ -47,14 +47,13 @@ export default {
 
 <style lang="less" scoped>
 .footer-toolbar {
+  border-radius: 4px;
+  background-color: var(--te-common-bg-container);
   .icon-wrap {
     width: 24px;
     height: 24px;
-    color: var(--te-common-icon-secondary);
+    color: var(--te-common-text-weaken);
     font-size: 16px;
-    border-radius: 4px;
-    background-color: var(--te-common-bg-container);
-    border: 1px solid var(--te-common-bg-container);
     cursor: pointer;
     display: inline-flex;
     justify-content: center;
@@ -63,6 +62,7 @@ export default {
     &.active {
       border: 1px solid var(--te-common-border-active);
       color: var(--te-common-text-primary);
+      border-radius: 4px;
       background-color: var(--te-common-bg-default);
     }
   }
