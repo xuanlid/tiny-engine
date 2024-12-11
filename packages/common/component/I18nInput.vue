@@ -25,7 +25,7 @@
           </div>
 
           <template #reference>
-            <icon-language :class="['icon-language', { isBind }]"></icon-language>
+            <svg-icon name="internationalization" :class="['icon-language', { isBind }]"></svg-icon>
           </template>
         </tiny-popover>
       </template>
@@ -37,7 +37,7 @@
 import { computed, ref, watchEffect } from 'vue'
 import { useTranslate } from '@opentiny/tiny-engine-meta-register'
 import { Input, Popover } from '@opentiny/vue'
-import { IconClose, IconLanguage } from '@opentiny/vue-icon'
+import { IconClose } from '@opentiny/vue-icon'
 import BindI18n from './BindI18n.vue'
 
 export default {
@@ -46,8 +46,7 @@ export default {
     TinyInput: Input,
     BindI18n,
     TinyPopover: Popover,
-    IconClose: IconClose(),
-    IconLanguage: IconLanguage()
+    IconClose: IconClose()
   },
   inheritAttrs: false,
   props: {
@@ -128,5 +127,8 @@ export default {
   .icon-close {
     margin-right: 5px;
   }
+}
+.icon-language {
+  color: var(--te-common-icon-secondary);
 }
 </style>

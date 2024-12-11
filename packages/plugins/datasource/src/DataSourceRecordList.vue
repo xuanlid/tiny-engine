@@ -595,12 +595,14 @@ export default {
     }
   }
   .download {
-    margin: 0 12px;
-    text-decoration: underline;
+    text-decoration: none;
     display: inline-block;
     font-size: 12px;
     text-align: left;
     padding: 0;
+    &:hover {
+      text-decoration: underline;
+    }
     color: var(--ti-lowcode-base-text-color);
     .icon-download {
       margin: 0 1px 4px 0;
@@ -632,6 +634,7 @@ export default {
     align-items: center;
     .svg-icon {
       margin-right: 10px;
+      color: var(--te-common-icon-secondary);
     }
   }
 }

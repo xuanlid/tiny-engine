@@ -39,8 +39,8 @@ export default {
 <style lang="less" scoped>
 .request-load {
   display: flex;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  margin-bottom: 12px;
+  margin-top: 12px;
 
   .use-service {
     color: var(--ti-lowcode-data-source-color);
