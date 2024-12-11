@@ -261,7 +261,7 @@ export default {
   :deep(.toolbar) {
     position: absolute;
     z-index: 99;
-    right: 20px;
+    right: 12px;
   }
   .stores {
     padding: 12px;
