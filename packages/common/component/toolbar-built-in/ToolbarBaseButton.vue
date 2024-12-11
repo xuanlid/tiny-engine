@@ -52,6 +52,8 @@ export default {
 
 .svg-wrap {
   position: relative;
+  display: flex;
+  align-items: center;
   .dots {
     width: 6px;
     height: 6px;
@@ -63,9 +65,8 @@ export default {
     right: -2px;
     z-index: 100;
   }
-}
-
-.save-title {
-  margin: 0 6px;
+  .svg-icon.svg-icon.svg-icon {
+    color: var(--te-common-icon-primary);
+  }
 }
 </style>

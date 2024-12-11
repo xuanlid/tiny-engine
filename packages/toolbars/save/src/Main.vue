@@ -1,6 +1,6 @@
 <template>
   <div class="toolbar-save">
-    <tiny-popover :visible-arrow="false" width="203" trigger="hover">
+    <tiny-popover :visible-arrow="false" width="203" trigger="hover" :open-delay="500">
       <template #reference>
         <toolbar-base
           :content="isLoading ? '保存中' : '保存'"
@@ -176,6 +176,10 @@ export default {
 }
 
 .toolbar-save {
+  .icon-down-arrow.icon-down-arrow {
+    margin-left: var(--te-base-space-2x);
+    margin-right: var(--te-base-space-0);
+  }
   .save-button {
     background-color: var(--ti-lowcode-toolbar-button-bg);
     border: none;
@@ -233,15 +237,6 @@ export default {
 
   .save-button-group {
     text-align: right;
-
-    :deep(.tiny-button) {
-      min-width: 40px;
-      padding: 0 8px;
-      height: 26px;
-      line-height: 24px;
-      border: 0;
-      border-radius: 4px;
-    }
   }
 }
 
