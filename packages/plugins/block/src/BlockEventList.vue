@@ -9,8 +9,8 @@
       </div>
     </template>
     <template #operate="{ data }">
-      <svg-button name="to-edit" tips="编辑" placement="top" @click="setEdit(data)"></svg-button>
-      <svg-button name="delete" tips="删除" placement="top" @click="delBlockEvent(data.name)"></svg-button>
+      <svg-button class="opt-button" name="to-edit" @click="setEdit(data)"></svg-button>
+      <svg-button class="opt-button" name="delete" @click="delBlockEvent(data.name)"></svg-button>
     </template>
   </meta-list-items>
 </template>
@@ -68,6 +68,7 @@ export default {
 
 .item-text {
   flex: 1;
+  color: var(--te-common-text-primary);
 }
 .item-text.active {
   font-weight: 700;
@@ -84,6 +85,17 @@ export default {
   .icon-plus {
     margin-right: 6px;
     stroke: var(--te-common-text-weaken);
+  }
+}
+.opt-button {
+  color: var(--te-common-icon-secondary);
+  width: auto;
+  &:hover {
+    background-color: transparent;
+    color: var(--te-common-icon-secondary);
+  }
+  &:last-child {
+    margin-right: var(--te-base-space-3x);
   }
 }
 </style>
