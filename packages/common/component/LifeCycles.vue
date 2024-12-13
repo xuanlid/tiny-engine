@@ -285,10 +285,9 @@ export default {
 }
 
 .popover-list {
-  margin: 8px 0;
   li {
     padding: 0 12px;
-    margin: 0 -8px;
+    margin: 0 -16px;
     line-height: 24px;
     cursor: pointer;
     &:hover {
