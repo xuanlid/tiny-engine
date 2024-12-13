@@ -29,7 +29,7 @@
                 @mouseleave="mouseleave(data.row)"
                 @click="checkElement(data.row)"
               >
-                <span class="tree-content" :class="{ 'node-isblock': data.row?.componentType === 'block' }">
+                <span class="tree-content" :class="{ 'node-isblock': data.row?.componentType === 'Block' }">
                   <!-- <span class="node-icon">
                     <component :is="getIcon(data.row)" style="width: 1em; height: 1em"></component>
                   </span> -->
