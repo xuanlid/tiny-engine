@@ -120,7 +120,7 @@ export default {
 <style lang="less" scoped>
 .plugin-setting {
   position: absolute;
-  left: calc(var(--base-left-panel-width) - 6px);
+  left: var(--base-left-panel-width);
   top: 0;
   width: var(--base-collection-panel-width);
   height: 100%;
@@ -131,6 +131,7 @@ export default {
   &:not(.second-panel) {
     box-shadow: 6px 0px 3px 0px rgba(0, 0, 0, 0.05);
     border-right: none;
+    border-left: none;
   }
   &.full-screen {
     width: var(--base-collection-panel-full-screen-width);
