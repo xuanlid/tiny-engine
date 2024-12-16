@@ -1,5 +1,5 @@
 <template>
-  <tiny-popover :visible-arrow="false" width="140" trigger="hover">
+  <tiny-popover :visible-arrow="false" width="140" trigger="click" :open-delay="500">
     <template #reference>
       <span class="toolbar-ellipsis">
         <svg-icon name="ellipsis"></svg-icon>
@@ -60,13 +60,14 @@ export default {
 }
 
 .collapse-content {
-  margin: 8px 4px;
   .empty-bar {
     font-size: 12px;
 
     .toolbar-list-button {
       height: 24px;
       line-height: 24px;
+      margin: 0 -16px;
+      padding: 0 16px;
 
       &:hover {
         background-color: var(--ti-lowcode-toolbar-ellipsis-hover-bg);
@@ -81,13 +82,12 @@ export default {
 
     .icon-hides {
       margin-right: 8px;
-      color: var(--te-common-icon-secondary);
+      color: var(--te-common-icon-primary);
     }
   }
 }
 
 .collapse-content .empty-bar:last-child {
-  margin-bottom: 4px;
   .empty-line {
     display: none;
   }
