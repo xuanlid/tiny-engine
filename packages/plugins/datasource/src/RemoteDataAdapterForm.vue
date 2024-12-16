@@ -70,7 +70,7 @@ export default {
 .monaco-editor {
   min-height: 120px;
   height: 100%;
-  border: 1px solid var(--ti-lowcode-base-gray-101);
+  border: 1px solid var(--te-common-border-divider);
   border-radius: 4px;
 }
 </style>

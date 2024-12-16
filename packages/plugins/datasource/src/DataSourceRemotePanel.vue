@@ -306,15 +306,10 @@ export default {
       }
       :deep(.is-active) {
         .tiny-tabs__item__title {
-          color: var(--ti-lowcode-datasource-tabs-bottom-border-color);
+          color: var(--te-common-text-primary);
           font-weight: var(--te-base-font-weight-4);
         }
       }
-    }
-    :deep(.tiny-tabs__item__title) {
-      margin-right: 20px;
-      margin-left: 15px;
-      color: var(--ti-lowcode-datasource-label-color);
     }
     :deep(.tiny-collapse) {
       .tiny-collapse-item:first-child {

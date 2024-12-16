@@ -16,6 +16,8 @@
     @openVersionPanel="openVersionPanel"
     @add="setBlockPanelVisible(true)"
     @deleteBlock="deleteBlock"
+    @checkAll="(items) => checkAll(items)"
+    @cancelCheckAll="cancelCheckAll"
   ></plugin-block-list>
 </template>
 
@@ -72,7 +74,7 @@ export default {
       default: 2
     }
   },
-  emits: ['check', 'close'],
+  emits: ['check', 'close', 'checkAll', 'cancelCheckAll'],
   setup(props, { emit }) {
     const { generateNode, registerBlock } = useMaterial()
     const { isDefaultGroupId, isAllGroupId, selectedBlock, selectedGroup, isRefresh, getBlockAssetsByVersion } =
@@ -195,6 +197,14 @@ export default {
       confirm({ title, message: messageRender, exec })
     }
 
+    const checkAll = (items) => {
+      emit('checkAll', items)
+    }
+
+    const cancelCheckAll = () => {
+      emit('cancelCheckAll')
+    }
+
     return {
       blockRef,
       state,
@@ -203,7 +213,9 @@ export default {
       closeDetail,
       setBlockPanelVisible,
       openVersionPanel,
-      deleteBlock
+      deleteBlock,
+      checkAll,
+      cancelCheckAll
     }
   }
 }
