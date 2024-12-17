@@ -278,6 +278,15 @@ export default {
     color: var(--ti-lowcode-toolbar-icon-color);
     display: flex;
   }
+  :deep(.tiny-collapse-item__wrap) {
+    padding: 0 12px;
+    .tiny-collapse-item__content {
+      padding: 0;
+      .tiny-form-item:first-child {
+        padding-bottom: 12px;
+      }
+    }
+  }
 }
 
 .create-content-description {
