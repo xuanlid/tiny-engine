@@ -45,8 +45,6 @@ export default {
   .use-service {
     color: var(--ti-lowcode-datasource-color);
     font-size: 12px;
-    margin-top: 2px;
-    padding-left: 8px;
 
     span {
       color: var(--ti-lowcode-datasource-description-warning-color);

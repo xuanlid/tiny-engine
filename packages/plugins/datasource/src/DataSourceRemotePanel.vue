@@ -300,6 +300,9 @@ export default {
       overflow-y: scroll;
       :deep(.tiny-tabs.tiny-tabs--button-card .tiny-tabs__item) {
         border-radius: 4px;
+        &:hover {
+          color: var(--te-common-text-primary);
+        }
       }
       :deep(.tiny-tabs__content) {
         margin: 12px 0;
@@ -307,7 +310,6 @@ export default {
       :deep(.is-active) {
         .tiny-tabs__item__title {
           color: var(--te-common-text-primary);
-          font-weight: var(--te-base-font-weight-4);
         }
       }
     }

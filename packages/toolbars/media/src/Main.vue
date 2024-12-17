@@ -493,7 +493,6 @@ export default {
 }
 
 .content-wrap {
-  padding: 20px 12px;
   .title {
     font-weight: 600;
     margin-bottom: 16px;
