@@ -123,7 +123,7 @@
     border-bottom-style: none;
 
     .tiny-collapse-item__word-overflow {
-      margin: var(--te-common-vertical-item-spacing-normal) 0px;
+      margin: var(--te-common-vertical-item-spacing-normal) 0px var(--te-common-vertical-form-label-spacing);
       width: 100%;
       line-height: var(--te-base-line-height-4);
     }
@@ -771,6 +771,18 @@
     border-color: var(--te-common-color-error);
     background-color: var(--te-base-red-10);
   }
+}
+.tiny-form--label-left.label-align .tiny-form-item.is-required .tiny-form-item__label.tiny-form-item__label {
+  padding-left: 0;
+}
+.tiny-form--label-left.label-align
+  .tiny-form-item.is-required
+  ~ .tiny-form-item
+  .tiny-form-item__label.tiny-form-item__label {
+  padding-left: 0;
+}
+.tiny-form-item__label.tiny-form-item__label {
+  padding-right: 16px;
 }
 .tiny-form--label-left.label-align .tiny-form-item.is-required .tiny-form-item__label.tiny-form-item__label {
   padding-left: 0;
