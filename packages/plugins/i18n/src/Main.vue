@@ -78,14 +78,12 @@
           <tiny-grid-column width="90" field="operation" title="操作">
             <template v-slot="data">
               <div v-if="editingRow !== data.row" class="i18n-opera">
-                <tiny-tooltip class="item" effect="dark" placement="bottom" content="编辑" :open-delay="500">
-                  <span class="icon">
-                    <svg-icon name="to-edit" @click.stop="openEditor($event, data.row)"></svg-icon>
-                  </span>
-                </tiny-tooltip>
+                <span class="icon">
+                  <svg-icon name="to-edit" @click.stop="openEditor($event, data.row)"></svg-icon>
+                </span>
                 <tiny-tooltip class="item" effect="dark" placement="bottom" :open-delay="500">
                   <template #content>
-                    <div style="padding: 10px 20px">
+                    <div>
                       复制键值（唯一标识）<br />
                       {{ data.row.key }}
                     </div>
@@ -104,11 +102,9 @@
                     </template>
                   </tiny-popover>
                 </tiny-tooltip>
-                <tiny-tooltip class="item" effect="dark" placement="bottom" content="删除" :open-delay="500">
-                  <span class="icon">
-                    <svg-icon name="delete" @click="openDeletePopover(data.row)"></svg-icon>
-                  </span>
-                </tiny-tooltip>
+                <span class="icon">
+                  <svg-icon name="delete" @click="openDeletePopover(data.row)"></svg-icon>
+                </span>
               </div>
             </template>
           </tiny-grid-column>
@@ -327,9 +323,9 @@ export default {
       copyRowIndex.value = rowIndex
       try {
         await toClipboard(row.key)
-        copyTipContent.value = '复制成功！'
+        copyTipContent.value = '复制成功'
       } catch (e) {
-        copyTipContent.value = '复制失败！'
+        copyTipContent.value = '复制失败'
       } finally {
         setTimeout(() => {
           copyRowIndex.value = ''

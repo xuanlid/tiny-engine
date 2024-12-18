@@ -26,8 +26,13 @@
       </div>
     </template>
     <template #operate="{ data }">
-      <svg-button class="opt-button" name="text-source-setting" @click="openLifeCyclesPanel(data)"></svg-button>
-      <svg-button class="opt-button" name="delete" @click="deleteLifeCycle(data)"></svg-button>
+      <svg-button
+        class="opt-button"
+        :hoverBgColor="false"
+        name="text-source-setting"
+        @click="openLifeCyclesPanel(data)"
+      ></svg-button>
+      <svg-button class="opt-button" :hoverBgColor="false" name="delete" @click="deleteLifeCycle(data)"></svg-button>
     </template>
   </meta-list-items>
   <tiny-dialog-box v-model:visible="state.showLifeCyclesDialog" fullscreen :title="state.title" :append-to-body="true">
@@ -273,12 +278,7 @@ export default {
   color: var(--te-common-text-primary);
 }
 .opt-button {
-  color: var(--te-common-icon-secondary);
   width: auto;
-  &:hover {
-    background-color: transparent;
-    color: var(--te-common-icon-secondary);
-  }
   &:last-child {
     margin-right: var(--te-base-space-3x);
   }
