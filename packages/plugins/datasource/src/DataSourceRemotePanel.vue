@@ -270,16 +270,11 @@ export default {
     :deep(.send-service) {
       text-align: right;
       border-top: 1px solid var(--ti-lowcode-datasource-tabs-border-color);
-      padding: 20px 10px;
-      margin-bottom: 10px;
+      padding: 12px 0px 0px;
 
       .use-service {
         text-align: left;
         padding-top: 5px;
-
-        div {
-          margin-bottom: 5px;
-        }
       }
 
       .title {
