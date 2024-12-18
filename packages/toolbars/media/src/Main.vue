@@ -13,7 +13,7 @@
               trigger="hover"
               width="260"
               append-to-body
-              :open-delay="1000"
+              :open-delay="500"
               popper-class="media-icon-popover"
             >
               <div class="media-content">
@@ -479,7 +479,6 @@ export default {
   }
 }
 .media-content {
-  padding: 12px 8px;
   line-height: 18px;
   .media-title {
     font-weight: 600;
