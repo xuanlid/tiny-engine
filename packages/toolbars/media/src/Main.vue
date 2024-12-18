@@ -13,7 +13,7 @@
               trigger="hover"
               width="260"
               append-to-body
-              :open-delay="500"
+              :open-delay="1000"
               popper-class="media-icon-popover"
             >
               <div class="media-content">
