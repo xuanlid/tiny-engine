@@ -62,14 +62,14 @@
           <div class="setting-menu" @mouseover.stop="handleSettingMouseOver" @mouseleave="handleBlockItemLeave">
             <ul class="list">
               <li class="list-item" @mousedown.stop.left="editBlock({ event: $event, item, index })">
-                <svg-button class="list-item-svg" name="to-edit"> </svg-button>
+                <svg-button class="list-item-svg" :hoverBgColor="false" name="to-edit"> </svg-button>
               </li>
               <li
                 class="list-item"
                 @mouseover.stop="iconSettingMove"
                 @mousedown.stop.prevent="iconClick({ event: $event, item, index })"
               >
-                <svg-button class="list-item-svg" name="text-source-setting"> </svg-button>
+                <svg-button class="list-item-svg" :hoverBgColor="false" name="setting"> </svg-button>
               </li>
             </ul>
           </div>
@@ -784,12 +784,6 @@ export default {
     .list-item-icon {
       font-size: 14px;
       color: var(--te-common-icon-secondary);
-    }
-    .list-item-svg {
-      color: var(--te-common-icon-secondary);
-    }
-    .list-item-svg:hover {
-      background-color: transparent;
     }
   }
 }

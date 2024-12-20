@@ -168,8 +168,6 @@ export default {
     align-items: center;
     .icon-wrap {
       .tiny-button {
-        width: 40px;
-        padding: 0;
         min-width: 40px;
         margin-right: 2px;
         height: 24px;

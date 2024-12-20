@@ -11,7 +11,7 @@
           @click="copyPage"
         ></svg-button>
         <svg-button v-if="!pageSettingState.isNew" name="delete" tips="删除页面" @click="deletePage"></svg-button>
-        <svg-button class="close-plugin-setting-icon" name="close" @click="cancelPageSetting"></svg-button>
+        <svg-button name="close" @click="cancelPageSetting"></svg-button>
       </button-group>
     </template>
 
@@ -408,18 +408,6 @@ export default {
 .page-plugin-setting {
   :deep(.plugin-setting-header) {
     border: 0;
-    .button-group {
-      column-gap: 2px;
-      .tiny-button {
-        width: 40px;
-        padding: 0;
-        min-width: 40px;
-        margin-right: 2px;
-      }
-    }
-    .close-plugin-setting-icon {
-      margin-left: 4px;
-    }
   }
 
   :deep(.plugin-setting-content) {

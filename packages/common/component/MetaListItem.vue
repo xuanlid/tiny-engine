@@ -292,6 +292,7 @@ export default {
       &.right {
         float: left;
         text-align: right;
+        margin-right: 8px;
       }
     }
   }

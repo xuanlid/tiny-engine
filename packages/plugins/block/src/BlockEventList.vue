@@ -9,8 +9,8 @@
       </div>
     </template>
     <template #operate="{ data }">
-      <svg-button class="opt-button" :hoverBgColor="false" name="to-edit" @click="setEdit(data)"></svg-button>
-      <svg-button class="opt-button" :hoverBgColor="false" name="delete" @click="delBlockEvent(data.name)"></svg-button>
+      <svg-button :hoverBgColor="false" name="to-edit" @click="setEdit(data)"></svg-button>
+      <svg-button :hoverBgColor="false" name="delete" @click="delBlockEvent(data.name)"></svg-button>
     </template>
   </meta-list-items>
 </template>
@@ -83,12 +83,6 @@ export default {
   .icon-plus {
     margin-right: 6px;
     stroke: var(--te-common-text-weaken);
-  }
-}
-.opt-button {
-  width: auto;
-  &:last-child {
-    margin-right: var(--te-base-space-3x);
   }
 }
 </style>

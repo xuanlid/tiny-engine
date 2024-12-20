@@ -469,7 +469,7 @@ export default {
       border-bottom: 1px solid var(--ti-lowcode-data-header-border-bottom-color);
       .options-wrap {
         display: flex;
-        column-gap: 16px;
+        column-gap: 8px;
         align-items: center;
         :deep(button.tiny-button.tiny-button--primary) {
           display: flex;
@@ -477,7 +477,6 @@ export default {
           min-width: 40px;
           justify-content: center;
           height: 24px;
-          padding: 0;
           border-radius: 4px;
         }
       }

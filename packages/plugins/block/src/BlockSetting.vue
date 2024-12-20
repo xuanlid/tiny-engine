@@ -291,21 +291,9 @@ export default {
 .plugin-block-setting {
   :deep(.plugin-setting-header) {
     border: 0;
-    .button-group {
-      column-gap: 2px;
-    }
-    .tiny-button {
-      width: 40px;
-      padding: 0;
-      min-width: 40px;
-      margin-right: 2px;
-    }
     .close-plugin-setting-icon {
       margin-left: 4px;
     }
-  }
-  .publish-btn {
-    margin-right: 8px;
   }
 
   .video-close {

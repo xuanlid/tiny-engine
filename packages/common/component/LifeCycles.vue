@@ -1,8 +1,16 @@
 <template>
   <div class="life-cycle">
-    <tiny-popover v-model="state.showPopover" placement="bottom-end" trigger="hover" popperClass="option-popper">
+    <tiny-popover
+      v-model="state.showPopover"
+      placement="bottom-end"
+      trigger="hover"
+      popperClass="option-popper"
+      :open-delay="500"
+    >
       <template #reference>
-        <tiny-button class="life-cycle-btn"><svg-icon name="add"></svg-icon>添加页面生命周期 </tiny-button>
+        <tiny-button class="life-cycle-btn"
+          ><svg-icon name="add"></svg-icon>{{ isPage ? '添加页面生命周期' : '添加区块生命周期' }}
+        </tiny-button>
       </template>
       <div class="popover-list">
         <ul>
@@ -26,13 +34,8 @@
       </div>
     </template>
     <template #operate="{ data }">
-      <svg-button
-        class="opt-button"
-        :hoverBgColor="false"
-        name="text-source-setting"
-        @click="openLifeCyclesPanel(data)"
-      ></svg-button>
-      <svg-button class="opt-button" :hoverBgColor="false" name="delete" @click="deleteLifeCycle(data)"></svg-button>
+      <svg-button :hoverBgColor="false" name="setting" @click="openLifeCyclesPanel(data)"></svg-button>
+      <svg-button :hoverBgColor="false" name="delete" @click="deleteLifeCycle(data)"></svg-button>
     </template>
   </meta-list-items>
   <tiny-dialog-box v-model:visible="state.showLifeCyclesDialog" fullscreen :title="state.title" :append-to-body="true">
@@ -278,9 +281,8 @@ export default {
   color: var(--te-common-text-primary);
 }
 .opt-button {
-  width: auto;
   &:last-child {
-    margin-right: var(--te-base-space-3x);
+    margin-right: var(--te-base-space-2x);
   }
 }
 
