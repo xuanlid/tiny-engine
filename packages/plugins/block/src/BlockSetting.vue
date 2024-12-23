@@ -324,10 +324,6 @@ export default {
     }
   }
 
-  .life-cycles-container {
-    padding: 0 0 12px 0;
-  }
-
   .block-attribute,
   .block-event {
     position: relative;
@@ -363,6 +359,9 @@ export default {
 
       color: var(--ti-lowcode-block-video-tip-color);
     }
+  }
+  :deep(.tiny-collapse-item__content) {
+    padding: 0 12px 12px;
   }
 }
 </style>

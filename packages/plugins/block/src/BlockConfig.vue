@@ -288,7 +288,7 @@ export default {
     font-size: 12px;
   }
   .global-desc-info {
-    font-size: 11px;
+    font-size: 12px;
   }
 }
 

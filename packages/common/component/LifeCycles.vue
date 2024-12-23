@@ -27,7 +27,11 @@
     </tiny-popover>
   </div>
   <div class="life-cycle-tips">{{ lifeCycleTips }}</div>
-  <meta-list-items :optionsList="Object.keys(state.bindLifeCycles)" :draggable="false">
+  <meta-list-items
+    :optionsList="Object.keys(state.bindLifeCycles)"
+    :draggable="false"
+    :class="{ 'life-cycle-content-list': Object.keys(state.bindLifeCycles).length }"
+  >
     <template #content="{ data }">
       <div class="life-cycle-content-item">
         {{ data }}
@@ -274,9 +278,12 @@ export default {
 }
 .life-cycle-tips {
   color: var(--ti-lowcode-life-cycle-alert-color);
-  margin: 4px 0 12px 0;
+  margin: 4px 0 0;
   height: 16px;
   line-height: 16px;
+}
+.life-cycle-content-list {
+  margin-top: 12px;
 }
 .life-cycle-alert {
   color: var(--ti-lowcode-life-cycle-alert-color);

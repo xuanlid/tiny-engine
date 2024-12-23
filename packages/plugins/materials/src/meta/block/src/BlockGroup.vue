@@ -483,12 +483,7 @@ export default {
   }
   .popper-confirm-content {
     font-size: 12px;
-    color: var(--ti-lowcode-materials-block-group-delete-popover-title-color);
-    .icon {
-      color: var(--ti-lowcode-warning-color);
-      width: 16px;
-      height: 16px;
-    }
+    color: var(--te-common-text-secondary);
   }
   .popper-confirm-footer {
     text-align: right;

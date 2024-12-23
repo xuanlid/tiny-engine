@@ -418,10 +418,6 @@ export default {
   }
 }
 
-.life-cycles-container {
-  padding: 0 0 12px 0;
-}
-
 .page-setting-collapse {
   :deep(.tiny-collapse-item__header) {
     &,
@@ -434,6 +430,9 @@ export default {
     .svg-icon {
       margin-right: 6px;
     }
+  }
+  :deep(.tiny-collapse-item__content) {
+    padding: 0 12px 12px;
   }
 }
 </style>

@@ -2,7 +2,7 @@
   <div class="add-button">
     <tiny-button @click="addEvent"> <svg-icon name="add"></svg-icon>添加</tiny-button>
   </div>
-  <meta-list-items class="list" :optionsList="list" :draggable="false">
+  <meta-list-items :class="{ list: list.length }" :optionsList="list" :draggable="false">
     <template #content="{ data }">
       <div :class="{ 'item-text': true, active: data.name === currentEventName }" @click="setEdit(data)">
         {{ data.name }}
@@ -60,7 +60,7 @@ export default {
 
 <style lang="less" scoped>
 .list {
-  margin-bottom: 8px;
+  margin-top: 12px;
   overflow: auto;
 }
 
@@ -76,7 +76,6 @@ export default {
   margin-left: 8px;
 }
 .add-button {
-  padding: 0 0 8px 0;
   :deep(.tiny-button) {
     border: 1px solid var(--ti-lowcode-base-default-button-border-disable-color);
   }
