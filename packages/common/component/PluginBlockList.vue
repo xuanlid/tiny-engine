@@ -83,12 +83,12 @@
             <ul class="list">
               <tiny-tooltip content="版本列表" placement="top">
                 <li class="list-item" @click.stop="$emit('openVersionPanel', { item, index })">
-                  <svg-button class="list-item-svg" name="versions"> </svg-button>
+                  <svg-button class="list-item-svg" :hoverBgColor="false" name="versions"> </svg-button>
                 </li>
               </tiny-tooltip>
               <tiny-tooltip content="移除" placement="top">
                 <li class="list-item" @click.stop="$emit('deleteBlock', item)">
-                  <svg-button class="list-item-svg" name="remove"> </svg-button>
+                  <svg-button class="list-item-svg" :hoverBgColor="false" name="remove"> </svg-button>
                 </li>
               </tiny-tooltip>
             </ul>

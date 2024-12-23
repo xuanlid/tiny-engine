@@ -266,7 +266,7 @@ export default {
   width: 100%;
   display: flex;
   text-align: center;
-  .tiny-button.edit-btn {
+  .tiny-button.tiny-button.edit-btn {
     color: var(--te-common-text-primary);
     border-color: var(--te-common-border-default);
     flex: 1;
@@ -303,6 +303,7 @@ export default {
   height: 24px;
   padding: 4px;
   padding-left: 10px;
+  padding-right: 12px;
   border: 1px solid var(--ti-lowcode-meta-codeEditor-border-color);
   border-radius: var(--te-base-border-radius-1);
 

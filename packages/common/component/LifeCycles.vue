@@ -38,7 +38,18 @@
       <svg-button :hoverBgColor="false" name="delete" @click="deleteLifeCycle(data)"></svg-button>
     </template>
   </meta-list-items>
-  <tiny-dialog-box v-model:visible="state.showLifeCyclesDialog" fullscreen :title="state.title" :append-to-body="true">
+  <tiny-dialog-box v-model:visible="state.showLifeCyclesDialog" fullscreen :show-close="false" :append-to-body="true">
+    <template #title>
+      <div class="bind-dialog-title">
+        <div class="bind-dialog-text">
+          {{ isPage ? '添加页面生命周期' : '添加区块生命周期' }}
+        </div>
+        <div class="bind-dialog-btn">
+          <tiny-button type="info" @click="editorConfirm">保存</tiny-button>
+          <svg-button name="close" @click="state.showLifeCyclesDialog = false"></svg-button>
+        </div>
+      </div>
+    </template>
     <div v-if="state.showLifeCyclesDialog" class="dialog-content">
       <div class="dialog-content-left">
         <tiny-search placeholder="搜索" @update:modelValue="searchLifeCyclesList"></tiny-search>
@@ -65,12 +76,7 @@
       </div>
     </div>
 
-    <template #footer>
-      <div class="bind-dialog-footer">
-        <tiny-button @click="state.showLifeCyclesDialog = false">取 消</tiny-button>
-        <tiny-button type="info" @click="editorConfirm">确 定</tiny-button>
-      </div>
-    </template>
+    <template #footer> </template>
   </tiny-dialog-box>
 </template>
 
@@ -360,5 +366,23 @@ export default {
   justify-content: flex-end;
   align-items: center;
   margin-top: 20px;
+}
+.bind-dialog-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .bind-dialog-text {
+    color: var(--te-common-text-primary);
+    font-size: var(--te-base-font-size-1);
+  }
+  .bind-dialog-btn {
+    display: flex;
+    align-items: center;
+    .tiny-button {
+      margin-right: 8px;
+      min-width: 40px;
+    }
+  }
 }
 </style>

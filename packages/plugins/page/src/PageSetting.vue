@@ -293,7 +293,6 @@ export default {
 
     const createHistoryMessage = () => {
       const title = '创建历史备份信息'
-      const status = 'custom'
       const messageRender = {
         render: () => <Input placeholder="历史备份信息" v-model={state.historyMessage}></Input>
       }
@@ -309,7 +308,7 @@ export default {
         state.historyMessage = ''
       }
 
-      confirm({ title, status, message: messageRender, exec })
+      confirm({ title, message: messageRender, exec })
     }
 
     const savePageSetting = () => {

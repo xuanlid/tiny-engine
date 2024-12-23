@@ -59,7 +59,7 @@
         >
         </tiny-input>
         <tiny-button v-show="!state.inputVisible" class="button-new-tag" size="small" @click="addTag">
-          + 标签
+          <svg-icon name="add"></svg-icon>标签
         </tiny-button>
       </div>
       <div class="global-desc-info">区块的功能以及特性标签，例如表格、购买页、过滤等</div>
