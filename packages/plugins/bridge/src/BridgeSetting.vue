@@ -221,11 +221,6 @@ export default {
 
       resourceForm.value.validate((valid) => {
         if (!valid) {
-          useNotify({
-            type: 'error',
-            message: '请检查必填项'
-          })
-
           return
         }
 

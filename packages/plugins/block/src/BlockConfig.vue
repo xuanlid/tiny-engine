@@ -1,5 +1,12 @@
 <template>
-  <tiny-form ref="blockForm" class="block-setting-content" label-position="top" :model="formData" :rules="rules">
+  <tiny-form
+    ref="blockForm"
+    class="block-setting-content"
+    label-position="top"
+    :model="formData"
+    :rules="rules"
+    validate-type="text"
+  >
     <tiny-form-item label="区块名称" prop="name_cn">
       <div>
         <tiny-input
@@ -273,9 +280,6 @@ export default {
 
 <style lang="less" scoped>
 .block-setting-content {
-  :deep(.tiny-form-item__error) {
-    display: none;
-  }
   :deep(.tiny-form-item) {
     margin-bottom: 10px;
   }

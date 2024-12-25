@@ -44,7 +44,7 @@
             </div>
           </tiny-collapse-item>
 
-          <tiny-collapse-item class="history-source" title="历史备份" :name="PAGE_SETTING_SESSION.history">
+          <tiny-collapse-item class="history-source" title="版本列表" :name="PAGE_SETTING_SESSION.history">
             <page-history @restorePage="restorePage"></page-history>
           </tiny-collapse-item>
         </tiny-collapse>

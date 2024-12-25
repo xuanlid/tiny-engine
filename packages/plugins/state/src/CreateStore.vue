@@ -1,6 +1,6 @@
 <template>
   <tiny-form
-    ref="storeData"
+    ref="storeDataForm"
     class="store-form"
     :model="storeData"
     label-position="top"
@@ -224,6 +224,20 @@ export default {
       emit('close')
     }
 
+    const storeDataForm = ref(null)
+
+    const validateForm = () => {
+      return new Promise((resolve, reject) => {
+        storeDataForm.value.validate((valid) => {
+          if (valid) {
+            resolve()
+          } else {
+            reject(new Error('校验失败'))
+          }
+        })
+      })
+    }
+
     return {
       STATE,
       GETTERS,
@@ -242,7 +256,9 @@ export default {
       editorDidMount,
       variableEditor,
       actions,
-      cancel
+      cancel,
+      validateForm,
+      storeDataForm
     }
   }
 }

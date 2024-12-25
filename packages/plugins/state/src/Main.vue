@@ -193,60 +193,53 @@ export default {
       const { name } = state.createData
       const { setState, setGlobalState } = useCanvas().canvasApi.value
 
-      if (!name || errorMessage.value) {
-        notifySaveError('变量名未填写或名称不符合规范，请按照提示修改后重试。')
-        return
-      }
-
       if (activeName.value === STATE.CURRENT_STATE) {
         // 校验
-        const validateResult = variableRef.value.validate()
-        if (!validateResult.success) {
-          notifySaveError(validateResult.message)
-          return
-        }
+        variableRef.value.validateForm().then(() => {
+          // 获取数据
+          let variable = variableRef.value.getFormData()
 
-        // 获取数据
-        let variable = variableRef.value.getFormData()
-
-        // 保存数据
-        add(name, variable)
-        isPanelShow.value = false
-        setSaved(false)
-
-        // 触发画布渲染
-        setState({ [name]: variable })
-        useHistory().addHistory()
-      } else {
-        const validateResult = validateMonacoEditorData(storeRef.value.getEditor(), 'state字段', { required: true })
-        if (!validateResult.success) {
-          notifySaveError(validateResult.message)
-          return
-        }
-
-        const storeState = storeRef.value.getEditor().getValue()
-        const getters = storeRef.value.saveMethods('gettersEditor')
-        const actions = storeRef.value.saveMethods('actionsEditor')
-        const store = {
-          [name]: {
-            id: name,
-            state: storeState,
-            getters,
-            actions
-          }
-        }
-
-        if (updateKey.value !== name && flag.value === OPTION_TYPE.UPDATE) {
-          delete state.dataSource[updateKey.value]
-        }
-
-        Object.assign(state.dataSource, store)
-        const storeList = Object.values(state.dataSource)
-
-        const { id } = getMetaApi(META_SERVICE.GlobalService).getBaseInfo()
-        updateGlobalState(id, { global_state: storeList }).then((res) => {
+          // 保存数据
+          add(name, variable)
           isPanelShow.value = false
-          setGlobalState(res.global_state || [])
+          setSaved(false)
+
+          // 触发画布渲染
+          setState({ [name]: variable })
+          useHistory().addHistory()
+        })
+      } else {
+        storeRef.value.validateForm().then(() => {
+          const validateResult = validateMonacoEditorData(storeRef.value.getEditor(), 'state字段', { required: true })
+          if (!validateResult.success) {
+            notifySaveError(validateResult.message)
+            return
+          }
+
+          const storeState = storeRef.value.getEditor().getValue()
+          const getters = storeRef.value.saveMethods('gettersEditor')
+          const actions = storeRef.value.saveMethods('actionsEditor')
+          const store = {
+            [name]: {
+              id: name,
+              state: storeState,
+              getters,
+              actions
+            }
+          }
+
+          if (updateKey.value !== name && flag.value === OPTION_TYPE.UPDATE) {
+            delete state.dataSource[updateKey.value]
+          }
+
+          Object.assign(state.dataSource, store)
+          const storeList = Object.values(state.dataSource)
+
+          const { id } = getMetaApi(META_SERVICE.GlobalService).getBaseInfo()
+          updateGlobalState(id, { global_state: storeList }).then((res) => {
+            isPanelShow.value = false
+            setGlobalState(res.global_state || [])
+          })
         })
       }
       openCommon()

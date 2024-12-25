@@ -1,6 +1,6 @@
 <template>
   <tiny-form
-    ref="createData"
+    ref="createDataForm"
     label-position="top"
     class="create-form"
     :model="state.createData"
@@ -365,6 +365,20 @@ export default {
       emit('close')
     }
 
+    const createDataForm = ref(null)
+
+    const validateForm = () => {
+      return new Promise((resolve, reject) => {
+        createDataForm.value.validate((valid) => {
+          if (valid) {
+            resolve()
+          } else {
+            reject(new Error('校验失败'))
+          }
+        })
+      })
+    }
+
     const options = {
       lineNumbers: true,
       language: 'javascript',
@@ -398,7 +412,9 @@ export default {
       validate,
       getFormData,
       insertContent,
-      cancel
+      cancel,
+      validateForm,
+      createDataForm
     }
   }
 }
