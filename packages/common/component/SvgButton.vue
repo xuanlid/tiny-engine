@@ -69,10 +69,10 @@ export default {
   }
 }
 .svg-button-hover {
-  color: var(--ti-lowcode-component-svg-button-color);
+  color: var(--te-common-icon-primary);
   &:hover {
-    color: var(--ti-lowcode-component-svg-button-hover-color);
-    background-color: var(--ti-lowcode-component-svg-button-hover-bg-color);
+    color: var(--te-common-icon-primary);
+    background-color: var(--te-common-bg-prompt);
   }
 }
 </style>
