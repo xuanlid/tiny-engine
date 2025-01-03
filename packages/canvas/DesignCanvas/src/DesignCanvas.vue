@@ -30,7 +30,9 @@ import {
   getMergeMeta,
   getOptions,
   getMetaApi,
-  META_SERVICE
+  META_SERVICE,
+  useMessage,
+  useNotify
 } from '@opentiny/tiny-engine-meta-register'
 import { constants } from '@opentiny/tiny-engine-utils'
 import * as ast from '@opentiny/tiny-engine-common/js/ast'
@@ -66,7 +68,7 @@ export default {
 
     const removeNode = (node) => {
       const { pageState } = useCanvas()
-      footData.value = useCanvas().canvasApi.value.getNodePath(node?.id)
+      footData.value = useCanvas().getNodePath(node?.id)
       pageState.currentSchema = {}
       pageState.properties = null
     }
@@ -130,19 +132,21 @@ export default {
       }
     )
 
-    const nodeSelected = (node, parent, type) => {
+    const nodeSelected = (node, parent, type, id) => {
       const { toolbars } = useLayout().layoutState
       if (type !== 'clickTree') {
         useLayout().closePlugin()
       }
 
-      const { getSchema, getNodePath } = useCanvas().canvasApi.value
+      const { getSchema, getNodePath } = useCanvas()
+      const schemaItem = useCanvas().getNodeById(id)
 
-      const schema = getSchema()
+      const pageSchema = getSchema()
+
       // 如果选中的节点是画布，就设置成默认选中最外层schema
-      useProperties().getProps(node || schema, parent)
-      useCanvas().setCurrentSchema(node || schema)
-      footData.value = getNodePath(node?.id)
+      useProperties().getProps(schemaItem || pageSchema, parent)
+      useCanvas().setCurrentSchema(schemaItem || pageSchema)
+      footData.value = getNodePath(schemaItem?.id)
       toolbars.visiblePopover = false
     }
 
@@ -180,9 +184,12 @@ export default {
         // 需要在canvas/render或内置组件里使用的方法
         getMaterial: useMaterial().getMaterial,
         addHistory: useHistory().addHistory,
-        registerBlock: useMaterial().registerBlock,
         request: getMetaApi(META_SERVICE.Http).getHttp(),
-        ast
+        ast,
+        getBlockByName: useMaterial().getBlockByName,
+        useModal,
+        useMessage,
+        useNotify
       },
       CanvasLayout,
       canvasRef,

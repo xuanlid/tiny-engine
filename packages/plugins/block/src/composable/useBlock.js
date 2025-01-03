@@ -27,8 +27,10 @@ import {
   getMetaApi,
   META_APP,
   getMergeMeta,
+  getOptions,
   META_SERVICE
 } from '@opentiny/tiny-engine-meta-register'
+import meta from '../../meta'
 
 const { SORT_TYPE, SCHEMA_DATA_TYPE, BLOCK_OPENNESS } = constants
 
@@ -276,13 +278,13 @@ const getBlockPageSchema = (block) => {
 }
 
 const initBlock = async (block = {}, _langs = {}, isEdit) => {
-  const { resetBlockCanvasState, setSaved } = useCanvas()
+  const { resetBlockCanvasState, setSaved, getSchema } = useCanvas()
   const { setBreadcrumbBlock } = useBreadcrumb()
 
   // 把区块的schema传递给画布
   await resetBlockCanvasState({ pageSchema: getBlockPageSchema(block) })
   // 这一步操作很重要，让区块管理面板和画布共同维护同一份区块schema
-  block.content = useCanvas().canvasApi.value?.getSchema()
+  block.content = getSchema()
 
   setCurrentBlock(block)
   setBreadcrumbBlock([block[nameCn] || block.label], block.histories)
@@ -723,6 +725,11 @@ const getBlockAssetsByVersion = (block, version) => {
   return assets
 }
 
+const shouldReplaceCategoryWithGroup = () => {
+  const { mergeCategoriesAndGroups } = getOptions(meta.id)
+  return mergeCategoriesAndGroups
+}
+
 export default function () {
   return {
     NODE_TYPE_PAGE,
@@ -768,6 +775,7 @@ export default function () {
     removePropertyLink,
     getBlockProperties,
     getBlockPageSchema,
-    getDateFromNow
+    getDateFromNow,
+    shouldReplaceCategoryWithGroup
   }
 }
