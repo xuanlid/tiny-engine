@@ -117,6 +117,11 @@ const addMethod = () => {
 </script>
 
 <style lang="less" scoped>
+.add-custom-event-form.add-custom-event-form {
+  :deep(.tiny-form-item__label) {
+    padding-left: 0;
+  }
+}
 .footer {
   display: flex;
   justify-content: flex-end;
