@@ -102,7 +102,11 @@ export default {
         componentName: pageState.pageSchema.componentName
       }
 
-      useCanvas().importSchema(value)
+      const { importSchema, setSaved } = useCanvas()
+
+      importSchema(value)
+      setSaved(false)
+
       // TODO: 历史堆栈
       // useHistory().addHistory()
       state.pageData = ''
@@ -190,6 +194,7 @@ export default {
     justify-content: flex-end;
     align-items: center;
     .icon-wrap {
+      position: relative;
       .tiny-button {
         min-width: 40px;
         margin-right: 2px;
@@ -197,15 +202,15 @@ export default {
         line-height: 24px;
       }
       .red {
-        width: 5px;
-        height: 5px;
-        border-radius: 3px;
-        background-color: #f00;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: var(--ti-lowcode-common-error-color);
         display: block;
         z-index: 100;
         position: absolute;
-        top: 1px;
-        right: 1px;
+        top: -3px;
+        right: -4px;
       }
     }
     & > span:not(:last-child) {

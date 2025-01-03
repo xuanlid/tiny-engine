@@ -110,7 +110,7 @@
           </tiny-grid-column>
           <template #empty>
             <div v-if="isLoading" id="empty-loading-box" class="i18n-loading"></div>
-            <search-empty isShow="!isLoading" />
+            <search-empty v-else />
           </template>
         </tiny-grid>
       </div>
@@ -119,7 +119,7 @@
 </template>
 
 <script lang="jsx">
-import { computed, ref, watchEffect, reactive, onMounted, nextTick, resolveComponent } from 'vue'
+import { computed, ref, watchEffect, reactive, onMounted, nextTick, resolveComponent, watch } from 'vue'
 import useClipboard from 'vue-clipboard3'
 import { Grid, GridColumn, Input, Popover, Button, FileUpload, Loading, Tooltip, Select } from '@opentiny/vue'
 import { iconLoadingShadow, iconUpload } from '@opentiny/vue-icon'
@@ -240,13 +240,16 @@ export default {
       }
     }
 
-    watchEffect(() => {
-      langList.value = fullLangList.value.filter((item) => {
-        const reg = new RegExp(searchKey.value, 'i')
-        return reg.test(item?.zh_CN) || reg.test(item?.en_US) || reg.test(item?.key)
-      })
-      sortTypeChanges(currentSearchType.value)
-    })
+    watch(
+      () => [fullLangList.value, currentSearchType.value, searchKey.value],
+      () => {
+        langList.value = fullLangList.value.filter((item) => {
+          const reg = new RegExp(searchKey.value, 'i')
+          return reg.test(item?.zh_CN) || reg.test(item?.en_US) || reg.test(item?.key)
+        })
+        sortTypeChanges(currentSearchType.value)
+      }
+    )
 
     watchEffect(() => {
       if (i18nResource.locales.length) {
