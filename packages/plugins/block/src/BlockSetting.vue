@@ -94,7 +94,6 @@ import {
   getEditBlock,
   delBlock,
   saveBlock,
-  DEPLOY_TIPS,
   getBlockBase64,
   setConfigItemVisible,
   saveArrayConfig
@@ -280,7 +279,6 @@ export default {
       previewHistory,
       editBlock,
       blockConfigForm,
-      deployTips: DEPLOY_TIPS,
       globalConfig: getMergeMeta('engine.config'),
       onMouseLeave,
       handleClick,
