@@ -69,6 +69,7 @@
           <block-history-list
             :is-block-manage="true"
             :history="state.backupList"
+            :lastVersion="state.lastVersion"
             @preview="previewHistory"
           ></block-history-list>
         </tiny-collapse-item>
@@ -142,6 +143,7 @@ export default {
     const state = reactive({
       activeName: ['base', 'attribute', 'event', 'lifeCycle', 'history'],
       backupList: [],
+      lastVersion: {},
       showDeployBlock: false,
       bindLifeCycles: {},
       showAttributeGuide: false,
@@ -180,6 +182,7 @@ export default {
 
         if (block?.id) {
           state.backupList = block.histories
+          state.lastVersion = block.last_build_info
         }
       }
     )

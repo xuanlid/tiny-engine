@@ -519,6 +519,13 @@
     .tiny-numeric__increase {
       border-bottom-color: var(--te-common-border-default);
     }
+    .tiny-numeric__decrease {
+      height: calc(50% - 0.5px);
+      bottom: 0.5px;
+      svg {
+        transform: scale(0.8) translateY(1px);
+      }
+    }
   }
   .tiny-numeric-base .is-disabled {
     background: var(--te-common-bg-disabled);
@@ -537,6 +544,7 @@
     border: 0;
     width: 14px;
     margin-right: 4px;
+    height: calc(100% - 5px);
   }
 }
 
