@@ -81,7 +81,7 @@
                 <span class="icon">
                   <svg-icon name="to-edit" @click.stop="openEditor($event, data.row)"></svg-icon>
                 </span>
-                <tiny-tooltip class="item" effect="dark" placement="bottom" :open-delay="500">
+                <tiny-tooltip class="item" effect="dark" placement="bottom" :open-delay="OPEN_DELAY.default">
                   <template #content>
                     <div>
                       复制键值（唯一标识）<br />
@@ -126,8 +126,9 @@ import { iconLoadingShadow, iconUpload } from '@opentiny/vue-icon'
 import { PluginPanel, SearchEmpty } from '@opentiny/tiny-engine-common'
 import { useTranslate, useModal, useHelp, getMetaApi, META_SERVICE } from '@opentiny/tiny-engine-meta-register'
 import { getMergeMeta } from '@opentiny/tiny-engine-meta-register'
-import { utils } from '@opentiny/tiny-engine-utils'
+import { utils, constants } from '@opentiny/tiny-engine-utils'
 import { BASE_URL } from '@opentiny/tiny-engine-common/js/environments'
+const { OPEN_DELAY } = constants
 
 export default {
   components: {
@@ -424,7 +425,8 @@ export default {
       isEditMode,
       editingRow,
       batchDelete,
-      docsUrl
+      docsUrl,
+      OPEN_DELAY
     }
   }
 }
