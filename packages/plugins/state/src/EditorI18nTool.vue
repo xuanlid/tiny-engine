@@ -28,7 +28,7 @@
     </div>
 
     <template #reference>
-      <tiny-tooltip content="插入国际化词条" placement="top" :open-delay="OPEN_DELAY.default">
+      <tiny-tooltip content="插入国际化词条" placement="top" :open-delay="OPEN_DELAY.Default">
         <svg-icon name="internationalization" @click="openPopover"></svg-icon>
       </tiny-tooltip>
     </template>
