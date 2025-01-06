@@ -7,7 +7,7 @@
       @click-api="openApi"
     >
       <template #button>
-        <tiny-popover :visible-arrow="false" width="203" trigger="click" :open-delay="500">
+        <tiny-popover :visible-arrow="false" width="203" trigger="click" :open-delay="OPEN_DELAY.default">
           <template #reference>
             <svg-icon :name="iconExpand"></svg-icon>
           </template>
@@ -62,6 +62,8 @@ import { useCanvas } from '@opentiny/tiny-engine-meta-register'
 import { ToolbarBase } from '@opentiny/tiny-engine-common'
 import { openCommon, saveCommon } from './js/index'
 import { isLoading } from './js/index'
+import { constants } from '@opentiny/tiny-engine-utils'
+const { OPEN_DELAY } = constants
 
 export const api = {
   saveCommon,
@@ -156,7 +158,8 @@ export default {
       openApi,
       saveApi,
       delayOptions,
-      autoSave
+      autoSave,
+      OPEN_DELAY
     }
   }
 }

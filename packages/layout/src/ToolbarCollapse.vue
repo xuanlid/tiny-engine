@@ -1,5 +1,5 @@
 <template>
-  <tiny-popover :visible-arrow="false" width="140" trigger="click" :open-delay="500">
+  <tiny-popover :visible-arrow="false" width="140" trigger="click" :open-delay="OPEN_DELAY.default">
     <template #reference>
       <span class="toolbar-ellipsis">
         <svg-icon name="ellipsis"></svg-icon>
@@ -25,6 +25,8 @@
 import { Popover } from '@opentiny/vue'
 import { IconPopup } from '@opentiny/vue-icon'
 import { getMergeMeta } from '@opentiny/tiny-engine-meta-register'
+import { constants } from '@opentiny/tiny-engine-utils'
+const { OPEN_DELAY } = constants
 
 export default {
   components: {
@@ -39,7 +41,8 @@ export default {
   },
   setup() {
     return {
-      getMergeMeta
+      getMergeMeta,
+      OPEN_DELAY
     }
   }
 }
