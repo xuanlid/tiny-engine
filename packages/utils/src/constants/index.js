@@ -76,7 +76,7 @@ export const BLOCK_OPENNESS = {
 }
 
 export const OPEN_DELAY = {
-  default: 500
+  Default: 500
 }
 
 /**

@@ -1,5 +1,5 @@
 <template>
-  <tiny-popover :visible-arrow="false" width="140" trigger="click" :open-delay="OPEN_DELAY.default">
+  <tiny-popover :visible-arrow="false" width="140" trigger="click" :open-delay="OPEN_DELAY.Default">
     <template #reference>
       <span class="toolbar-ellipsis">
         <svg-icon name="ellipsis"></svg-icon>
