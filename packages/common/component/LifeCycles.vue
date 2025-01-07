@@ -5,7 +5,7 @@
       placement="bottom-end"
       trigger="hover"
       popperClass="option-popper"
-      :open-delay="500"
+      :open-delay="OPEN_DELAY.Default"
     >
       <template #reference>
         <tiny-button class="life-cycle-btn"
@@ -95,6 +95,8 @@ import VueMonaco from './VueMonaco.vue'
 import { initCompletion } from '../js/completion'
 import { initLinter, lint } from '../js/linter'
 import { SvgButton } from '../index'
+import { constants } from '@opentiny/tiny-engine-utils'
+const { OPEN_DELAY } = constants
 
 export default {
   components: {
@@ -250,7 +252,8 @@ export default {
       deleteLifeCycle,
       editorConfirm,
       editorDidMount,
-      handleEditorChange
+      handleEditorChange,
+      OPEN_DELAY
     }
   }
 }
