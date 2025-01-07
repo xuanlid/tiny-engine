@@ -312,10 +312,16 @@
     }
     .tiny-button--danger {
       margin-right: 8px;
+      border-color: var(--te-common-color-error);
+      color: var(--te-common-color-error);
+      background-color: transparent;
+      &:hover {
+        border-color: var(--te-common-border-error-hover);
+      }
     }
     .tiny-button--primary,
     .tiny-button--info {
-      margin-left: 8px;
+      margin-left: 4px;
     }
     .tiny-button--default.tiny-button--default {
       border-color: var(--te-common-border-secondary);
@@ -546,7 +552,7 @@
     border: 0;
     width: 14px;
     margin-right: 4px;
-    height: calc(100% - 5px);
+    height: auto;
   }
 }
 
@@ -1006,5 +1012,13 @@
     .shepherd-arrow:before {
       background-color: var(--te-common-bg-popover);
     }
+  }
+}
+
+.tiny-alert {
+  &.tiny-alert--info {
+    background: var(--te-common-bg-info);
+    border-color: transparent;
+    color: var(--te-common-text-primary);
   }
 }
