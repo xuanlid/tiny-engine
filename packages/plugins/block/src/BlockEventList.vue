@@ -84,4 +84,10 @@ export default {
     stroke: var(--te-common-text-weaken);
   }
 }
+.opt-button {
+  width: auto;
+  &:last-child {
+    margin-right: var(--te-base-space-3x);
+  }
+}
 </style>

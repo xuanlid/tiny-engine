@@ -104,4 +104,11 @@ export default {
     stroke: var(--te-common-text-weaken);
   }
 }
+.opt-button {
+  color: var(--te-common-icon-secondary);
+  width: auto;
+  &:last-child {
+    margin-right: var(--te-base-space-3x);
+  }
+}
 </style>
