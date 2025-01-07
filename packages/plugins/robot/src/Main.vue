@@ -40,11 +40,18 @@
               <div class="robot-dialog-content-top-title">我是你的开发小助手</div>
               <span class="robot-dialog-content-top-icon"><svg-icon name="AI" class="icon-ai"></svg-icon>智能对话</span>
               <article class="chat-tips">
-                <span>需要一个注册表单？</span>
+                <span @click="sendContent('需要一个注册表单？', true)">需要一个注册表单？</span>
                 <span @click="sendContent('如何将表单嵌进我的网站？', true)">如何将表单嵌进我的网站？</span>
               </article>
             </div>
-            <article class="chat-window lowcode-scrollbar-hide" id="chatgpt-window">
+            <article
+              :class="[
+                'chat-window',
+                'lowcode-scrollbar-hide',
+                chatWindowOpened ? 'max-chat-window' : 'min-chat-window'
+              ]"
+              id="chatgpt-window"
+            >
               <tiny-layout>
                 <tiny-row
                   v-for="(item, index) in activeMessages"
@@ -67,7 +74,6 @@
                     <div
                       :class="[
                         'chat-content',
-                        chatWindowOpened ? '' : 'hidden-text',
                         item.role === 'user'
                           ? 'chat-content-user'
                           : connectedFailed
@@ -256,7 +262,7 @@ export default {
     }
 
     const resetContent = async () => {
-      activeMessages.value = chatWindowOpened.value ? messages.value : [messages.value[messages.value.length - 1]]
+      activeMessages.value = messages.value
       await scrollContent()
     }
 
@@ -401,7 +407,7 @@ export default {
 
 .robot-dialog {
   position: fixed;
-  width: 600px;
+  width: 450px;
   z-index: 5;
   right: 40px;
   bottom: 40px;
@@ -411,7 +417,7 @@ export default {
     var(--ti-lowcode-chat-bg-bottom-color)
   );
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 16px 30px 16px;
+  padding: 16px;
   border-radius: 12px;
 }
 .common-svg {
@@ -499,7 +505,6 @@ export default {
   }
 }
 .chat-window {
-  max-height: 400px;
   overflow: scroll;
   .chat-avatar-wrap {
     width: 40px;
@@ -531,6 +536,12 @@ export default {
   }
   .chat-message-row {
     margin-bottom: 20px;
+  }
+  &.max-chat-window {
+    height: 520px;
+  }
+  &.min-chat-window {
+    height: 80px;
   }
 }
 
