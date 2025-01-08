@@ -112,6 +112,10 @@
     color: var(--te-common-text-disabled);
     font-size: var(--te-base-font-size-base);
   }
+  input::-webkit-input-placeholder {
+    color: var(--te-common-text-weaken);
+    font-size: var(--te-base-font-size-base);
+  }
 }
 
 // 3、折叠框
@@ -355,7 +359,7 @@
     background-color: var(--te-common-bg-primary);
     color: var(--te-common-text-inverse);
     border: 1px solid var(--te-common-border-active);
-    &:hover {
+    &:not(.is-disabled):hover {
       border: 1px solid var(--te-common-border-hover);
       background-color: var(--te-common-bg-secondary);
     }
@@ -365,7 +369,7 @@
     border-color: var(--te-common-border-active);
     background-color: var(--te-common-bg-primary);
 
-    &:hover {
+    &:not(.is-disabled):hover {
       border-color: var(--te-common-border-secondary);
     }
   }
@@ -379,6 +383,7 @@
   &.is-disabled {
     background-color: var(--te-common-bg-disabled);
     color: var(--te-common-text-disabled);
+    border-color: var(--te-common-border-disabled);
     .btn-icon {
       color: var(--te-common-icon-disabled);
     }

@@ -303,17 +303,17 @@ export default {
   .icon-close {
     position: absolute;
     top: 6px;
-    right: 6px;
+    right: 10px;
   }
 }
 .add-options {
-  overflow-y: scroll;
-  padding: 20px 0 20px 2px;
+  overflow-y: auto;
+  max-height: calc(100vh - 94px);
   &.top {
     margin-bottom: 0;
   }
   &::-webkit-scrollbar-track-piece {
-    background: var(--ti-lowcode-toolbar-bg);
+    background: var(--te-common-bg-container-weaken);
   }
   &::-webkit-scrollbar {
     width: 5px;
