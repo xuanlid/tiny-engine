@@ -208,7 +208,7 @@ const selectFixed = (value) => {
 onMounted(() => {
   const { styleObj } = props.style
   const backgroundImageStr = styleObj[BACKGROUND_PROPERTY.BackgroundImage]
-  state.imgUrl = backgroundImageStr.substring(4, backgroundImageStr.length - 1)
+  state.imgUrl = backgroundImageStr ? backgroundImageStr.substring(4, backgroundImageStr.length - 1) : ''
   state.fixedSelected = styleObj[BACKGROUND_PROPERTY.BackgroundAttachment]
   state.repeat = styleObj[BACKGROUND_PROPERTY.BackgroundRepeat]
   const sizeKeyword = ['cover', 'contain']

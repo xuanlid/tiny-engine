@@ -278,7 +278,7 @@ export default {
       state.errorMessage = ''
 
       if (!name) {
-        state.errorMessage = 'state 属性名称未定义'
+        state.errorMessage = '输入内容不能为空'
       } else if (!verifyJsVarName(name)) {
         state.errorMessage = ' state 属性名称只能以字母或下划线开头且仅包含数字字母及下划线'
       } else if (

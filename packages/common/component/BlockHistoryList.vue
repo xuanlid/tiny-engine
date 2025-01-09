@@ -50,8 +50,8 @@ defineEmits(['preview', 'restore'])
   font-size: 12px;
   padding: 2px 8px;
   margin-left: 5px;
-  background-color: var(--te-base-green-20);
-  color: var(--te-base-green-70);
+  background-color: var(--te-common-bg-tag);
+  color: var(--te-common-color-success);
   border-radius: var(--te-base-border-radius-1);
 }
 .operation-text {
