@@ -19,7 +19,7 @@
         <svg-button
           class="setting-icon"
           :hoverBgColor="false"
-          name="text-source-setting"
+          name="setting"
           @click.stop="openEdit(item, index)"
         ></svg-button>
       </div>

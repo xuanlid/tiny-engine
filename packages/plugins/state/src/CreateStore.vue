@@ -138,7 +138,7 @@ export default {
       let errorMessage = ''
       let isSameState = Object.keys(props.dataSource).includes(name)
       if (!name) {
-        errorMessage = 'store 属性名称未定义'
+        errorMessage = '输入内容不能为空'
       }
 
       if (!verifyJsVarName(name)) {

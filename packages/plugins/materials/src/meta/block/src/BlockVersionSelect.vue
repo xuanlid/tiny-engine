@@ -3,7 +3,7 @@
     <template #header>
       <button-group>
         <tiny-button type="primary" @click="handleConfirm">确定</tiny-button>
-        <close-icon @click="closePanel"></close-icon>
+        <svg-button name="close" @click="closePanel"></svg-button>
       </button-group>
     </template>
     <template #content>
@@ -28,7 +28,7 @@
 import { reactive, watch, ref } from 'vue'
 import { Grid, GridColumn, Button } from '@opentiny/vue'
 import { format } from '@opentiny/vue-renderless/common/date'
-import { PluginSetting, CloseIcon, SearchEmpty, ButtonGroup } from '@opentiny/tiny-engine-common'
+import { PluginSetting, SearchEmpty, ButtonGroup, SvgButton } from '@opentiny/tiny-engine-common'
 import { useBlock, useModal, useMaterial, useCanvas } from '@opentiny/tiny-engine-meta-register'
 import { fetchBlockById, requestGroupBlockVersion } from './http'
 import { useVersionSelectPanel } from './js/usePanel'
@@ -39,9 +39,9 @@ export default {
     TinyGridColumn: GridColumn,
     TinyButton: Button,
     PluginSetting,
-    CloseIcon,
     SearchEmpty,
-    ButtonGroup
+    ButtonGroup,
+    SvgButton
   },
   setup() {
     const { confirm } = useModal()

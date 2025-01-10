@@ -51,8 +51,8 @@
                   @update:modelValue="handleChangeDeletePopoverVisible"
                 >
                   <div class="popper-confirm" @mousedown.stop="">
-                    <div class="popper-confirm-header">
-                      <svg-icon class="icon" name="warning"></svg-icon>
+                    <div class="popper-confirm-header">删除</div>
+                    <div class="popper-confirm-content">
                       <span class="title">{{ groupLabels.deletePrompt }}</span>
                     </div>
                     <div class="popper-confirm-footer">

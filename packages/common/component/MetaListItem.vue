@@ -61,9 +61,6 @@
     @update:visible="isShow = $event"
   >
     <span class="switch-tip">
-      <span>
-        <svg-icon name="warning"></svg-icon>
-      </span>
       <span>确定删除吗？</span>
     </span>
     <template #footer>

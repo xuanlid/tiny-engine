@@ -635,20 +635,20 @@ export default {
 .chat-loading .tiny-loading__spinner .tiny-loading__text {
   color: var(--ti-lowcode-chat-loading-text-color);
 }
-.chat-model-popover {
+.chat-model-popover.chat-model-popover {
   width: 220px;
-  background-color: var(--ti-lowcode-chat-model-popover-bg);
+  background-color: var(--te-common-bg-default);
   .tiny-dropdown-item {
-    color: var(--ti-lowcode-chat-model-popover-color);
+    color: var(--te-common-text-primary);
     max-width: 220px;
     &:hover {
-      color: var(--ti-lowcode-chat-model-popover-active-color);
-      background-color: var(--ti-lowcode-chat-model-popover-active-bg);
+      color: var(--te-common-text-primary);
+      background-color: var(--te-common-bg-container);
     }
   }
   .selected-model {
-    color: var(--ti-lowcode-chat-model-popover-active-color);
-    background-color: var(--ti-lowcode-chat-model-popover-active-bg);
+    color: var(--te-common-text-primary);
+    background-color: var(--te-common-bg-container);
   }
 }
 </style>
