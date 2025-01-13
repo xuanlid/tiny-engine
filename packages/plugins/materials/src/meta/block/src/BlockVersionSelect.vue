@@ -103,7 +103,15 @@ export default {
     }
 
     const handleConfirm = () => {
-      handleChangeVersion(versionGrid.value?.getRadioRow())
+      const selectVersion = versionGrid.value?.getRadioRow()
+      if (!selectVersion) {
+        message({
+          title: '版本选择',
+          message: '请选择要切换的版本'
+        })
+        return
+      }
+      handleChangeVersion(selectVersion)
     }
 
     watch([() => panel.show, () => selectedBlock.value], ([panelShow]) => {
