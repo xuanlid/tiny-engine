@@ -373,15 +373,17 @@ export default {
     const createDataForm = ref(null)
 
     const validateForm = () => {
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         createDataForm.value.validate((valid) => {
           if (valid) {
             resolve()
-          } else {
-            reject(new Error('校验失败'))
           }
         })
       })
+    }
+
+    const clearValidateForm = () => {
+      createDataForm.value?.clearValidate()
     }
 
     const options = {
@@ -420,7 +422,8 @@ export default {
       fullscreenChange,
       cancel,
       validateForm,
-      createDataForm
+      createDataForm,
+      clearValidateForm
     }
   }
 }

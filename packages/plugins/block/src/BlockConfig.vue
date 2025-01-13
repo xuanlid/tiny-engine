@@ -181,12 +181,10 @@ export default {
     }
 
     const validateForm = () => {
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         blockForm.value.validate((valid) => {
           if (valid) {
             resolve()
-          } else {
-            reject(new Error('校验失败'))
           }
         })
       })

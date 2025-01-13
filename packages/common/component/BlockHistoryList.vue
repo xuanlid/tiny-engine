@@ -1,5 +1,5 @@
 <template>
-  <tiny-grid :data="history" height="300" v-if="history.length">
+  <tiny-grid v-if="history.length" :data="history" height="300">
     <tiny-grid-column v-if="isBlockManage" field="version" title="版本号">
       <template v-slot="data">
         {{ data.row.version }}
@@ -14,8 +14,8 @@
     <tiny-grid-column field="message" title="描述"></tiny-grid-column>
     <tiny-grid-column width="90" field="operation" title="操作">
       <template v-slot="data">
-        <span @click="$emit('preview', data.row)" class="operation-text">预览</span>
-        <span v-if="!isBlockManage" @click="$emit('restore', data.row)" class="operation-text">还原</span>
+        <span class="operation-text" @click="$emit('preview', data.row)">预览</span>
+        <span v-if="!isBlockManage" class="operation-text" @click="$emit('restore', data.row)">还原</span>
       </template>
     </tiny-grid-column>
   </tiny-grid>
@@ -38,7 +38,7 @@ defineProps({
   },
   lastVersion: {
     type: Object,
-    default: () => {}
+    default: () => ({})
   }
 })
 

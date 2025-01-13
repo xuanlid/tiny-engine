@@ -54,6 +54,7 @@
         :createData="state.createData"
         @nameInput="updateName"
         @close="cancel"
+        @mouseleave="onMouseLeaveVariable"
       />
       <create-store
         v-if="activeName === STATE.GLOBAL_STATE"
@@ -64,6 +65,7 @@
         :storeData="state.createData"
         @nameInput="validName"
         @close="cancel"
+        @mouseleave="onMouseLeaveStore"
       />
     </div>
   </div>
@@ -208,6 +210,7 @@ export default {
           updateSchema({ state: { ...(schema.state || {}), [name]: variable } })
 
           useHistory().addHistory()
+          openCommon()
         })
       } else {
         storeRef.value.validateForm().then(() => {
@@ -241,9 +244,9 @@ export default {
             isPanelShow.value = false
             useResource().appSchemaState.globalState = res.global_state || []
           })
+          openCommon()
         })
       }
-      openCommon()
     }
 
     const search = (value) => {
@@ -340,6 +343,12 @@ export default {
       query.value = ''
       initDataSource()
     }
+    const onMouseLeaveVariable = () => {
+      variableRef.value?.clearValidateForm()
+    }
+    const onMouseLeaveStore = () => {
+      storeRef.value?.clearValidateForm()
+    }
 
     onActivated(() => {
       initDataSource()
@@ -371,7 +380,9 @@ export default {
       storeRef,
       OPTION_TYPE,
       open,
-      docsUrl
+      docsUrl,
+      onMouseLeaveVariable,
+      onMouseLeaveStore
     }
   }
 }

@@ -154,7 +154,7 @@ export default {
     }
     const rules = {
       name: { validator: validateName, required: true },
-      state: { required: true }
+      STATE: { required: true }
     }
     const editorCode = computed(() => {
       const { state: storeState } = state.storeData.variable || {}
@@ -227,15 +227,17 @@ export default {
     const storeDataForm = ref(null)
 
     const validateForm = () => {
-      return new Promise((resolve, reject) => {
+      return new Promise((resolve) => {
         storeDataForm.value.validate((valid) => {
           if (valid) {
             resolve()
-          } else {
-            reject(new Error('校验失败'))
           }
         })
       })
+    }
+
+    const clearValidateForm = () => {
+      storeDataForm.value?.clearValidate()
     }
 
     return {
@@ -258,7 +260,8 @@ export default {
       actions,
       cancel,
       validateForm,
-      storeDataForm
+      storeDataForm,
+      clearValidateForm
     }
   }
 }

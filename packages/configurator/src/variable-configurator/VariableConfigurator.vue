@@ -86,7 +86,7 @@
               </div>
             </div>
             <div class="bottom lowcode-scrollbar-thin">
-              <span class="bottom__title">用法</span>
+              <span class="bottom-title">用法</span>
               <div class="bottom-demo">
                 <p>
                   你可以通过点击左侧区域绑定变量或处理函数，或者点击右边的铅笔按钮切换到输入模式，输入复杂的表达式。
@@ -702,7 +702,7 @@ export default {
           pre {
             font-family: consolas;
           }
-          .bottom__title {
+          .bottom-title {
             font-weight: var(--te-base-font-weight-6);
             color: var(--te-common-text-primary);
           }

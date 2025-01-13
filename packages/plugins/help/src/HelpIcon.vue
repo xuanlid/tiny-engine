@@ -7,7 +7,6 @@
       trigger="click"
       :visible-arrow="false"
       id="help-icon-popover"
-      :key="offset"
     >
       <template #reference>
         <div title="帮助" class="help-plugin-reference">

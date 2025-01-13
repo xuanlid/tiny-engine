@@ -305,15 +305,9 @@ export default {
 }
 .add-options {
   overflow-y: auto;
-  max-height: calc(100vh - 94px);
+  max-height: calc(100vh - 94px); // 94为头部高度和底部高度
   &.top {
     margin-bottom: 0;
-  }
-  &::-webkit-scrollbar-track-piece {
-    background: var(--te-common-bg-container-weaken);
-  }
-  &::-webkit-scrollbar {
-    width: 5px;
   }
 }
 </style>
