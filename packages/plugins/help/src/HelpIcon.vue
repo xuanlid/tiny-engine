@@ -71,7 +71,6 @@ export default {
     const pluginState = getPluginState()
 
     const tinyGuideRef = ref()
-    const toolTipContent = '点击这里，再次查看新手指引'
     const helpTitle = '帮助与指引'
     const questionTitle = '常见问题'
     const courseUrl = 'https://opentiny.design/tiny-engine#/help-center/course/engine'
@@ -215,7 +214,6 @@ export default {
 
     return {
       tinyGuideRef,
-      toolTipContent,
       helpTitle,
       questionTitle,
       questionList,
