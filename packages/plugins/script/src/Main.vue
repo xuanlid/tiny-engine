@@ -132,16 +132,6 @@ export default {
         color: var(--ti-lowcode-plugin-panel-title-color);
         font-weight: var(--ti-lowcode-plugin-panel-title-font-weight);
       }
-
-      .help-link {
-        display: inline-block;
-        margin-left: 20px;
-        cursor: pointer;
-        color: var(--ti-lowcode-plugin-js-help-link-color);
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
 
     .head-right {
@@ -157,7 +147,7 @@ export default {
         .dots {
           width: 6px;
           height: 6px;
-          background: var(--ti-lowcode-common-error-color);
+          background: var(--te-common-color-error);
           border-radius: 50%;
           position: absolute;
           top: 9px;
@@ -172,7 +162,7 @@ export default {
     height: calc(100% - 54px);
 
     & > div {
-      border: 1px solid var(--ti-lowcode-base-gray-101);
+      border: 1px solid var(--te-common-border-divider);
       border-radius: 4px;
       height: 100%;
     }

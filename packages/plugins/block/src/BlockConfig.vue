@@ -316,10 +316,17 @@ export default {
   .tag-button {
     color: var(--ti-lowcode-block-config-tag-color);
     background-color: var(--ti-lowcode-block-config-tag-bg);
+    border: none;
     height: 28px;
+    :deep(.tiny-tag__close) {
+      fill: var(--ti-lowcode-block-config-tag-close-color);
+    }
     &:hover {
       color: var(--ti-lowcode-block-config-tag-hover-color);
       background-color: var(--ti-lowcode-block-config-tag-hover-bg);
+      :deep(.tiny-tag__close) {
+        fill: var(--ti-lowcode-block-config-tag-close-hover-color);
+      }
     }
   }
 
@@ -328,7 +335,7 @@ export default {
     line-height: 20px;
     padding-top: 0;
     padding-bottom: 0;
-    border: 1px solid var(--ti-lowcode-base-default-button-border-disable-color);
+    border: 1px solid var(--te-common-border-default);
   }
 
   .tiny-input {

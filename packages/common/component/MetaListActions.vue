@@ -1,6 +1,6 @@
 <template lang="">
   <span v-for="(actionsItem, index) in actions" :key="index" class="actionsItem" @click="actionsEvents(actionsItem)">
-    <tiny-tooltip class="item" effect="dark" :content="actionsItem.title" placement="top">
+    <tiny-tooltip class="item" effect="light" :content="actionsItem.title" placement="top">
       <component :is="actionsItem.icon"></component>
     </tiny-tooltip>
   </span>
@@ -35,7 +35,7 @@ export default {
 .actionsItem {
   display: inline-block;
   padding: 5px 5px;
-  background-color: var(--ti-lowcode-canvas-wrap-bg);
+  background-color: var(--te-common-bg-container);
   &:not(:last-child) {
     border-right: 1px solid var(--ti-lowcode-optionitem-border-color);
   }

@@ -453,18 +453,6 @@ export default {
   .search-select {
     flex: 1;
   }
-  .add-group-btn {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 8px;
-    border-color: transparent;
-    background-color: var(--ti-lowcode-component-block-list-add-group-btn-bg);
-    width: 30px;
-    height: 30px;
-    border: var(--ti-lowcode-component-block-list-add-group-btn-border);
-    border-radius: var(--ti-lowcode-component-block-list-add-group-btn-border-radius);
-  }
 }
 .app-manage-search {
   padding: 0 10px 12px 10px;
@@ -503,9 +491,9 @@ export default {
   left: -6px;
   right: 0;
   padding: 8px 16px;
-  background-color: var(--ti-lowcode-component-search-bg);
   border-top: 1px solid var(--te-common-border-divider);
-  color: var(--ti-lowcode-component-block-list-item-color);
+  background-color: var(--te-common-bg-default);
+  color: var(--te-common-text-primary);
   display: flex;
   justify-content: space-between;
   :deep(.tiny-dropdown) {
@@ -523,7 +511,7 @@ export default {
   }
   .footer-layout {
     font-size: 12px;
-    color: var(--ti-lowcode-component-block-list-item-color);
+    color: var(--te-common-text-primary);
     .tiny-svg {
       cursor: pointer;
       margin-left: 8px;
@@ -566,7 +554,7 @@ export default {
     .popper__arrow {
       &,
       &::after {
-        border-right-color: var(--ti-lowcode-common-component-hover-bg);
+        border-right-color: var(--te-common-bg-container);
       }
     }
   }

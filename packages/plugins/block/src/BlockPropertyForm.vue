@@ -41,12 +41,12 @@
           </template>
           <template #operate="{ data }">
             <div class="operate-right-container">
-              <tiny-tooltip class="item" effect="dark" content="编辑" placement="top">
+              <tiny-tooltip class="item" effect="light" content="编辑" placement="top">
                 <span class="item-icon" @click.stop="handleEdit(data)">
                   <svg-icon name="to-edit"></svg-icon>
                 </span>
               </tiny-tooltip>
-              <tiny-tooltip class="item" effect="dark" content="删除" placement="top">
+              <tiny-tooltip class="item" effect="light" content="删除" placement="top">
                 <span class="item-icon" @click="del(data)">
                   <svg-icon name="delete"></svg-icon>
                 </span>
@@ -270,7 +270,7 @@ export default {
   display: inline-block;
   margin-top: 6px;
   font-size: 12px;
-  color: var(--ti-lowcode-common-primary-color);
+  color: var(--te-common-text-checked);
   cursor: pointer;
 
   .text {
@@ -296,8 +296,8 @@ export default {
   width: 280px;
   height: 100%;
   padding: 20px;
-  background-color: var(--ti-lowcode-common-component-bg);
-  border-right: 1px solid var(--ti-lowcode-toolbar-border-color);
+  background-color: var(--te-common-bg-default);
+  border-right: 1px solid var(--te-common-border-default);
 }
 
 .config-list {
