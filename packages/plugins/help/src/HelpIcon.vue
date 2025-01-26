@@ -301,7 +301,7 @@ div.tiny-guide.shepherd-element {
       .shepherd-title {
         font-size: 16px;
         line-height: 24px;
-        color: var(--ti-lowcode-help-guide-title-text-color);
+        color: var(--te-help-guide-title-text-color);
       }
 
       .shepherd-cancel-icon {
@@ -316,12 +316,12 @@ div.tiny-guide.shepherd-element {
       line-height: 20px;
       padding-top: 0;
       padding-bottom: 20px;
-      color: var(--ti-lowcode-help-guide-content-text-color);
+      color: var(--te-help-guide-content-text-color);
     }
 
     .shepherd-footer {
       .progress-style {
-        color: var(--ti-lowcode-help-guide-progress-style-text-color);
+        color: var(--te-help-guide-progress-style-text-color);
       }
 
       .shepherd-button {
@@ -339,7 +339,7 @@ div.tiny-guide.shepherd-element {
     text-align: right;
   }
   &-title {
-    color: var(--ti-lowcode-help-box-title-text-color);
+    color: var(--te-help-box-title-text-color);
     font-size: 12px;
     font-weight: 600;
     line-height: 18px;
@@ -358,8 +358,8 @@ div.tiny-guide.shepherd-element {
     font-size: 12px;
     margin: 0 -16px;
     padding: 0 16px;
-    color: var(--te-common-text-primary);
-    fill: var(--te-common-icon-primary);
+    color: var(--te-help-box-item-text-color);
+    fill: var(--te-help-box-item-text-color);
     span {
       display: flex;
       align-items: center;
@@ -369,13 +369,13 @@ div.tiny-guide.shepherd-element {
     }
   }
   &-item:hover {
-    background: var(--ti-lowcode-help-box-item-hover-bg-color);
+    background: var(--te-help-box-item-hover-bg-color);
   }
 
   &-ques {
     &-title {
       padding-top: 8px;
-      border-top: 1px solid var(--ti-lowcode-help-box-question-border-top);
+      border-top: 1px solid var(--te-help-box-question-border-top);
     }
   }
 

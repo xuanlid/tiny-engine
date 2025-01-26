@@ -66,7 +66,7 @@ const handleCheck = (v) => {
   width: 100%;
   flex: 1;
   border-radius: 4px;
-  background-color: var(--ti-lowcode-component-block-list-item-active-bg);
+  background-color: var(--te-common-bg-container);
 
   .top-left {
     display: flex;

@@ -356,17 +356,17 @@ export default {
   max-width: 500px;
   max-height: 136px;
   padding: 12px;
-  background: var(--ti-lowcode-component-block-list-shortcut-bg);
+  background: var(--te-common-bg-default);
   border-radius: 5px;
   border: 1px solid var(--te-common-border-default);
   top: v-bind('state.top');
   .block-shortcut-title {
-    color: var(--ti-lowcode-component-block-list-shortcut-title-color);
+    color: var(--te-common-text-primary);
     font-weight: 600;
     margin-bottom: 8px;
   }
   .block-shortcut-description {
-    color: var(--ti-lowcode-component-block-list-item-color);
+    color: var(--te-common-text-secondary);
     margin-bottom: 20px;
     font-size: 12px;
   }
@@ -511,7 +511,7 @@ export default {
     }
 
     &.is-active {
-      background: var(--ti-lowcode-component-block-list-item-active-bg);
+      background: var(--te-common-bg-container);
     }
 
     &.is-disabled {
@@ -698,7 +698,7 @@ export default {
         line-height: 16px;
       }
       .item-description {
-        color: var(--ti-lowcode-toolbar-title-color);
+        color: var(--te-common-text-primary);
         font-size: 12px;
       }
     }
@@ -717,7 +717,7 @@ export default {
 }
 .setting-menu {
   font-size: 12px;
-  color: var(--ti-lowcode-component-block-setting-item-text-color);
+  color: var(--te-common-text-primary);
   .list {
     display: flex;
   }
@@ -731,19 +731,6 @@ export default {
       font-size: 14px;
       color: var(--te-common-icon-secondary);
     }
-  }
-}
-</style>
-
-<style lang="less">
-.tiny-popover.tiny-popper.popper-options.block-setting-popover {
-  background-color: var(--ti-lowcode-component-block-setting-popover-bg);
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  .popper__arrow,
-  .popper__arrow::after {
-    border-bottom-color: var(--ti-lowcode-component-block-setting-popover-bg);
   }
 }
 </style>
