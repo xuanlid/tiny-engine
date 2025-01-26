@@ -307,7 +307,7 @@ export default {
       const messageSaved = {
         render: () => (
           <span>
-            <span style="color:var(--ti-lowcode-datasource-modal-text-color)">{'您确定要删除该条数据吗?'}</span>
+            <span style="color:var(--te-datasource-modal-text-color)">{'您确定要删除该条数据吗?'}</span>
           </span>
         )
       }
@@ -605,7 +605,7 @@ export default {
     &:hover {
       text-decoration: underline;
     }
-    color: var(--te-common-text-primary);
+    color: var(--te-datasource-common-primary-text-color);
     .icon-download {
       margin: 0 1px 4px 0;
       font-size: 16px;
@@ -617,13 +617,13 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--ti-lowcode-datasource-common-text-color-5);
+  color: var(--te-datasource-common-text-color-5);
   .empty-icon {
     width: 50px;
     height: 50px;
   }
   .add-column {
-    color: var(--ti-lowcode-datasource-json-border-color);
+    color: var(--te-datasource-json-border-color);
     cursor: pointer;
   }
 }
@@ -635,7 +635,7 @@ export default {
     align-items: center;
     .svg-icon {
       margin-right: 10px;
-      color: var(--te-common-icon-secondary);
+      color: var(--te-datasource-list-item-icon-color);
     }
   }
 }
@@ -648,25 +648,25 @@ export default {
     padding-right: 8px;
     .tiny-pager__pages {
       li.is-active {
-        background-color: var(--ti-lowcode-datasource-dialog-demo-border-color);
+        background-color: var(--te-datasource-dialog-demo-border-color);
       }
       li {
         &:not(.dot):not(.is-active):hover {
-          background-color: var(--ti-lowcode-datasource-common-hover-bg-1);
-          color: var(--ti-lowcode-datasource-common-primary-text-color);
+          background-color: var(--te-datasource-common-hover-bg-1);
+          color: var(--te-datasource-common-primary-text-color);
         }
       }
     }
     .tiny-pager__pull-left {
-      color: var(--ti-lowcode-datasource-toolbar-breadcrumb-color);
+      color: var(--te-datasource-toolbar-breadcrumb-color);
     }
     .tiny-pager__btn-next,
     .tiny-pager__btn-prev {
       &:not([disabled]):hover {
-        background-color: var(--ti-lowcode-datasource-icon-hover-bg);
+        background-color: var(--te-datasource-icon-hover-bg);
 
         svg {
-          color: var(--ti-lowcode-datasource-toolbar-icon-color);
+          color: var(--te-datasource-toolbar-icon-color);
         }
       }
     }

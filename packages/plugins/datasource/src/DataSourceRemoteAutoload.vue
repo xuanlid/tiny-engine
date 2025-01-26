@@ -43,11 +43,11 @@ export default {
   margin-top: 12px;
 
   .use-service {
-    color: var(--ti-lowcode-datasource-color);
+    color: var(--te-datasource-color);
     font-size: 12px;
 
     span {
-      color: var(--ti-lowcode-datasource-description-warning-color);
+      color: var(--te-datasource-description-warning-color);
     }
   }
 }

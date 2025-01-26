@@ -434,7 +434,7 @@ export default {
 
 <style lang="less" scoped>
 .plugin-panel-i18n {
-  box-shadow: 6px 0px 3px 0px var(--te-base-box-shadow-rgba-3);
+  box-shadow: 6px 0px 3px 0px var(--te-i18n-panel-shadow-color);
 }
 .stripe-tiny-grid {
   word-wrap: break-word;
@@ -453,11 +453,11 @@ export default {
   .i18n-loading {
     :deep(.tiny-loading__spinner) {
       svg {
-        color: var(--ti-lowcode-i18n-loading-svg-color);
+        color: var(--te-i18n-loading-svg-color);
       }
     }
     :deep(.tiny-loading__text) {
-      color: var(--ti-lowcode-i18n-loading-text-color);
+      color: var(--te-i18n-loading-text-color);
     }
   }
 }
@@ -483,7 +483,7 @@ export default {
 }
 
 .btn-box {
-  color: var(--ti-lowcode-i18n-button-color);
+  color: var(--te-i18n-button-color);
   font-size: 12px;
   margin-bottom: 12px;
   padding: 0 12px;
@@ -492,7 +492,7 @@ export default {
   column-gap: 8px;
   .btn-icon {
     font-size: 16px;
-    color: var(--te-common-icon-secondary);
+    color: var(--te-i18n-button-icon-color);
     margin-right: 4px;
   }
   .middle-btn {
@@ -508,7 +508,7 @@ export default {
       margin-top: 13px;
     }
     :deep(.path) {
-      stroke: var(--te-common-text-secondary);
+      stroke: var(--te-i18n-common-tip-text-color);
     }
   }
   .download-btn {
@@ -518,12 +518,12 @@ export default {
     font-size: 12px;
     text-align: left;
     padding: 0;
-    color: var(--te-common-text-primary);
+    color: var(--te-i18n-button-color);
     svg {
       font-size: 16px;
     }
     .tiny-button.tiny-button--text {
-      color: var(--te-common-text-primary);
+      color: var(--te-i18n-button-color);
     }
     &:hover {
       text-decoration: underline;
@@ -535,13 +535,13 @@ export default {
   height: calc(100% - 48px);
   flex: 1;
   padding: 12px;
-  border-top: 1px solid var(--ti-lowcode-i18n-border-color);
+  border-top: 1px solid var(--te-i18n-border-color);
   overflow-y: scroll;
   &::-webkit-scrollbar-thumb {
-    background-color: var(--te-common-border-default);
+    background-color: var(--te-i18n-grid-scroll-bg-color);
   }
   &::-webkit-scrollbar-thumb:hover {
-    background-color: var(--te-common-border-hover);
+    background-color: var(--te-i18n-grid-scroll-bg-hover-color);
   }
 
   .operation-column {
@@ -555,38 +555,12 @@ export default {
   }
 }
 
-.delete-popover-container {
-  padding: 20px;
-  svg {
-    font-size: 20px;
-    color: var(--te-common-color-warning);
-  }
-  .delete-tip {
-    margin-left: 5px;
-  }
-  .i18n-item {
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
-
-    label {
-      width: 80px;
-    }
-
-    display: flex;
-  }
-
-  .i18n-btns {
-    margin-top: 24px;
-    text-align: center;
-  }
-}
 .stripe-tiny-grid {
   .i18n-opera {
     display: flex;
     justify-content: space-between;
     :deep(.icon) {
-      color: var(--te-common-icon-secondary);
+      color: var(--te-i18n-grid-opt-icon-color);
       svg {
         font-size: 16px;
       }
