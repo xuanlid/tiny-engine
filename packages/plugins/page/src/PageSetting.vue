@@ -293,6 +293,7 @@ export default {
 
     const createHistoryMessage = () => {
       if (pageSettingState.isNew) {
+        pageSettingState.currentPageData.message = 'Page auto save'
         createPage()
       } else {
         const title = '创建历史备份信息'
