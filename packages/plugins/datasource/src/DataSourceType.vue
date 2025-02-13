@@ -65,7 +65,7 @@ export default {
 
 <style lang="less" scoped>
 .right-item {
-  color: var(--ti-lowcode-datasource-toolbar-icon-color);
+  color: var(--te-datasource-toolbar-icon-color);
   display: flex;
   flex-direction: column;
   .title {
@@ -76,12 +76,12 @@ export default {
     line-height: 22px;
     font-weight: normal;
     margin-bottom: 10px;
-    color: var(--ti-lowcode-datasource-label-color);
+    color: var(--te-datasource-label-text-color);
   }
 
   .item-type {
     font-size: 12px;
-    color: var(--ti-lowcode-datasource-input-icon-color);
+    color: var(--te-datasource-input-icon-color);
     display: inline-flex;
     align-items: center;
     cursor: pointer;
@@ -95,14 +95,14 @@ export default {
     }
 
     &.is-checked {
-      color: var(--ti-lowcode-datasource-toolbar-breadcrumb-color);
+      color: var(--te-datasource-toolbar-breadcrumb-text-color);
       .svg-icon {
-        color: var(--ti-lowcode-datasource-common-border-primary-color);
+        color: var(--te-datasource-common-border-color-primary);
       }
     }
     .svg-icon {
       font-size: 24px;
-      color: var(--ti-lowcode-datasource-input-icon-color);
+      color: var(--te-datasource-input-icon-color);
       margin-right: 8px;
     }
   }
