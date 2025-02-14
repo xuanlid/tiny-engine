@@ -3,9 +3,13 @@
     <tiny-form label-position="top">
       <tiny-form-item prop="name" label="数据源类型">
         <tiny-radio-group v-model="dataSourceType">
-          <div v-for="{ name, value } in RADIO_GROUP" :key="value">
-            <tiny-radio :text="name" :label="value" :disabled="editable" />
-          </div>
+          <tiny-radio
+            v-for="item in RADIO_GROUP"
+            :key="item.value"
+            :text="item.name"
+            :label="item.value"
+            :disabled="editable"
+          />
         </tiny-radio-group>
       </tiny-form-item>
     </tiny-form>
@@ -47,6 +51,13 @@ export default {
     ]
 
     const dataSourceType = ref(props.modelValue)
+
+    watch(
+      () => props.modelValue,
+      (newVal) => {
+        dataSourceType.value = newVal
+      }
+    )
 
     watch(
       () => dataSourceType.value,
