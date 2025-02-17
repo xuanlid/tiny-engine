@@ -50,8 +50,6 @@ const getDevAlias = (useSourceAlias) => {
     '@opentiny/tiny-engine-toolbar-save': path.resolve(basePath, 'packages/toolbars/save/index.js'),
     '@opentiny/tiny-engine-toolbar-setting': path.resolve(basePath, 'packages/toolbars/setting/index.js'),
     '@opentiny/tiny-engine-toolbar-collaboration': path.resolve(basePath, 'packages/toolbars/collaboration/index.js'),
-    '@opentiny/tiny-engine-theme-dark': path.resolve(basePath, 'packages/theme/dark/index.less'),
-    '@opentiny/tiny-engine-theme-light': path.resolve(basePath, 'packages/theme/light/index.less'),
     '@opentiny/tiny-engine-theme-base': path.resolve(basePath, 'packages/theme/base/src/index.js'),
     '@opentiny/tiny-engine-svgs': path.resolve(basePath, 'packages/svgs/index.js'),
     '@opentiny/tiny-engine-canvas/render': path.resolve(basePath, 'packages/canvas/render/index.ts'),
