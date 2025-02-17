@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "@opentiny/tiny-engine": "2.2.0",
-    "@opentiny/tiny-engine-theme-dark": "2.2.0",
-    "@opentiny/tiny-engine-theme-light": "2.2.0",
     "@opentiny/tiny-engine-utils": "2.2.0",
     "@opentiny/vue": "~3.20.0",
     "@opentiny/vue-design-smb": "~3.20.0",
