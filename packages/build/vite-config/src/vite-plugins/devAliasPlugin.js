@@ -65,19 +65,6 @@ const getDevAlias = (useSourceAlias) => {
   }
 }
 
-const getThemePath = (theme, useSourceAlias) => {
-  if (!['light', 'dark'].includes(theme)) {
-    return ''
-  }
-
-  if (useSourceAlias) {
-    const basePath = useSourceAlias.basePath || path.resolve(process.cwd(), '..')
-    return path.resolve(basePath, `packages/theme/${theme}/index.less`)
-  }
-
-  return path.resolve(process.cwd(), `./node_modules/@opentiny/tiny-engine-theme-${theme}/dist/style.css`)
-}
-
 /**
  * 源码调试插件
  * 开启后，会指定  alias 到官方源码 package
@@ -93,8 +80,7 @@ export const devAliasPlugin = (env, useSourceAlias) => {
         return {
           resolve: {
             alias: {
-              ...getDevAlias(useSourceAlias),
-              '@opentiny/tiny-engine-theme': getThemePath(env.VITE_THEME, useSourceAlias)
+              ...getDevAlias(useSourceAlias)
             }
           }
         }
@@ -105,7 +91,6 @@ export const devAliasPlugin = (env, useSourceAlias) => {
           resolve: {
             alias: {
               // 构建不使用 alias
-              '@opentiny/tiny-engine-theme': getThemePath(env.VITE_THEME, false)
             }
           }
         }
