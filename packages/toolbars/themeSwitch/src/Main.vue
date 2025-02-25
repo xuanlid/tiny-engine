@@ -25,6 +25,7 @@
               <tiny-radio-group
                 v-model="state.theme"
                 :options="THEME_DATA"
+                :vertical="themeShowType ? false : true"
                 class="theme-radio-group"
                 @change="themeChange"
               >
@@ -86,15 +87,14 @@ export default {
     })
 
     const toChangeTheme = () => {
-      if (props.position === COLLAPSE) {
-        return
-      }
-
       const theme = getTheme(state.theme).oppositeTheme
       themeChange(theme)
     }
 
     const changeThemeType = () => {
+      if (props.position === COLLAPSE) {
+        return
+      }
       if (themeShowType.value) {
         toChangeTheme()
       } else {
