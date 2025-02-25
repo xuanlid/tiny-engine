@@ -62,3 +62,13 @@ export function createPlugin(name) {
     chalk.green(`create finish, run the follow command to start project: \ncd ${name} && npm install && npm run dev`)
   )
 }
+
+export function createTheme(name) {
+  const sourcePath = path.join(__dirname, '../template/theme/')
+  const destPath = path.join(cwd(), name)
+  fs.copySync(sourcePath, destPath)
+
+  logger.log(
+    chalk.green(`create finish, run the follow command to start project: \ncd ${name} && npm install && npm run dev`)
+  )
+}

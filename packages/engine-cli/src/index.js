@@ -11,7 +11,7 @@
  */
 import { Command, Option } from 'commander'
 import { input, select } from '@inquirer/prompts'
-import { createPlatform, createPlugin } from './commands/create.js'
+import { createPlatform, createPlugin, createTheme } from './commands/create.js'
 
 const program = new Command()
 
@@ -35,6 +35,13 @@ program
   })
 
 program
+  .command('create-theme <name>')
+  .description('create a new tiny-engine theme 创建一个新的 tiny-engine 主题')
+  .action((name) => {
+    createTheme(name)
+  })
+
+program
   .command('create')
   .description('create a new tiny-engine platform or plugin by prompt 根据提示创建一个新的 tiny-engine 插件')
   .action(async () => {
@@ -50,6 +57,11 @@ program
           name: 'plugin',
           value: 'plugin',
           description: 'create a new tiny-engine plugin 创建一个新的 tiny-engine 插件'
+        },
+        {
+          name: 'theme',
+          value: 'theme',
+          description: 'create a new tiny-engine theme 创建一个新的 tiny-engine 主题'
         }
       ]
     })
@@ -67,7 +79,8 @@ program
 
     const typeMapper = {
       platform: createPlatform,
-      plugin: createPlugin
+      plugin: createPlugin,
+      theme: createTheme
     }
 
     typeMapper[type](projectName)
