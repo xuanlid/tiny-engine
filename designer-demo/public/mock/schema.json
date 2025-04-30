@@ -1,6 +1,6 @@
 {
   "componentName": "Page",
-  "css": ".page-base-style {\n  padding: 24px;\n  background: #ffffff;\n}\n.block-base-style {\n  margin: 16px;\n}\n.component-base-style {\n  margin: 8px;\n}\n.tinycarouselitem-gutsq {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/advertisement/Fixed/banner/%E7%89%B9%E6%83%A0%E6%96%B0%E6%98%A5%E7%89%88-pc.jpg);\n  background-position: center;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-lcuwt {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/1837AEFDD57C43AB8E1D40F380FD07D5/MaaS-pc.jpg);\n  background-position: center;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-wrklj {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/advertisement/Fixed/banner/Flexus-pc.jpg);\n  background-position: center;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarousel-text {\n  margin-top: 165px;\n  margin-left: 5%;\n  transition: 0.15s;\n}\n.tinycarousel-text-title {\n  font-size: 60px;\n  font-weight: 700;\n  color: #191919;\n}\n.tinycarousel-text-subTitle {\n  font-size: 20px;\n  color: #191919;\n}\n.tinycarousel-text-btn {\n  margin-top: 48px;\n}\n.card {\n  width: calc(25% - 12px);\n  background: #fff;\n  padding: 90px 0;\n  border-radius: 16px;\n  cursor: pointer;\n}\n.card:hover {\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);\n}\n.card-img {\n  width: 72px;\n  height: 72px;\n  margin-bottom: 28px;\n}\n.card-title {\n  display: inline-block;\n  color: #191919;\n  font-size: 18px;\n  font-weight: 600;\n  line-height: 28px;\n  margin-bottom: 12px;\n}\n.card-desc {\n  display: inline-block;\n  color: #595959;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 22px;\n}\n.section-more {\n  color: #191919;\n  margin-top: 36px;\n  text-align: center;\n}\n.div-kduor {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/1683712494111569410.jpg);\n  background-position: 0px 0px;\n  background-size: auto;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n:deep(.tiny-tabs__content) {\n  width: 100%;\n}\n",
+  "css": ".page-base-style {\n  padding: 24px;\n  background: #ffffff;\n}\n.block-base-style {\n  margin: 16px;\n}\n.component-base-style {\n  margin: 8px;\n}\n.tinycarouselitem-gutsq {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/advertisement/Fixed/banner/%E7%89%B9%E6%83%A0%E6%96%B0%E6%98%A5%E7%89%88-pc.jpg);\n  background-position: center;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-lcuwt {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/1837AEFDD57C43AB8E1D40F380FD07D5/MaaS-pc.jpg);\n  background-position: center;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-wrklj {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/advertisement/Fixed/banner/Flexus-pc.jpg);\n  background-position: center;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarousel-text {\n  margin-top: 165px;\n  margin-left: 5%;\n  transition: 0.15s;\n}\n.tinycarousel-text-title {\n  font-size: 60px;\n  font-weight: 700;\n  color: #191919;\n}\n.tinycarousel-text-subTitle {\n  font-size: 20px;\n  color: #191919;\n}\n.tinycarousel-text-btn {\n  margin-top: 48px;\n}\n.card {\n  width: calc(25% - 12px);\n  background: #fff;\n  padding: 90px 0;\n  border-radius: 16px;\n  cursor: pointer;\n}\n.card:hover {\n  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);\n}\n.card-img {\n  width: 72px;\n  height: 72px;\n  margin-bottom: 28px;\n}\n.card-title {\n  display: inline-block;\n  color: #191919;\n  font-size: 18px;\n  font-weight: 600;\n  line-height: 28px;\n  margin-bottom: 12px;\n}\n.card-desc {\n  display: inline-block;\n  color: #595959;\n  font-size: 14px;\n  font-weight: 400;\n  line-height: 22px;\n}\n.section-more {\n  color: #191919;\n  margin-top: 36px;\n  text-align: center;\n}\n.div-kduor {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/1683712494111569410.jpg);\n  background-position: 0px 0px;\n  background-size: auto;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n:deep(.tiny-tabs__content) {\n  width: 100%;\n}\n.tinycarouselitem-uulos {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/solution/1697093500915755615.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-kqjkl {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/solution/1697450201152426596.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-qnbun {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/solution/1697450201418992815.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-voont {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/solution/1697450201792293044.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-szrts {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/solution/1697093499353234527.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-twjhn {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/solution/1697509947945289959.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.industry-tinycarousel-text {\n  margin-top: 165px;\n  margin-left: 5%;\n  transition: 0.15s;\n}\n.industry-tinycarousel-text-title {\n  font-size: 32px;\n  font-weight: 700;\n  line-height: 48px;\n  margin-bottom: 8px;\n  color: #fff;\n}\n.industry-tinycarousel-text-subTitle {\n  font-size: 16px;\n  line-height: 24px;\n  margin-bottom: 32px;\n  color: #fff;\n  width: 45%;\n}\n.industry-tinycarousel-text-btn {\n  background: transparent;\n  color: #fff;\n  border-color: #fff;\n}\n.tinycarouselitem-lqskt {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534280093895580.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-knhsq {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534272656218662.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-moins {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683712664481365793.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarouselitem-tqwml {\n  background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683712664660174037.jpg);\n  background-position: 0px 0px;\n  background-size: cover;\n  background-repeat: repeat;\n  background-attachment: undefined;\n}\n.tinycarousel-kuqnj {\n  margin: 8px;\n  background-image: '';\n  background-position: '';\n  background-size: '';\n  background-repeat: '';\n  background-attachment: '';\n}\n",
   "props": {
     "style": ""
   },
@@ -2529,7 +2529,605 @@
     {
       "componentName": "div",
       "props": {},
-      "children": [],
+      "children": [
+        {
+          "componentName": "div",
+          "props": {
+            "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 60px; text-align: center;"
+          },
+          "children": [
+            {
+              "componentName": "Text",
+              "props": {
+                "style": "display: inline-block;",
+                "className": "component-base-style",
+                "text": "释放数字生产力，使能千行百业创新"
+              },
+              "children": [],
+              "id": "e6324464"
+            }
+          ],
+          "id": "564c36c2"
+        },
+        {
+          "componentName": "div",
+          "props": {},
+          "children": [
+            {
+              "componentName": "div",
+              "props": {},
+              "children": [
+                {
+                  "componentName": "TinyTabs",
+                  "props": {
+                    "modelValue": {
+                      "type": "JSExpression",
+                      "value": "this.state.changeTabName"
+                    },
+                    "onClick": {
+                      "type": "JSExpression",
+                      "value": "this.onClickTab"
+                    },
+                    "style": "display: flex; justify-content: center; align-items: center; flex-direction: column; width: 100%;",
+                    "ref": "tabsRef"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyTabItem",
+                      "props": {
+                        "title": "汽车",
+                        "name": "first"
+                      },
+                      "children": [],
+                      "id": "862bf262"
+                    },
+                    {
+                      "componentName": "TinyTabItem",
+                      "props": {
+                        "title": "金融",
+                        "name": "second"
+                      },
+                      "children": [],
+                      "id": "46223323"
+                    },
+                    {
+                      "componentName": "TinyTabItem",
+                      "props": {
+                        "title": "医疗",
+                        "name": "3333344c"
+                      },
+                      "children": [],
+                      "id": "63b35825"
+                    },
+                    {
+                      "componentName": "TinyTabItem",
+                      "props": {
+                        "title": "制造",
+                        "name": "2d266623"
+                      },
+                      "children": [],
+                      "id": "14513234"
+                    },
+                    {
+                      "componentName": "TinyTabItem",
+                      "props": {
+                        "title": "教育",
+                        "name": "134327e4"
+                      },
+                      "children": [],
+                      "id": "43526dd2"
+                    },
+                    {
+                      "componentName": "TinyTabItem",
+                      "props": {
+                        "title": "政府",
+                        "name": "64226c24"
+                      },
+                      "children": [],
+                      "id": "1425e374"
+                    }
+                  ],
+                  "id": "23256662"
+                }
+              ],
+              "id": "43e42363"
+            },
+            {
+              "componentName": "div",
+              "props": {},
+              "children": [
+                {
+                  "componentName": "TinyCarousel",
+                  "props": {
+                    "height": "560px",
+                    "className": "component-base-style",
+                    "autoplay": false,
+                    "ref": "carouselRef",
+                    "show-title": false,
+                    "onChange": {
+                      "type": "JSExpression",
+                      "value": "this.onChangeCarousel"
+                    }
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarouselItem",
+                      "props": {
+                        "indicator-position": "none",
+                        "className": "tinycarouselitem-uulos",
+                        "name": "first"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": " industry-tinycarousel-text"
+                          },
+                          "id": "14135535",
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-title"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "汽车"
+                                  },
+                                  "children": [],
+                                  "id": "64421645"
+                                }
+                              ],
+                              "id": "3b334142"
+                            },
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-subTitle"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "华为云携手合作伙伴，基于云计算、大数据、AI、5G等前沿技术，赋能汽车产业数智升级，共建智能汽车新生态"
+                                  },
+                                  "children": [],
+                                  "id": "55623222",
+                                  "show": true,
+                                  "showEye": false
+                                }
+                              ],
+                              "id": "43635433",
+                              "show": true,
+                              "showEye": false
+                            },
+                            {
+                              "componentName": "TinyButton",
+                              "props": {
+                                "className": " industry-tinycarousel-text-btn",
+                                "text": "了解更多",
+                                "circle": true
+                              },
+                              "children": [],
+                              "id": "5242c311",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ]
+                        }
+                      ],
+                      "id": "fe285533"
+                    },
+                    {
+                      "componentName": "TinyCarouselItem",
+                      "props": {
+                        "title": "",
+                        "indicator-position": "none",
+                        "className": "tinycarouselitem-kqjkl",
+                        "name": "second"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": " industry-tinycarousel-text"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-title"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "金融"
+                                  },
+                                  "children": [],
+                                  "id": "62323164"
+                                }
+                              ],
+                              "id": "52251124"
+                            },
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-subTitle"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "通过金融专区、专属云安全合规部署和全栈技术创新，助力金融客户业务敏捷创新，实现数字化转型"
+                                  },
+                                  "children": [],
+                                  "show": true,
+                                  "showEye": false,
+                                  "id": "22246564"
+                                }
+                              ],
+                              "show": true,
+                              "showEye": false,
+                              "id": "37627256"
+                            },
+                            {
+                              "componentName": "TinyButton",
+                              "props": {
+                                "className": " industry-tinycarousel-text-btn",
+                                "text": "了解更多",
+                                "circle": true
+                              },
+                              "children": [],
+                              "show": true,
+                              "showEye": false,
+                              "id": "1425356c"
+                            }
+                          ],
+                          "id": "a4431b43"
+                        }
+                      ],
+                      "id": "324a32d6"
+                    },
+                    {
+                      "componentName": "TinyCarouselItem",
+                      "props": {
+                        "name": "3333344c",
+                        "indicator-position": "none",
+                        "className": "tinycarouselitem-qnbun"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": " industry-tinycarousel-text"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-title"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "医疗"
+                                  },
+                                  "children": [],
+                                  "id": "34365333"
+                                }
+                              ],
+                              "id": "4654463a"
+                            },
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-subTitle"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "基于华为云高性能、高可靠、高安全的数字化底座，携手顶级医疗伙伴，为客户提供完善的医疗应用和服务体系"
+                                  },
+                                  "children": [],
+                                  "show": true,
+                                  "showEye": false,
+                                  "id": "516536c3"
+                                }
+                              ],
+                              "show": true,
+                              "showEye": false,
+                              "id": "43231424"
+                            },
+                            {
+                              "componentName": "TinyButton",
+                              "props": {
+                                "className": " industry-tinycarousel-text-btn",
+                                "text": "了解更多",
+                                "circle": true
+                              },
+                              "children": [],
+                              "show": true,
+                              "showEye": false,
+                              "id": "62615462"
+                            }
+                          ],
+                          "id": "54644522"
+                        }
+                      ],
+                      "id": "21623d24"
+                    },
+                    {
+                      "componentName": "TinyCarouselItem",
+                      "props": {
+                        "name": "2d266623",
+                        "className": "tinycarouselitem-voont"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": " industry-tinycarousel-text"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-title"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "制造"
+                                  },
+                                  "children": [],
+                                  "id": "51266662"
+                                }
+                              ],
+                              "id": "f23b9a57"
+                            },
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-subTitle"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "华为工业互联网平台FusionPlant，助力企业实现业务在云上敏捷开发，边缘可信运行，持续释放潜在业务价值"
+                                  },
+                                  "children": [],
+                                  "show": true,
+                                  "showEye": false,
+                                  "id": "e3263362"
+                                }
+                              ],
+                              "show": true,
+                              "showEye": false,
+                              "id": "23b22448"
+                            },
+                            {
+                              "componentName": "TinyButton",
+                              "props": {
+                                "className": " industry-tinycarousel-text-btn",
+                                "text": "了解更多",
+                                "circle": true
+                              },
+                              "children": [],
+                              "show": true,
+                              "showEye": false,
+                              "id": "22614234"
+                            }
+                          ],
+                          "id": "5423452a"
+                        }
+                      ],
+                      "id": "44136d23"
+                    },
+                    {
+                      "componentName": "TinyCarouselItem",
+                      "props": {
+                        "name": "134327e4",
+                        "className": "tinycarouselitem-szrts"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": " industry-tinycarousel-text"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-title"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "教育"
+                                  },
+                                  "children": [],
+                                  "id": "22563624"
+                                }
+                              ],
+                              "id": "4367365e"
+                            },
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-subTitle"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "面向市/区/县教育局及辖区内中小学提供场景化解决方案，将智慧化教育带给每个学校、每个家庭、每个孩子"
+                                  },
+                                  "children": [],
+                                  "show": true,
+                                  "showEye": false,
+                                  "id": "35323666"
+                                }
+                              ],
+                              "show": true,
+                              "showEye": false,
+                              "id": "4221fe47"
+                            },
+                            {
+                              "componentName": "TinyButton",
+                              "props": {
+                                "className": " industry-tinycarousel-text-btn",
+                                "text": "了解更多",
+                                "circle": true
+                              },
+                              "children": [],
+                              "show": true,
+                              "showEye": false,
+                              "id": "43366536"
+                            }
+                          ],
+                          "id": "65341642"
+                        }
+                      ],
+                      "id": "55986d22"
+                    },
+                    {
+                      "componentName": "TinyCarouselItem",
+                      "props": {
+                        "name": "64226c24",
+                        "className": "tinycarouselitem-twjhn"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": " industry-tinycarousel-text"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-title"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "政府"
+                                  },
+                                  "children": [],
+                                  "id": "653f4565"
+                                }
+                              ],
+                              "id": "54424554"
+                            },
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "className": " industry-tinycarousel-text-subTitle"
+                              },
+                              "children": [
+                                {
+                                  "componentName": "Text",
+                                  "props": {
+                                    "style": "display: inline-block;",
+                                    "text": "聚焦政务与城市数字化，面向场景进行流程再造与优化，真正提升人民的获得感、幸福感和安全感"
+                                  },
+                                  "children": [],
+                                  "show": true,
+                                  "showEye": false,
+                                  "id": "5336f414"
+                                }
+                              ],
+                              "show": true,
+                              "showEye": false,
+                              "id": "c46d2626"
+                            },
+                            {
+                              "componentName": "TinyButton",
+                              "props": {
+                                "className": " industry-tinycarousel-text-btn",
+                                "text": "了解更多",
+                                "circle": true
+                              },
+                              "children": [],
+                              "show": true,
+                              "showEye": false,
+                              "id": "41625426"
+                            }
+                          ],
+                          "id": "2855523b"
+                        }
+                      ],
+                      "id": "24444535"
+                    }
+                  ],
+                  "id": "334c6455"
+                }
+              ],
+              "id": "26146242"
+            }
+          ],
+          "id": "d4566613"
+        },
+        {
+          "componentName": "div",
+          "props": {
+            "className": "component-base-style"
+          },
+          "children": [
+            {
+              "componentName": "div",
+              "props": {
+                "className": " section-more"
+              },
+              "children": [
+                {
+                  "componentName": "Text",
+                  "props": {
+                    "style": "display: inline-block; font-size: 18px;",
+                    "text": "查看所有解决方案"
+                  },
+                  "children": [],
+                  "id": "5e6f4545"
+                },
+                {
+                  "componentName": "Icon",
+                  "props": {
+                    "name": "IconChevronRight",
+                    "style": "font-size: 24px; vertical-align: middle;"
+                  },
+                  "children": [],
+                  "id": "35332627"
+                }
+              ],
+              "id": "21536423"
+            }
+          ],
+          "id": "446656c4",
+          "show": true,
+          "showEye": false
+        }
+      ],
       "id": "24361336"
     },
     {
@@ -2836,39 +3434,1919 @@
             }
           ],
           "id": "d11522b2"
-        },
+        }
+      ],
+      "id": "12636123"
+    },
+    {
+      "componentName": "div",
+      "props": {},
+      "children": [
         {
           "componentName": "div",
-          "props": {
-            "style": "padding: 76px 5%; background: #f7f7f7; height: 100%;"
-          },
+          "props": {},
           "children": [
             {
               "componentName": "div",
               "props": {
-                "style": "text-align: center; color: #191919; font-size: 40px; font-weight: 600; line-height: 60px; padding-bottom: 32px;"
+                "className": "component-base-style",
+                "style": "text-align: center; color: #191919; font-size: 40px; font-weight: 600; line-height: 60px;"
               },
               "children": [
                 {
                   "componentName": "Text",
                   "props": {
                     "style": "display: inline-block;",
-                    "text": "基础设施即服务，让业务全球可达"
+                    "className": "component-base-style",
+                    "text": "全球300万客户的共同选择"
                   },
                   "children": [],
-                  "id": "d6782364"
+                  "id": "35455566"
                 }
               ],
-              "id": "35315d23"
+              "id": "433193f2"
             },
             {
-              "componentName": "CanvasFlexBox",
+              "componentName": "TinyTabs",
               "props": {
-                "flexDirection": "row",
-                "gap": "8px",
-                "padding": "8px",
-                "style": "width: 100%;",
-                "justifyContent": "space-between"
+                "modelValue": "first",
+                "className": "component-base-style",
+                "style": "display: flex; justify-content: center; align-items: center; flex-direction: column; width: 100%;"
+              },
+              "children": [
+                {
+                  "componentName": "TinyTabItem",
+                  "props": {
+                    "title": "能源",
+                    "name": "first"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarousel",
+                      "props": {
+                        "height": "800px",
+                        "className": "component-base-style",
+                        "autoplay": true
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "indicator-position": "none",
+                            "className": "tinycarouselitem-lqskt"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "id": "2247285e",
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/11.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "41545d43"
+                                    }
+                                  ],
+                                  "id": "74646542"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "“大国重器”三峡的云端守护者",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "3622e223"
+                                    }
+                                  ],
+                                  "id": "65b3e346"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "三峡集团携手华为云Stack，借助云和大数据等数字化手段，将大坝搬迁“上云”，实时守护大坝安全运行，提升三峡生产效率。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "13226325"
+                                    }
+                                  ],
+                                  "id": "25b55462"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "35212666"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": "33925445",
+                          "show": true,
+                          "showEye": false
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/22.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "655525b5"
+                                    }
+                                  ],
+                                  "id": "4c3132b2"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "智暖冰城，AI让每一份热发挥更大价值",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "5b533175"
+                                    }
+                                  ],
+                                  "id": "599c4297"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "哈尔滨太平供热携手华为云，智暖冰城，预测未来热需，精算精控发挥每一份热的价值，节能10%+，是业界首创的基于物联网、人工智能、大数据的智慧供热解决方案。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "426d3465"
+                                    }
+                                  ],
+                                  "id": "8556b646"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "42c3d524"
+                                }
+                              ],
+                              "id": "32823625"
+                            }
+                          ],
+                          "id": "42563561",
+                          "show": true,
+                          "showEye": false
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/33.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "52629653"
+                                    }
+                                  ],
+                                  "id": "54d642f6"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "华为云Stack与红柳林矿业同行",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "122dde43"
+                                    }
+                                  ],
+                                  "id": "363cd563"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "华为云Stack深度融合矿业OT生产和IT支撑系统，打造行业首个矿山工业互联网平台。通过视频巡检、远程控制实现无人值守，有人巡检。综采面井下工作人员减少近一半。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "65b56341"
+                                    }
+                                  ],
+                                  "id": "d2a52564"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "4a222861"
+                                }
+                              ],
+                              "id": "4ed44253"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "63363363"
+                        }
+                      ],
+                      "id": "63325262",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "64627545"
+                },
+                {
+                  "componentName": "TinyTabItem",
+                  "props": {
+                    "title": "制造",
+                    "name": "second"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarousel",
+                      "props": {
+                        "height": "800px",
+                        "className": "component-base-style",
+                        "autoplay": true
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "indicator-position": "none",
+                            "className": "tinycarouselitem-moins"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534610412822414.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "23234415"
+                                    }
+                                  ],
+                                  "id": "26424143"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "携手黑湖科技，让“数字工厂”触手可及",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "28465564"
+                                    }
+                                  ],
+                                  "id": "854f4f65"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "依托华为云容器、数据库等云原生服务，黑湖科技实现了【黑湖制造】MES软件在制造工厂4-8周快速上线并大幅降低客户年度投入成本，加速制造企业数字化转型。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "662b4cc5"
+                                    }
+                                  ],
+                                  "id": "66525246"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "39523d24"
+                                }
+                              ],
+                              "id": "4445b673"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "1e438462"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-tqwml"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534617344300097.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "36434544"
+                                    }
+                                  ],
+                                  "id": "44614323"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "助力东风本田汽车打造云上新营销平台",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "4651442c"
+                                    }
+                                  ],
+                                  "id": "29336432"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "通过华为云服务，成功打造联合“人、车、店、厂”一体化新营销平台。东风本田还将与华为云在大数据、人工智能、精准营销方面开展更多的探索与合作。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "55543d13"
+                                    }
+                                  ],
+                                  "id": "44643556"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "f5ab5551"
+                                }
+                              ],
+                              "id": "3c656154"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "8262e221"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534625525372958.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "14525654"
+                                    }
+                                  ],
+                                  "id": "33223624"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "华为云助力美的集团出海",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "5b3652b4"
+                                    }
+                                  ],
+                                  "id": "24b56653"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "Orange伙伴云联手华为云提出了一站式解决方案，为美的业务提供高效运维及管理，让美的能够聚焦自身核心业务，专注创新。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "9c764522"
+                                    }
+                                  ],
+                                  "id": "66255325"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "17863245"
+                                }
+                              ],
+                              "id": "45354434"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "32523533"
+                        }
+                      ],
+                      "show": true,
+                      "showEye": false,
+                      "id": "15756a42"
+                    }
+                  ],
+                  "id": "156253ca"
+                },
+                {
+                  "componentName": "TinyTabItem",
+                  "props": {
+                    "title": "医疗",
+                    "name": "35932226"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarousel",
+                      "props": {
+                        "height": "800px",
+                        "className": "component-base-style",
+                        "autoplay": true
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "indicator-position": "none",
+                            "className": "tinycarouselitem-lqskt"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683712665961620803.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "34634635"
+                                    }
+                                  ],
+                                  "id": "24381423"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "华为云加速超级抗菌药诞生",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "52333464"
+                                    }
+                                  ],
+                                  "id": "46254444"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "通过华为云盘古药物分子大模型进行先导药研发，西安交通大学第一附属医院刘冰教授将超级抗菌药这一研发过程从数年缩短至一个月，研发成本大幅降低70%。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "85662563"
+                                    }
+                                  ],
+                                  "id": "66662346"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "13355663"
+                                }
+                              ],
+                              "id": "66544625"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "4a642d65"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534375680346984.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "32746362"
+                                    }
+                                  ],
+                                  "id": "46424755"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "携手北京医院，向智慧型医院持续演进",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "53646252"
+                                    }
+                                  ],
+                                  "id": "36363724"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "基于华为云Stack进行智慧医院升级，推动“互联网+医疗健康”深度融合，建设“以患者为中心”的互联网医院，为患者提供智慧化在线医疗服务。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "12446326"
+                                    }
+                                  ],
+                                  "id": "65f54646"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "46432614"
+                                }
+                              ],
+                              "id": "83146649"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "14262466"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534382964564787.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "2634231a"
+                                    }
+                                  ],
+                                  "id": "55455644"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "数据应用双轮驱动，建设引领智慧医院",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "15616436"
+                                    }
+                                  ],
+                                  "id": "23d523e6"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "为医务人员减负，让患者就诊更加便利，使医院管理变得简单，深汕中心医院的智慧化离不开云计算等新技术赋能，展望未来，智慧医院将成为数字化浪潮中璀璨的一朵浪花。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "c56d6633"
+                                    }
+                                  ],
+                                  "id": "23664515"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "4a445645"
+                                }
+                              ],
+                              "id": "33722e22"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "6442b533"
+                        }
+                      ],
+                      "show": true,
+                      "showEye": false,
+                      "id": "54413732"
+                    }
+                  ],
+                  "id": "21861fc6"
+                },
+                {
+                  "componentName": "TinyTabItem",
+                  "props": {
+                    "title": "政府",
+                    "name": "f4363221"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarousel",
+                      "props": {
+                        "height": "800px",
+                        "className": "component-base-style",
+                        "autoplay": true
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "indicator-position": "none",
+                            "className": "tinycarouselitem-lqskt"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683533981053141897.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "52542626"
+                                    }
+                                  ],
+                                  "id": "23366226"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "助力江苏财政建设预算管理一体化系统",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "286443ac"
+                                    }
+                                  ],
+                                  "id": "244347a1"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "该平台基于软件开发生产线CodeArts与华为云Stack制定了统一的技术开发框架，形成“1+1+N”的江苏财政数字化建设生态。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "54363586"
+                                    }
+                                  ],
+                                  "id": "f3555246"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "239314b5"
+                                }
+                              ],
+                              "id": "a4632332"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "42535413"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683533992634923007.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "25535135"
+                                    }
+                                  ],
+                                  "id": "87c82641"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "长沙云，让城市每个人的幸福触手可及",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "c1f22532"
+                                    }
+                                  ],
+                                  "id": "124b6555"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "长沙政务云按照“全市一朵云”的总体思路，采用云原生、大数据、区块链等创新技术，保障了全市50+个单位共270+个政务应用系统安全稳定运行。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "64c5ef64"
+                                    }
+                                  ],
+                                  "id": "363653d2"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "13522242"
+                                }
+                              ],
+                              "id": "632a6226"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "6256643f"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683612963190147472.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "23453a84"
+                                    }
+                                  ],
+                                  "id": "62ef366f"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "微服务加速武汉水务集团业务创新",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "54f2142e"
+                                    }
+                                  ],
+                                  "id": "368246d3"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "随着基于华为云微服务、容器化改造的业务系统逐步上线，武汉市水务集团将实现创新加速，进入智慧水务新阶段。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "15624256"
+                                    }
+                                  ],
+                                  "id": "42565312"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "c5586532"
+                                }
+                              ],
+                              "id": "8e532242"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "25641236"
+                        }
+                      ],
+                      "show": true,
+                      "showEye": false,
+                      "id": "6d555427"
+                    }
+                  ],
+                  "id": "66234449"
+                },
+                {
+                  "componentName": "TinyTabItem",
+                  "props": {
+                    "title": "金融",
+                    "name": "43663366"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarousel",
+                      "props": {
+                        "height": "800px",
+                        "className": "component-base-style tinycarousel-kuqnj",
+                        "autoplay": true
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "indicator-position": "none",
+                            "className": "tinycarouselitem-lqskt"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534106617290661.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "745c8636"
+                                    }
+                                  ],
+                                  "id": "55425c66"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "助力招商银行打造业界“最佳零售银行”",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "4671a542"
+                                    }
+                                  ],
+                                  "id": "d6354a23"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "基于华为云FusionInsight MRS云原生数据湖构筑了金融大数据平台，可在线扩缩容，升级无需拆集群搬应用，确保金融业务7*24小时不中断运行。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "52c43c22"
+                                    }
+                                  ],
+                                  "id": "6b524384"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "245c5355"
+                                }
+                              ],
+                              "id": "3683623d"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "5652844c"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534114493110344.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "65363134"
+                                    }
+                                  ],
+                                  "id": "32636422"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "OCR助力静芸科技缩短理赔受理时间",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "28446526"
+                                    }
+                                  ],
+                                  "id": "66527334"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "使用华为云OCR服务训练出可识别多种医疗单据和维吾尔文识别模型，实现理赔材料秒级识别和数据的精准验真处理，降低现场理赔工作人员技能要求，缩短理赔受理时间。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "64544922"
+                                    }
+                                  ],
+                                  "id": "63a21432"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "6622e261"
+                                }
+                              ],
+                              "id": "42242843"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "23253e68"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534121729626780.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "22346716"
+                                    }
+                                  ],
+                                  "id": "46725c57"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "海通证券打造行业首个混合金融云平台",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "1f643f64"
+                                    }
+                                  ],
+                                  "id": "ad6a5625"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "通过混合金融云平台，实现了对企业所有私有云和公有云资源的统一管控；基于云管理平台，实现了多租户资源隔离和合规保障。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "56463161"
+                                    }
+                                  ],
+                                  "id": "6432483a"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "44595261"
+                                }
+                              ],
+                              "id": "f3f62219"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "b1361543"
+                        }
+                      ],
+                      "show": true,
+                      "showEye": false,
+                      "id": "e4522a35"
+                    }
+                  ],
+                  "id": "16159154"
+                },
+                {
+                  "componentName": "TinyTabItem",
+                  "props": {
+                    "title": "游戏",
+                    "name": "4b265523"
+                  },
+                  "children": [
+                    {
+                      "componentName": "TinyCarousel",
+                      "props": {
+                        "height": "800px",
+                        "className": "component-base-style",
+                        "autoplay": true
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "indicator-position": "none",
+                            "className": "tinycarouselitem-lqskt"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534279748873456.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "b4452948"
+                                    }
+                                  ],
+                                  "id": "c566576e"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "打造全真虚拟互动的迷你世界",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "62123364"
+                                    }
+                                  ],
+                                  "id": "53436445"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "通过采用华为云业界首创存算分离游戏数据库应对流量高峰场景，三副本强一致可靠存储实现多区域TB级地图数据同步更新。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "1a352362"
+                                    }
+                                  ],
+                                  "id": "54c24216"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "65955235"
+                                }
+                              ],
+                              "id": "23512346"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "69534653"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534288647701399.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "69c66264"
+                                    }
+                                  ],
+                                  "id": "39624546"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "网易游戏为用户打造极致游戏体验",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "632c4244"
+                                    }
+                                  ],
+                                  "id": "55f2bb36"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "应用华为云云游戏解决方案，为广大游戏爱好者带来极致体验，为玩家打造能共享、值得热爱的高品质游戏。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "41411671"
+                                    }
+                                  ],
+                                  "id": "8355562c"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "32352241"
+                                }
+                              ],
+                              "id": "34225334"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "32326812"
+                        },
+                        {
+                          "componentName": "TinyCarouselItem",
+                          "props": {
+                            "title": "",
+                            "className": "tinycarouselitem-knhsq",
+                            "indicator-position": "none"
+                          },
+                          "children": [
+                            {
+                              "componentName": "div",
+                              "props": {
+                                "style": "margin: 300px 0 0 30px;"
+                              },
+                              "show": true,
+                              "showEye": false,
+                              "children": [
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Img",
+                                      "props": {
+                                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/case/1683534272211721347.png",
+                                        "className": "component-base-style",
+                                        "style": "width: 130px;"
+                                      },
+                                      "children": [],
+                                      "id": "44e35e32"
+                                    }
+                                  ],
+                                  "id": "68245921"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "font-size: 36px; font-weight: 700; line-height: 54px; color: #fff;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "全域数据智能分析，助力点触打造精品",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "34813a62"
+                                    }
+                                  ],
+                                  "id": "56331528"
+                                },
+                                {
+                                  "componentName": "div",
+                                  "props": {
+                                    "className": "component-base-style",
+                                    "style": "color: #fff; font-size: 16px; width: 672px;"
+                                  },
+                                  "children": [
+                                    {
+                                      "componentName": "Text",
+                                      "props": {
+                                        "style": "display: inline-block;",
+                                        "text": "应用华为云的大数据解决方案，释放了大数据平台底层运维管理的压力，使点触大数据团队更聚焦于业务，快速响应数据分析诉求，深入挖掘数据价值。",
+                                        "className": "component-base-style"
+                                      },
+                                      "children": [],
+                                      "id": "242133b5"
+                                    }
+                                  ],
+                                  "id": "42254244"
+                                },
+                                {
+                                  "componentName": "TinyButton",
+                                  "props": {
+                                    "text": "了解详情",
+                                    "className": "component-base-style",
+                                    "circle": true,
+                                    "style": "background: transparent; border-color: #fff; color: #fff;"
+                                  },
+                                  "children": [],
+                                  "id": "42456c64"
+                                }
+                              ],
+                              "id": "65453f11"
+                            }
+                          ],
+                          "show": true,
+                          "showEye": false,
+                          "id": "14664725"
+                        }
+                      ],
+                      "show": true,
+                      "showEye": false,
+                      "id": "31143326"
+                    }
+                  ],
+                  "id": "f69a8454"
+                }
+              ],
+              "id": "6f346326"
+            }
+          ],
+          "id": "6a943664"
+        }
+      ],
+      "id": "4e425673",
+      "show": true,
+      "showEye": false
+    },
+    {
+      "componentName": "div",
+      "props": {
+        "style": "padding: 76px 5%; background: #f7f7f7; height: 100%;"
+      },
+      "children": [
+        {
+          "componentName": "div",
+          "props": {
+            "style": "text-align: center; color: #191919; font-size: 40px; font-weight: 600; line-height: 60px; padding-bottom: 32px;"
+          },
+          "children": [
+            {
+              "componentName": "Text",
+              "props": {
+                "style": "display: inline-block;",
+                "text": "基础设施即服务，让业务全球可达"
+              },
+              "children": [],
+              "id": "d6782364",
+              "show": true,
+              "showEye": false
+            }
+          ],
+          "id": "35315d23",
+          "show": true,
+          "showEye": false
+        },
+        {
+          "componentName": "CanvasFlexBox",
+          "props": {
+            "flexDirection": "row",
+            "gap": "8px",
+            "padding": "8px",
+            "style": "width: 100%;",
+            "justifyContent": "space-between"
+          },
+          "children": [
+            {
+              "componentName": "div",
+              "props": {
+                "className": "component-base-style"
               },
               "children": [
                 {
@@ -2884,293 +5362,412 @@
                       },
                       "children": [
                         {
-                          "componentName": "div",
+                          "componentName": "Text",
                           "props": {
-                            "className": "component-base-style"
+                            "style": "display: inline-block; -webkit-box-orient: vertical; -webkit-line-clamp: 2; color: #191919; display: -webkit-box; font-size: 32px; font-weight: 600; line-height: 48px; overflow: hidden; text-overflow: ellipsis;",
+                            "text": "全球基础设施"
                           },
-                          "children": [
-                            {
-                              "componentName": "Text",
-                              "props": {
-                                "style": "display: inline-block; -webkit-box-orient: vertical; -webkit-line-clamp: 2; color: #191919; display: -webkit-box; font-size: 32px; font-weight: 600; line-height: 48px; overflow: hidden; text-overflow: ellipsis;",
-                                "text": "全球基础设施"
-                              },
-                              "children": [],
-                              "id": "446f2b93"
-                            }
-                          ],
-                          "id": "525b5336"
-                        },
-                        {
-                          "componentName": "div",
-                          "props": {
-                            "className": "component-base-style"
-                          },
-                          "children": [
-                            {
-                              "componentName": "Text",
-                              "props": {
-                                "style": "display: inline-block; -webkit-box-orient: vertical; -webkit-line-clamp: 4; color: #595959; display: -webkit-box; font-size: 16px; line-height: 24px; margin-top: 12px; overflow: hidden; text-overflow: ellipsis;",
-                                "text": "布局全球多个地理区域，提供高速稳定的全球云联接网络"
-                              },
-                              "children": [],
-                              "id": "b4112434"
-                            }
-                          ],
-                          "id": "262655d5"
-                        },
-                        {
-                          "componentName": "div",
-                          "props": {
-                            "className": "component-base-style"
-                          },
-                          "children": [
-                            {
-                              "componentName": "TinyButton",
-                              "props": {
-                                "text": "了解详情",
-                                "circle": true,
-                                "style": "margin-top: 48px;"
-                              },
-                              "children": [],
-                              "id": "34332519"
-                            }
-                          ],
-                          "id": "246d3f1f"
+                          "children": [],
+                          "id": "446f2b93",
+                          "show": true,
+                          "showEye": false
                         }
                       ],
-                      "id": "34482254"
+                      "id": "525b5336",
+                      "show": true,
+                      "showEye": false
                     },
                     {
-                      "componentName": "CanvasFlexBox",
+                      "componentName": "div",
                       "props": {
-                        "flexDirection": "row",
-                        "gap": "16px",
-                        "padding": "8px",
-                        "style": "flex-wrap: wrap;",
-                        "justifyContent": "space-around"
+                        "className": "component-base-style"
+                      },
+                      "children": [
+                        {
+                          "componentName": "Text",
+                          "props": {
+                            "style": "display: inline-block; -webkit-box-orient: vertical; -webkit-line-clamp: 4; color: #595959; display: -webkit-box; font-size: 16px; line-height: 24px; margin-top: 12px; overflow: hidden; text-overflow: ellipsis;",
+                            "text": "布局全球多个地理区域，提供高速稳定的全球云联接网络"
+                          },
+                          "children": [],
+                          "id": "b4112434",
+                          "show": true,
+                          "showEye": false
+                        }
+                      ],
+                      "id": "262655d5",
+                      "show": true,
+                      "showEye": false
+                    },
+                    {
+                      "componentName": "div",
+                      "props": {
+                        "className": "component-base-style"
+                      },
+                      "children": [
+                        {
+                          "componentName": "TinyButton",
+                          "props": {
+                            "text": "了解详情",
+                            "circle": true,
+                            "style": "margin-top: 48px;"
+                          },
+                          "children": [],
+                          "id": "34332519",
+                          "show": true,
+                          "showEye": false
+                        }
+                      ],
+                      "id": "246d3f1f",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "34482254",
+                  "show": true,
+                  "showEye": false
+                },
+                {
+                  "componentName": "CanvasFlexBox",
+                  "props": {
+                    "flexDirection": "row",
+                    "gap": "16px",
+                    "padding": "8px",
+                    "style": "flex-wrap: wrap;",
+                    "justifyContent": "space-around"
+                  },
+                  "children": [
+                    {
+                      "componentName": "div",
+                      "props": {
+                        "style": "width: calc(50% - 8px);"
                       },
                       "children": [
                         {
                           "componentName": "div",
                           "props": {
-                            "style": "width: calc(50% - 8px);"
+                            "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
                           },
                           "children": [
                             {
-                              "componentName": "div",
+                              "componentName": "Text",
                               "props": {
-                                "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
-                              },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "display: inline-block;",
-                                    "text": "100+",
-                                    "className": "component-base-style"
-                                  },
-                                  "children": [],
-                                  "id": "35352645"
-                                }
-                              ],
-                              "id": "a624532b"
-                            },
-                            {
-                              "componentName": "div",
-                              "props": {
+                                "style": "display: inline-block;",
+                                "text": "100+",
                                 "className": "component-base-style"
                               },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
-                                    "text": "全球权威认证"
-                                  },
-                                  "children": [],
-                                  "id": "15462836"
-                                }
-                              ],
-                              "id": "66522a55"
+                              "children": [],
+                              "id": "35352645",
+                              "show": true,
+                              "showEye": false
                             }
                           ],
-                          "id": "36461613"
+                          "id": "a624532b",
+                          "show": true,
+                          "showEye": false
                         },
                         {
                           "componentName": "div",
                           "props": {
-                            "style": "width: calc(50% - 8px);"
+                            "className": "component-base-style"
                           },
                           "children": [
                             {
-                              "componentName": "div",
+                              "componentName": "Text",
                               "props": {
-                                "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
+                                "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
+                                "text": "全球权威认证"
                               },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "display: inline-block;",
-                                    "text": "8T+",
-                                    "className": "component-base-style"
-                                  },
-                                  "children": [],
-                                  "id": "32265625"
-                                }
-                              ],
-                              "id": "42544343"
-                            },
-                            {
-                              "componentName": "div",
-                              "props": {
-                                "className": "component-base-style"
-                              },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
-                                    "text": "DDoS防御宽带"
-                                  },
-                                  "children": [],
-                                  "id": "532324c6"
-                                }
-                              ],
-                              "id": "3a352562"
+                              "children": [],
+                              "id": "15462836",
+                              "show": true,
+                              "showEye": false
                             }
                           ],
-                          "id": "f2426653"
-                        },
-                        {
-                          "componentName": "div",
-                          "props": {
-                            "style": "width: calc(50% - 8px);"
-                          },
-                          "children": [
-                            {
-                              "componentName": "div",
-                              "props": {
-                                "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
-                              },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "display: inline-block;",
-                                    "text": "4.5万+",
-                                    "className": "component-base-style"
-                                  },
-                                  "children": [],
-                                  "id": "1c155282"
-                                }
-                              ],
-                              "id": "2252131e"
-                            },
-                            {
-                              "componentName": "div",
-                              "props": {
-                                "className": "component-base-style"
-                              },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
-                                    "text": "伙伴"
-                                  },
-                                  "children": [],
-                                  "id": "43236413"
-                                }
-                              ],
-                              "id": "56d24363"
-                            }
-                          ],
-                          "id": "235153c5"
-                        },
-                        {
-                          "componentName": "div",
-                          "props": {
-                            "style": "width: calc(50% - 8px);"
-                          },
-                          "children": [
-                            {
-                              "componentName": "div",
-                              "props": {
-                                "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
-                              },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "display: inline-block;",
-                                    "text": "760万+",
-                                    "className": "component-base-style"
-                                  },
-                                  "children": [],
-                                  "id": "52483352"
-                                }
-                              ],
-                              "id": "51213636"
-                            },
-                            {
-                              "componentName": "div",
-                              "props": {
-                                "className": "component-base-style"
-                              },
-                              "children": [
-                                {
-                                  "componentName": "Text",
-                                  "props": {
-                                    "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
-                                    "text": "开发者"
-                                  },
-                                  "children": [],
-                                  "id": "e2542425"
-                                }
-                              ],
-                              "id": "61a2242f"
-                            }
-                          ],
-                          "id": "654162d3"
+                          "id": "66522a55",
+                          "show": true,
+                          "showEye": false
                         }
                       ],
-                      "id": "33e54713"
+                      "id": "36461613",
+                      "show": true,
+                      "showEye": false
+                    },
+                    {
+                      "componentName": "div",
+                      "props": {
+                        "style": "width: calc(50% - 8px);"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
+                          },
+                          "children": [
+                            {
+                              "componentName": "Text",
+                              "props": {
+                                "style": "display: inline-block;",
+                                "text": "8T+",
+                                "className": "component-base-style"
+                              },
+                              "children": [],
+                              "id": "32265625",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ],
+                          "id": "42544343",
+                          "show": true,
+                          "showEye": false
+                        },
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": "component-base-style"
+                          },
+                          "children": [
+                            {
+                              "componentName": "Text",
+                              "props": {
+                                "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
+                                "text": "DDoS防御宽带"
+                              },
+                              "children": [],
+                              "id": "532324c6",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ],
+                          "id": "3a352562",
+                          "show": true,
+                          "showEye": false
+                        }
+                      ],
+                      "id": "f2426653",
+                      "show": true,
+                      "showEye": false
+                    },
+                    {
+                      "componentName": "div",
+                      "props": {
+                        "style": "width: calc(50% - 8px);"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
+                          },
+                          "children": [
+                            {
+                              "componentName": "Text",
+                              "props": {
+                                "style": "display: inline-block;",
+                                "text": "4.5万+",
+                                "className": "component-base-style"
+                              },
+                              "children": [],
+                              "id": "1c155282",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ],
+                          "id": "2252131e",
+                          "show": true,
+                          "showEye": false
+                        },
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": "component-base-style"
+                          },
+                          "children": [
+                            {
+                              "componentName": "Text",
+                              "props": {
+                                "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
+                                "text": "伙伴"
+                              },
+                              "children": [],
+                              "id": "43236413",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ],
+                          "id": "56d24363",
+                          "show": true,
+                          "showEye": false
+                        }
+                      ],
+                      "id": "235153c5",
+                      "show": true,
+                      "showEye": false
+                    },
+                    {
+                      "componentName": "div",
+                      "props": {
+                        "style": "width: calc(50% - 8px);"
+                      },
+                      "children": [
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "style": "color: #191919; font-size: 40px; font-weight: 600; line-height: 66px; -webkit-transition: all 0.3s; transition: all 0.3s;"
+                          },
+                          "children": [
+                            {
+                              "componentName": "Text",
+                              "props": {
+                                "style": "display: inline-block;",
+                                "text": "760万+",
+                                "className": "component-base-style"
+                              },
+                              "children": [],
+                              "id": "52483352",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ],
+                          "id": "51213636",
+                          "show": true,
+                          "showEye": false
+                        },
+                        {
+                          "componentName": "div",
+                          "props": {
+                            "className": "component-base-style"
+                          },
+                          "children": [
+                            {
+                              "componentName": "Text",
+                              "props": {
+                                "style": "color: #191919; font-size: 18px; line-height: 28px; margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;",
+                                "text": "开发者"
+                              },
+                              "children": [],
+                              "id": "e2542425",
+                              "show": true,
+                              "showEye": false
+                            }
+                          ],
+                          "id": "61a2242f",
+                          "show": true,
+                          "showEye": false
+                        }
+                      ],
+                      "id": "654162d3",
+                      "show": true,
+                      "showEye": false
                     }
                   ],
-                  "id": "34365645"
-                },
+                  "id": "33e54713",
+                  "show": true,
+                  "showEye": false
+                }
+              ],
+              "id": "34365645",
+              "show": true,
+              "showEye": false
+            },
+            {
+              "componentName": "div",
+              "props": {
+                "style": "height: 750px; margin-right: 30px; width: 750px;"
+              },
+              "children": [
+                {
+                  "componentName": "Img",
+                  "props": {
+                    "src": "https://portal.hc-cdn.com/cpage-pep-home-page/2.0.30/components/global-site-3d/images/earth_bg.png",
+                    "style": "height: 100%;"
+                  },
+                  "children": [],
+                  "id": "23556354",
+                  "show": true,
+                  "showEye": false
+                }
+              ],
+              "id": "47213535",
+              "show": true,
+              "showEye": false
+            }
+          ],
+          "id": "24561222",
+          "show": true,
+          "showEye": false
+        },
+        {
+          "componentName": "CanvasFlexBox",
+          "props": {
+            "flexDirection": "row",
+            "gap": "8px",
+            "padding": "8px",
+            "style": "background: #fff; border-radius: 16px; bottom: 24px; left: 0; margin-bottom: -24px; position: relative; width: 100%;",
+            "alignItems": "center",
+            "justifyContent": "space-between"
+          },
+          "children": [
+            {
+              "componentName": "div",
+              "props": {
+                "className": "component-base-style"
+              },
+              "children": [
                 {
                   "componentName": "div",
                   "props": {
-                    "style": "height: 750px; margin-right: 30px; width: 750px;"
+                    "className": "component-base-style"
                   },
                   "children": [
                     {
                       "componentName": "Img",
                       "props": {
-                        "src": "https://portal.hc-cdn.com/cpage-pep-home-page/2.0.30/components/global-site-3d/images/earth_bg.png",
-                        "style": "height: 100%;"
+                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/ISO_22301_2012.png",
+                        "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
                       },
                       "children": [],
-                      "id": "23556354"
+                      "id": "34c2365a",
+                      "show": true,
+                      "showEye": false
                     }
                   ],
-                  "id": "47213535"
+                  "id": "949d4263",
+                  "show": true,
+                  "showEye": false
+                },
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Text",
+                      "props": {
+                        "style": "display: inline-block;",
+                        "text": "ISO 22301:2012"
+                      },
+                      "children": [],
+                      "id": "43266169",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "f3f52255",
+                  "show": true,
+                  "showEye": false
                 }
               ],
-              "id": "24561222"
+              "id": "14353335",
+              "show": true,
+              "showEye": false
             },
             {
-              "componentName": "CanvasFlexBox",
+              "componentName": "div",
               "props": {
-                "flexDirection": "row",
-                "gap": "8px",
-                "padding": "8px",
-                "style": "background: #fff; border-radius: 16px; bottom: 24px; left: 0; margin-bottom: -24px; position: relative; width: 100%;",
-                "alignItems": "center",
-                "justifyContent": "space-between"
+                "className": "component-base-style"
               },
               "children": [
                 {
@@ -3180,43 +5777,20 @@
                   },
                   "children": [
                     {
-                      "componentName": "div",
+                      "componentName": "Img",
                       "props": {
-                        "className": "component-base-style"
+                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/ISO_27001_2013.png",
+                        "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
                       },
-                      "children": [
-                        {
-                          "componentName": "Img",
-                          "props": {
-                            "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/ISO_22301_2012.png",
-                            "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
-                          },
-                          "children": [],
-                          "id": "34c2365a"
-                        }
-                      ],
-                      "id": "949d4263"
-                    },
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Text",
-                          "props": {
-                            "style": "display: inline-block;",
-                            "text": "ISO 22301:2012"
-                          },
-                          "children": [],
-                          "id": "43266169"
-                        }
-                      ],
-                      "id": "f3f52255"
+                      "children": [],
+                      "id": "25335362",
+                      "show": true,
+                      "showEye": false
                     }
                   ],
-                  "id": "14353335"
+                  "id": "82c36322",
+                  "show": true,
+                  "showEye": false
                 },
                 {
                   "componentName": "div",
@@ -3225,232 +5799,255 @@
                   },
                   "children": [
                     {
-                      "componentName": "div",
+                      "componentName": "Text",
                       "props": {
-                        "className": "component-base-style"
+                        "style": "display: inline-block;",
+                        "text": "ISO 27001:2013"
                       },
-                      "children": [
-                        {
-                          "componentName": "Img",
-                          "props": {
-                            "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/ISO_27001_2013.png",
-                            "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
-                          },
-                          "children": [],
-                          "id": "25335362"
-                        }
-                      ],
-                      "id": "82c36322"
-                    },
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Text",
-                          "props": {
-                            "style": "display: inline-block;",
-                            "text": "ISO 27001:2013"
-                          },
-                          "children": [],
-                          "id": "634d26c4"
-                        }
-                      ],
-                      "id": "42523523"
+                      "children": [],
+                      "id": "634d26c4",
+                      "show": true,
+                      "showEye": false
                     }
                   ],
-                  "id": "495f63d3"
-                },
-                {
-                  "componentName": "div",
-                  "props": {
-                    "className": "component-base-style"
-                  },
-                  "children": [
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Img",
-                          "props": {
-                            "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/SOC_1_Type_II_Report.png",
-                            "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
-                          },
-                          "children": [],
-                          "id": "41565454"
-                        }
-                      ],
-                      "id": "1232336b"
-                    },
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Text",
-                          "props": {
-                            "style": "display: inline-block;",
-                            "text": "SOC 2 Type II Report"
-                          },
-                          "children": [],
-                          "id": "53363426"
-                        }
-                      ],
-                      "id": "64655336"
-                    }
-                  ],
-                  "id": "4425c4c7"
-                },
-                {
-                  "componentName": "div",
-                  "props": {
-                    "className": "component-base-style"
-                  },
-                  "children": [
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Img",
-                          "props": {
-                            "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/PCI_DSS.png",
-                            "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
-                          },
-                          "children": [],
-                          "id": "5364eef4"
-                        }
-                      ],
-                      "id": "63635465"
-                    },
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Text",
-                          "props": {
-                            "style": "display: inline-block;",
-                            "text": "PCI DSS"
-                          },
-                          "children": [],
-                          "id": "25534215"
-                        }
-                      ],
-                      "id": "36144445"
-                    }
-                  ],
-                  "id": "428f5325"
-                },
-                {
-                  "componentName": "div",
-                  "props": {
-                    "className": "component-base-style"
-                  },
-                  "children": [
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Img",
-                          "props": {
-                            "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/djcp.png",
-                            "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
-                          },
-                          "children": [],
-                          "id": "4ed32554"
-                        }
-                      ],
-                      "id": "52a24225"
-                    },
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Text",
-                          "props": {
-                            "style": "display: inline-block;",
-                            "text": "网络安全等级保护"
-                          },
-                          "children": [],
-                          "id": "b6266542"
-                        }
-                      ],
-                      "id": "9223465e"
-                    }
-                  ],
-                  "id": "63265622"
-                },
-                {
-                  "componentName": "div",
-                  "props": {
-                    "className": "component-base-style"
-                  },
-                  "children": [
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Img",
-                          "props": {
-                            "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/csa.png",
-                            "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
-                          },
-                          "children": [],
-                          "id": "12224e35"
-                        }
-                      ],
-                      "id": "e5342585"
-                    },
-                    {
-                      "componentName": "div",
-                      "props": {
-                        "className": "component-base-style"
-                      },
-                      "children": [
-                        {
-                          "componentName": "Text",
-                          "props": {
-                            "style": "display: inline-block;",
-                            "text": "CSA STAR 金牌认证"
-                          },
-                          "children": [],
-                          "id": "56562d8b"
-                        }
-                      ],
-                      "id": "252334b8"
-                    }
-                  ],
-                  "id": "95436655"
+                  "id": "42523523",
+                  "show": true,
+                  "showEye": false
                 }
               ],
-              "id": "35544417"
+              "id": "495f63d3",
+              "show": true,
+              "showEye": false
+            },
+            {
+              "componentName": "div",
+              "props": {
+                "className": "component-base-style"
+              },
+              "children": [
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Img",
+                      "props": {
+                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/SOC_1_Type_II_Report.png",
+                        "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
+                      },
+                      "children": [],
+                      "id": "41565454",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "1232336b",
+                  "show": true,
+                  "showEye": false
+                },
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Text",
+                      "props": {
+                        "style": "display: inline-block;",
+                        "text": "SOC 2 Type II Report"
+                      },
+                      "children": [],
+                      "id": "53363426",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "64655336",
+                  "show": true,
+                  "showEye": false
+                }
+              ],
+              "id": "4425c4c7",
+              "show": true,
+              "showEye": false
+            },
+            {
+              "componentName": "div",
+              "props": {
+                "className": "component-base-style"
+              },
+              "children": [
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Img",
+                      "props": {
+                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/PCI_DSS.png",
+                        "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
+                      },
+                      "children": [],
+                      "id": "5364eef4",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "63635465",
+                  "show": true,
+                  "showEye": false
+                },
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Text",
+                      "props": {
+                        "style": "display: inline-block;",
+                        "text": "PCI DSS"
+                      },
+                      "children": [],
+                      "id": "25534215",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "36144445",
+                  "show": true,
+                  "showEye": false
+                }
+              ],
+              "id": "428f5325",
+              "show": true,
+              "showEye": false
+            },
+            {
+              "componentName": "div",
+              "props": {
+                "className": "component-base-style"
+              },
+              "children": [
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Img",
+                      "props": {
+                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/djcp.png",
+                        "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
+                      },
+                      "children": [],
+                      "id": "4ed32554",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "52a24225",
+                  "show": true,
+                  "showEye": false
+                },
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Text",
+                      "props": {
+                        "style": "display: inline-block;",
+                        "text": "网络安全等级保护"
+                      },
+                      "children": [],
+                      "id": "b6266542",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "9223465e",
+                  "show": true,
+                  "showEye": false
+                }
+              ],
+              "id": "63265622",
+              "show": true,
+              "showEye": false
+            },
+            {
+              "componentName": "div",
+              "props": {
+                "className": "component-base-style"
+              },
+              "children": [
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Img",
+                      "props": {
+                        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/shouye/csa.png",
+                        "style": "background-size: cover; display: block; height: 88px; margin: 0 auto 10px; width: 88px;"
+                      },
+                      "children": [],
+                      "id": "12224e35",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "e5342585",
+                  "show": true,
+                  "showEye": false
+                },
+                {
+                  "componentName": "div",
+                  "props": {
+                    "className": "component-base-style"
+                  },
+                  "children": [
+                    {
+                      "componentName": "Text",
+                      "props": {
+                        "style": "display: inline-block;",
+                        "text": "CSA STAR 金牌认证"
+                      },
+                      "children": [],
+                      "id": "56562d8b",
+                      "show": true,
+                      "showEye": false
+                    }
+                  ],
+                  "id": "252334b8",
+                  "show": true,
+                  "showEye": false
+                }
+              ],
+              "id": "95436655",
+              "show": true,
+              "showEye": false
             }
           ],
-          "id": "55516356"
+          "id": "35544417",
+          "show": true,
+          "showEye": false
         }
       ],
-      "id": "12636123"
+      "id": "55516356",
+      "show": true,
+      "showEye": false
     },
     {
       "componentName": "div",
@@ -5808,12 +8405,21 @@
         "desc": "便捷、安全的云上虚拟桌面服务",
         "link": "https://marketplace.huaweicloud.com/activity/ygzz.html"
       }
-    ]
+    ],
+    "changeTabName": "first"
   },
   "methods": {
     "onClickNew": {
       "type": "JSFunction",
       "value": "function onClickNew(eventArgs, item) {\n  console.log(item)\n  window.open(item.link)\n}\n"
+    },
+    "onClickTab": {
+      "type": "JSFunction",
+      "value": "function onClickTab(event) {\n  this.$('carouselRef').setActiveItem(event.name)\n}\n"
+    },
+    "onChangeCarousel": {
+      "type": "JSFunction",
+      "value": "function onChangeCarousel(event) {\n  this.state.changeTabName = this.$('carouselRef')?.state?.items[event].name\n}\n"
     }
   },
   "utils": [],
