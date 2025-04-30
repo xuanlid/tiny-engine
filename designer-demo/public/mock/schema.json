@@ -8421,7 +8421,7 @@
     },
     "onChangeCarousel": {
       "type": "JSFunction",
-      "value": "function onChangeCarousel(event) {\n  this.state.changeTabName = this.$('carouselRef').state.items[event].name\n}\n"
+      "value": "function onChangeCarousel(event) {\n  this.state.changeTabName = this.$('carouselRef')?.state.items[event].name\n}\n"
     }
   },
   "utils": [],
