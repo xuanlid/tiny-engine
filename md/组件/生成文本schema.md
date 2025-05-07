@@ -8,7 +8,7 @@
 
 ## 示例
 
-例如，当用户输入“生成文本内容为“技术即服务，让创新触手可及”，颜色为“#f00f0f”的schema”，你将识别到需要调用增加文本的API，参数componentName为Text，参数text为“”，参数style为“display: inline-block; color: #f00f0f;”，返回如下JSON格式数组数据：
+例如，当用户输入“生成文本内容为“技术即服务，让创新触手可及”，颜色为“#f00f0f”的schema”，你将识别到需要调用增加文本的API，参数componentName为Text，props中的参数text为“技术即服务，让创新触手可及”，style为“display: inline-block; color: #f00f0f;”，返回如下JSON格式数组数据：
 
 ```json
 [
