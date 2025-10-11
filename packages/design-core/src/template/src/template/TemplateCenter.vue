@@ -60,7 +60,86 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import { ref, reactive, onMounted } from 'vue'
+import { Pager, Search } from '@opentiny/vue'
+import { iconSearch } from '@opentiny/vue-icon'
+import TemplateDetail from './TemplateDetail.vue'
+
+export default {
+  components: {
+    TemplateDetail,
+    TinyPager: Pager,
+    TinySearch: Search,
+    TinyIconSearch: iconSearch()
+  },
+
+  setup() {
+    const templateList = ref([])
+
+    const tagList = [
+      {
+        label: '场景',
+        tags: ['人事行政', '项目管理', '采购管理', '财务报销', '设备巡检', '工单售后']
+      },
+      {
+        label: '行业',
+        tags: ['互联网', '制造业', '教育行业', '贸易零售', '建筑行业', '政府机构', '服务培训']
+      },
+      {
+        label: '技术栈',
+        tags: ['Vue', 'Angular', 'React', 'HTML']
+      }
+    ]
+
+    const state = reactive({
+      templateVisible: false,
+      currentTemplate: null,
+      searchValue: '',
+      tags: ['项目管理', '互联网', 'Vue'],
+      total: 50,
+      pageSize: 10,
+      pageSizes: [10, 20, 30, 40]
+    })
+
+    const getList = () => {
+      templateList.value = [
+        {
+          id: '1',
+          name: 'portal-app',
+          img: 'https://tinyengine-assets.obs.cn-north-4.myhuaweicloud.com/files/designer-default-icon.jpg',
+          tags: ['Vue', 'portal-platform'],
+          createTime: '2025-10-10',
+          author: '张三',
+          desc: 'portal网站专用，此处时说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档',
+          from: '来自TinyEngine官方'
+        }
+      ]
+    }
+
+    const handleChangeTags = (tag) => {
+      state.tags = state.tags.includes(tag) ? state.tags.filter((t) => t !== tag) : [...state.tags, tag]
+    }
+
+    const handleClickTemplate = (template) => {
+      state.templateVisible = true
+      state.currentTemplate = template
+    }
+
+    onMounted(() => {
+      getList()
+    })
+
+    return {
+      templateList,
+      state,
+      tagList,
+      handleChangeTags,
+      handleClickTemplate
+    }
+  }
+}
+</script>
 
 <style lang="less" scoped>
 .template-center {
