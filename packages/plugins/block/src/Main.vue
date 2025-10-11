@@ -259,7 +259,7 @@ export default {
         {
           id: 'default',
           name: '栅格',
-          svgName: 'grid'
+          svgName: 'grid-list'
         },
         {
           id: 'mini',

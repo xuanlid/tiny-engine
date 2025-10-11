@@ -12,6 +12,7 @@ export { default as Clean } from '@opentiny/tiny-engine-toolbar-clean'
 export { default as ThemeSwitch, ThemeSwitchService } from '@opentiny/tiny-engine-toolbar-theme-switch'
 export { default as Preview } from '@opentiny/tiny-engine-toolbar-preview'
 export { default as GenerateCode, SaveLocalService } from '@opentiny/tiny-engine-toolbar-generate-code'
+export { default as Template } from '@opentiny/tiny-engine-toolbar-template'
 export { default as Refresh } from '@opentiny/tiny-engine-toolbar-refresh'
 export { default as Collaboration } from '@opentiny/tiny-engine-toolbar-collaboration'
 export { default as Setting } from '@opentiny/tiny-engine-toolbar-setting'
@@ -35,6 +36,8 @@ export { default as Styles } from '@opentiny/tiny-engine-setting-styles'
 export { default as Layout, LayoutService } from '@opentiny/tiny-engine-layout'
 export { default as Canvas } from '@opentiny/tiny-engine-canvas'
 export { initPreview } from './src/preview/src/main'
+export { initTemplate } from './src/template/src/main'
+
 export {
   GenerateCodeService,
   PluginPanel,

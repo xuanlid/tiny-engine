@@ -100,7 +100,6 @@ export default {
 
 <style lang="less" scoped>
 .top-panel-breadcrumb {
-  padding-left: 12px;
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;

@@ -23,7 +23,7 @@ export default {
     }
   },
   toolbars: {
-    left: [META_APP.Breadcrumb, META_APP.Lock, META_APP.Logo],
+    left: [META_APP.Template, META_APP.Breadcrumb, META_APP.Lock, META_APP.Logo],
     center: [META_APP.Media],
     right: [
       [META_APP.Robot, META_APP.ThemeSwitch, META_APP.RedoUndo, META_APP.Clean],
