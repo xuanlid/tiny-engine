@@ -10,7 +10,11 @@
           <div class="label">{{ item.label }}</div>
           <div class="tags">
             <template v-for="tag in item.tags" :key="tag">
-              <div class="tag" :class="{ active: state.tags.includes(tag) }" @click="handleChangeTags(tag)">
+              <div
+                class="tag"
+                :class="{ active: state[item.type].includes(tag) }"
+                @click="handleChangeTags(item.type, tag)"
+              >
                 {{ tag }}
               </div>
             </template>
@@ -80,14 +84,17 @@ export default {
     const tagList = [
       {
         label: '场景',
+        type: 'scenarios',
         tags: ['人事行政', '项目管理', '采购管理', '财务报销', '设备巡检', '工单售后']
       },
       {
         label: '行业',
+        type: 'industry',
         tags: ['互联网', '制造业', '教育行业', '贸易零售', '建筑行业', '政府机构', '服务培训']
       },
       {
         label: '技术栈',
+        type: 'frameWork',
         tags: ['Vue', 'Angular', 'React', 'HTML']
       }
     ]
@@ -96,7 +103,9 @@ export default {
       templateVisible: false,
       currentTemplate: null,
       searchValue: '',
-      tags: ['项目管理', '互联网', 'Vue'],
+      scenarios: ['项目管理'],
+      industry: ['互联网'],
+      frameWork: ['Vue'],
       total: 50,
       pageSize: 10,
       pageSizes: [10, 20, 30, 40]
@@ -108,17 +117,19 @@ export default {
           id: '1',
           name: 'portal-app',
           img: 'https://tinyengine-assets.obs.cn-north-4.myhuaweicloud.com/files/designer-default-icon.jpg',
-          tags: ['Vue', 'portal-platform'],
+          scenarios: '项目管理',
+          industry: '互联网',
+          frameWork: 'Vue',
           createTime: '2025-10-10',
           author: '张三',
           desc: 'portal网站专用，此处时说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档',
           from: '来自TinyEngine官方'
         }
-      ]
+      ].map((item) => ({ ...item, tags: [item.scenarios, item.industry, item.frameWork] }))
     }
 
-    const handleChangeTags = (tag) => {
-      state.tags = state.tags.includes(tag) ? state.tags.filter((t) => t !== tag) : [...state.tags, tag]
+    const handleChangeTags = (type, tag) => {
+      state[type] = state[type].includes(tag) ? state[type].filter((t) => t !== tag) : [...state[type], tag]
     }
 
     const handleClickTemplate = (template) => {
@@ -224,6 +235,7 @@ export default {
             padding: 2px 4px;
             border-radius: 2px;
             background: var(--te-template-center-common-item-tag-bg-color);
+            cursor: pointer;
           }
         }
         .template-desc {

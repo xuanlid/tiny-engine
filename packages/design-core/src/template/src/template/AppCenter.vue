@@ -88,7 +88,7 @@
         :total="state.total"
       ></tiny-pager>
     </div>
-    <app-dialog v-model:visible="state.appVisible"></app-dialog>
+    <app-dialog v-model:visible="state.appVisible" @confirm="confirmApp"></app-dialog>
   </div>
 </template>
 
@@ -160,28 +160,19 @@ export default {
     })
 
     const getList = () => {
-      // for (let i = 0; i < 50; i++) {
-      //   appList.value.push({
-      //     id: '1',
-      //     name: 'portal-app',
-      //     img: 'https://tinyengine-assets.obs.cn-north-4.myhuaweicloud.com/files/designer-default-icon.jpg',
-      //     tags: ['Vue', 'portal-platform'],
-      //     createTime: '2025-10-10',
-      //     author: '张三',
-      //     desc: "portal网站专用，此处时说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档"
-      //   })
-      // }
       appList.value = [
         {
           id: '1',
           name: 'portal-app',
           img: 'https://tinyengine-assets.obs.cn-north-4.myhuaweicloud.com/files/designer-default-icon.jpg',
-          tags: ['Vue', 'portal-platform'],
+          scenarios: '项目管理',
+          industry: '互联网',
+          frameWork: 'Vue',
           createTime: '2025-10-10',
           author: '张三',
           desc: 'portal网站专用，此处时说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档说明文档'
         }
-      ]
+      ].map((item) => ({ ...item, tags: [item.scenarios, item.industry, item.frameWork] }))
     }
 
     const creatApp = () => {
@@ -198,6 +189,10 @@ export default {
       state.type = type
     }
 
+    const confirmApp = () => {
+      getList()
+    }
+
     onMounted(() => {
       getList()
     })
@@ -212,7 +207,8 @@ export default {
       changeAppFilter,
       typeClick,
       handleEdit,
-      handleDelete
+      handleDelete,
+      confirmApp
     }
   }
 }

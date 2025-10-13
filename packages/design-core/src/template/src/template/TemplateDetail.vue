@@ -28,11 +28,13 @@
 <script lang="ts">
 import { reactive, onMounted } from 'vue'
 import { Button, Drawer } from '@opentiny/vue'
+import AppDialog from './AppDialog.vue'
 
 export default {
   components: {
     TinyButton: Button,
-    TinyDrawer: Drawer
+    TinyDrawer: Drawer,
+    AppDialog
   },
   props: {
     template: {
@@ -50,9 +52,14 @@ export default {
 
     const setVisible = (visible: boolean) => emit('update:visible', visible)
 
+    const createApp = () => {
+      state.appVisible = true
+    }
+
     return {
       state,
-      setVisible
+      setVisible,
+      createApp
     }
   }
 }
