@@ -48,9 +48,12 @@
       </div>
       <tiny-pager
         mode="number"
+        :current-page="state.currentPage"
         :page-size="state.pageSize"
         :page-sizes="state.pageSizes"
         :total="state.total"
+        @size-change="pageSizeChange"
+        @current-change="currentChange"
       ></tiny-pager>
     </div>
     <template-detail
@@ -107,6 +110,7 @@ export default {
       industry: ['互联网'],
       frameWork: ['Vue'],
       total: 50,
+      currentPage: 1,
       pageSize: 10,
       pageSizes: [10, 20, 30, 40]
     })
@@ -137,6 +141,17 @@ export default {
       state.currentTemplate = template
     }
 
+    const pageSizeChange = (val) => {
+      state.pageSize = val
+      state.currentPage = 1
+      getList()
+    }
+
+    const currentChange = (val) => {
+      state.currentPage = val
+      getList()
+    }
+
     onMounted(() => {
       getList()
     })
@@ -146,7 +161,9 @@ export default {
       state,
       tagList,
       handleChangeTags,
-      handleClickTemplate
+      handleClickTemplate,
+      pageSizeChange,
+      currentChange
     }
   }
 }

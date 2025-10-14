@@ -83,9 +83,12 @@
       </div>
       <tiny-pager
         mode="number"
+        :current-page="state.currentPage"
         :page-size="state.pageSize"
         :page-sizes="state.pageSizes"
         :total="state.total"
+        @size-change="pageSizeChange"
+        @current-change="currentChange"
       ></tiny-pager>
     </div>
     <app-dialog v-model:visible="state.appVisible" @confirm="confirmApp"></app-dialog>
@@ -97,6 +100,7 @@ import { reactive, ref, onMounted } from 'vue'
 import { Button, Select, Pager, Grid, GridColumn, Popover, Search } from '@opentiny/vue'
 import { iconSearch } from '@opentiny/vue-icon'
 import AppDialog from './AppDialog.vue'
+import { fetchAppList } from '../js/http'
 export default {
   components: {
     TinyButton: Button,
@@ -155,11 +159,19 @@ export default {
       type: 'default',
       total: 50,
       pageSize: 10,
+      currentPage: 1,
       pageSizes: [10, 20, 30, 40],
       appVisible: false
     })
 
     const getList = () => {
+      const params = {
+        _limit: state.pageSize,
+        _start: (state.currentPage - 1) * state.pageSize
+      }
+      fetchAppList(params).then((data) => {
+        appList.value = data
+      })
       appList.value = [
         {
           id: '1',
@@ -189,6 +201,17 @@ export default {
       state.type = type
     }
 
+    const pageSizeChange = (val) => {
+      state.pageSize = val
+      state.currentPage = 1
+      getList()
+    }
+
+    const currentChange = (val) => {
+      state.currentPage = val
+      getList()
+    }
+
     const confirmApp = () => {
       getList()
     }
@@ -208,7 +231,9 @@ export default {
       typeClick,
       handleEdit,
       handleDelete,
-      confirmApp
+      confirmApp,
+      pageSizeChange,
+      currentChange
     }
   }
 }
